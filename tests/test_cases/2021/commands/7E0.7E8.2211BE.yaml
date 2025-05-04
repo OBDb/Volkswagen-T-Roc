@@ -1,0 +1,116 @@
+command_id: 7E0.7E8.2211BE
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2278
+    7E8056211BE0B74
+  expected_values:
+    VOLKSWAGEN_EOT: 2932
+- response: |-
+    7E8037F2278
+    7E8056211BE0B78
+  expected_values:
+    VOLKSWAGEN_EOT: 2936
+- response: |-
+    7E8037F2278
+    7E8056211BE0BCC
+  expected_values:
+    VOLKSWAGEN_EOT: 3020
+- response: |-
+    7E8037F2278
+    7E8056211BE0BDC
+  expected_values:
+    VOLKSWAGEN_EOT: 3036
+- response: |-
+    7E8037F2278
+    7E8056211BE0C6E
+  expected_values:
+    VOLKSWAGEN_EOT: 3182
+- response: |-
+    7E8037F2278
+    7E8056211BE0DEB
+  expected_values:
+    VOLKSWAGEN_EOT: 3563
+- response: |-
+    7E8037F2278
+    7E8056211BE0E95
+  expected_values:
+    VOLKSWAGEN_EOT: 3733
+- response: |-
+    7E8037F2278
+    7E8056211BE0EA1
+  expected_values:
+    VOLKSWAGEN_EOT: 3745
+- response: 7E8056211BE0B70
+  expected_values:
+    VOLKSWAGEN_EOT: 2928
+- response: 7E8056211BE0B74
+  expected_values:
+    VOLKSWAGEN_EOT: 2932
+- response: 7E8056211BE0B78
+  expected_values:
+    VOLKSWAGEN_EOT: 2936
+- response: 7E8056211BE0B7D
+  expected_values:
+    VOLKSWAGEN_EOT: 2941
+- response: 7E8056211BE0B97
+  expected_values:
+    VOLKSWAGEN_EOT: 2967
+- response: 7E8056211BE0B9B
+  expected_values:
+    VOLKSWAGEN_EOT: 2971
+- response: 7E8056211BE0B9F
+  expected_values:
+    VOLKSWAGEN_EOT: 2975
+- response: 7E8056211BE0BAC
+  expected_values:
+    VOLKSWAGEN_EOT: 2988
+- response: 7E8056211BE0BB1
+  expected_values:
+    VOLKSWAGEN_EOT: 2993
+- response: 7E8056211BE0BB5
+  expected_values:
+    VOLKSWAGEN_EOT: 2997
+- response: 7E8056211BE0BBE
+  expected_values:
+    VOLKSWAGEN_EOT: 3006
+- response: 7E8056211BE0BD0
+  expected_values:
+    VOLKSWAGEN_EOT: 3024
+- response: 7E8056211BE0BD3
+  expected_values:
+    VOLKSWAGEN_EOT: 3027
+- response: 7E8056211BE0BDC
+  expected_values:
+    VOLKSWAGEN_EOT: 3036
+- response: 7E8056211BE0BE0
+  expected_values:
+    VOLKSWAGEN_EOT: 3040
+- response: 7E8056211BE0C80
+  expected_values:
+    VOLKSWAGEN_EOT: 3200
+- response: 7E8056211BE0CE7
+  expected_values:
+    VOLKSWAGEN_EOT: 3303
+- response: 7E8056211BE0D78
+  expected_values:
+    VOLKSWAGEN_EOT: 3448
+- response: 7E8056211BE0DC0
+  expected_values:
+    VOLKSWAGEN_EOT: 3520
+- response: 7E8056211BE0E22
+  expected_values:
+    VOLKSWAGEN_EOT: 3618
+- response: 7E8056211BE0E40
+  expected_values:
+    VOLKSWAGEN_EOT: 3648
+- response: 7E8056211BE0E7E
+  expected_values:
+    VOLKSWAGEN_EOT: 3710
+- response: 7E8056211BE0E8E
+  expected_values:
+    VOLKSWAGEN_EOT: 3726
+- response: 7E8056211BE0EC0
+  expected_values:
+    VOLKSWAGEN_EOT: 3776
