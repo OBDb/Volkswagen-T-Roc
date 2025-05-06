@@ -2,30 +2,33 @@ command_id: 7E1.7E9.221001
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: '7E9056210017800'
+  expected_values:
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: 7E9056210017E00
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: '7E9056210018000'
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: '7E9056210018200'
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: '7E9056210018300'
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: '7E9056210018400'
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: 7E9056210018F00
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: '7E9056210019000'
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: '7E9056210019100'
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255
 - response: '7E9056210019300'
   expected_values:
-    VOLKSWAGEN_TIRE_FR_SPD: 255
+    VOLKSWAGEN_TIRE_FR_SPD_V2: 255

@@ -2,6 +2,15 @@ command_id: 710.77A.222A0B
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 77A04622A0B00
+  expected_values:
+    VOLKSWAGEN_SSB_T: -40
+- response: 77A04622A0B39
+  expected_values:
+    VOLKSWAGEN_SSB_T: 17
+- response: 77A04622A0B3A
+  expected_values:
+    VOLKSWAGEN_SSB_T: 18
 - response: 77A04622A0B3F
   expected_values:
     VOLKSWAGEN_SSB_T: 23
