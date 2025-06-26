@@ -1,5 +1,5 @@
 command_id: 7E1.22101A
 test_cases:
-- response: 7E90762101ACA320000
-  expected_values:
+- expected_values:
     VOLKSWAGEN_ODO_TCM_2: 13002
+  response: 7E90762101ACA320000
