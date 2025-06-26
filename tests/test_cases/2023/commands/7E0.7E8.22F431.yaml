@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.22F431
 test_cases:
-- response: 7E80562F4310597
-  expected_values:
+- expected_values:
     VOLKSWAGEN_CLR_DIST: 1431
+  response: 7E80562F4310597

@@ -1,8 +1,8 @@
 command_id: 7E0.2211C4
 test_cases:
-- response: 7E8056211C416F5
-  expected_values:
+- expected_values:
     VOLKSWAGEN_OIL_MAX: 23.508
-- response: 7E8056211C41764
-  expected_values:
+  response: 7E8056211C416F5
+- expected_values:
     VOLKSWAGEN_OIL_MAX: 23.952
+  response: 7E8056211C41764

@@ -1,8 +1,8 @@
 command_id: 710.77A.222A0C
 test_cases:
-- response: 77A04622A0C3A
-  expected_values:
+- expected_values:
     VOLKSWAGEN_SSB_SOC: 58
-- response: 77A04622A0C3B
-  expected_values:
+  response: 77A04622A0C3A
+- expected_values:
     VOLKSWAGEN_SSB_SOC: 59
+  response: 77A04622A0C3B
