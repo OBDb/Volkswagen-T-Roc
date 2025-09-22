@@ -4,5 +4,5 @@ test_cases:
     VOLKSWAGEN_SSB_T: -40
   response: 77A04622A0B00
 - expected_values:
-    VOLKSWAGEN_SSB_T: 42
-  response: 77A04622A0B52
+    VOLKSWAGEN_SSB_T: 48
+  response: 77A04622A0B58

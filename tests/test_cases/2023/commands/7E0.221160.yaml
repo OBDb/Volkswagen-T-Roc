@@ -1,6 +1,0 @@
-command_id: 7E0.221160
-test_cases:
-- expected_values:
-    VOLKSWAGEN_ODO_2_V4: 12972640
-    VOLKSWAGEN_ODO_HD: 12972640
-  response: 7E80762116000C5F260

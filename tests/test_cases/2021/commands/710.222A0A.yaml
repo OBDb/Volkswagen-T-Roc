@@ -1,5 +1,8 @@
 command_id: 710.222A0A
 test_cases:
 - expected_values:
-    VOLKSWAGEN_SSB_SENSOR_T: 22
-  response: 77A04622A0A3E
+    VOLKSWAGEN_SSB_SENSOR_T: 21
+  response: 77A04622A0A3D
+- expected_values:
+    VOLKSWAGEN_SSB_SENSOR_T: 47
+  response: 77A04622A0A57
