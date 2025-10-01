@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
-    VOLKSWAGEN_EOT_V2: 2901
-  response: 7E8056211BE0B55
+    VOLKSWAGEN_EOT_V2: 2879
+  response: 7E8056211BE0B3F
 - expected_values:
     VOLKSWAGEN_EOT_V2: 3071
   response: 7E8056211BE0BFF
