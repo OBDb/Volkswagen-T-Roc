@@ -5,4 +5,4 @@ test_cases:
   response: 7E805621151072E
 - expected_values:
     VOLKSWAGEN_EM_RPM_1: 100
-  response: '7E8056211510755'
+  response: '7E8056211510781'
