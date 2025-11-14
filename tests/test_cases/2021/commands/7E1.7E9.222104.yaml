@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.222104
 test_cases:
 - expected_values:
-    VOLKSWAGEN_ATF_T: -28
-  response: 7E9056221040C00
+    VOLKSWAGEN_ATF_T: -40
+  response: '7E9056221040000'
 - expected_values:
     VOLKSWAGEN_ATF_T: 54
   response: 7E9056221045E00
