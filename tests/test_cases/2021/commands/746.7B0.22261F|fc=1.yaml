@@ -4,6 +4,15 @@ test_cases:
     VOLKSWAGEN_RECIRC_FLAP_CMD_STEPS: 31
   response: 7B00562261F001F
 - expected_values:
+    VOLKSWAGEN_RECIRC_FLAP_CMD_STEPS: 68
+  response: 7B00562261F0044
+- expected_values:
+    VOLKSWAGEN_RECIRC_FLAP_CMD_STEPS: 75
+  response: 7B00562261F004B
+- expected_values:
+    VOLKSWAGEN_RECIRC_FLAP_CMD_STEPS: 80
+  response: 7B00562261F0050
+- expected_values:
     VOLKSWAGEN_RECIRC_FLAP_CMD_STEPS: 93
   response: 7B00562261F005D
 - expected_values:
