@@ -13,6 +13,11 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_VAR_1: 0
   response: |-
+    7E8100A62F4693F0000
+    7E821808F8D7F555555
+- expected_values:
+    VOLKSWAGEN_VAR_1: 0
+  response: |-
     7E8100A62F4693F0001
     7E821FF4F5183555555
 - expected_values:
@@ -20,6 +25,11 @@ test_cases:
   response: |-
     7E8100A62F4693F2021
     7E821844F4F80555555
+- expected_values:
+    VOLKSWAGEN_VAR_1: 40
+  response: |-
+    7E8100A62F4693F2827
+    7E8217D7E7C7E555555
 - expected_values:
     VOLKSWAGEN_VAR_1: 53
   response: |-
