@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211BF
+test_cases:
+- expected_values:
+    VOLKSWAGEN_FUEL_P_REGULATOR: 9.41
+  response: 7E8056211BF03AD
+- expected_values:
+    VOLKSWAGEN_FUEL_P_REGULATOR: 10.21
+  response: 7E8056211BF03FD
+- expected_values:
+    VOLKSWAGEN_FUEL_P_REGULATOR: 25.71
+  response: 7E8056211BF0A0B
+- expected_values:
+    VOLKSWAGEN_FUEL_P_REGULATOR: 28.33
+  response: 7E8056211BF0B11

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22111A
+test_cases:
+- expected_values:
+    VOLKSWAGEN_INSTANT_FUEL_FLOW: 0
+  response: 7E80562111A0000
+- expected_values:
+    VOLKSWAGEN_INSTANT_FUEL_FLOW: 10.15
+  response: 7E80562111A03F7

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221105
+test_cases:
+- expected_values:
+    VOLKSWAGEN_INJ_QUANTITY_DEVIATION_CYLINDER_6: 0
+  response: '7E8056211050000'
+- expected_values:
+    VOLKSWAGEN_INJ_QUANTITY_DEVIATION_CYLINDER_6: -0.4
+  response: 7E805621105FFD8
+- expected_values:
+    VOLKSWAGEN_INJ_QUANTITY_DEVIATION_CYLINDER_6: -0.04
+  response: 7E805621105FFFC
