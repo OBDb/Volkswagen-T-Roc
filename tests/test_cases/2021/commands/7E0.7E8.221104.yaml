@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_INJ_QUANTITY_DEVIATION_CYLINDER_3: -0.03
   response: 7E805621104FFFD
+- expected_values:
+    VOLKSWAGEN_INJ_QUANTITY_DEVIATION_CYLINDER_3: -0.01
+  response: 7E805621104FFFF
