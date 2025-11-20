@@ -7,6 +7,9 @@ test_cases:
     VOLKSWAGEN_DPF_INPUT_GAS_T: 78.5
   response: 7E8056211B20DBC
 - expected_values:
+    VOLKSWAGEN_DPF_INPUT_GAS_T: 79.3
+  response: 7E8056211B20DC4
+- expected_values:
     VOLKSWAGEN_DPF_INPUT_GAS_T: 108.8
   response: 7E8056211B20EEB
 - expected_values:
@@ -16,5 +19,14 @@ test_cases:
     VOLKSWAGEN_DPF_INPUT_GAS_T: 181.3
   response: 7E8056211B211C0
 - expected_values:
+    VOLKSWAGEN_DPF_INPUT_GAS_T: 204.3
+  response: 7E8056211B212A6
+- expected_values:
+    VOLKSWAGEN_DPF_INPUT_GAS_T: 219
+  response: 7E8056211B21339
+- expected_values:
     VOLKSWAGEN_DPF_INPUT_GAS_T: 234.6
   response: 7E8056211B213D5
+- expected_values:
+    VOLKSWAGEN_DPF_INPUT_GAS_T: 295
+  response: 7E8056211B21631

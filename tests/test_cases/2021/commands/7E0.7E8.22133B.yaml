@@ -5,7 +5,7 @@ test_cases:
   response: 7E80562133B05F6
 - expected_values:
     VOLKSWAGEN_CAM_SPD: 100
-  response: 7E80562133B0604
+  response: 7E80562133B0601
 - expected_values:
     VOLKSWAGEN_CAM_SPD: 100
   response: 7E80562133B09FF

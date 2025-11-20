@@ -13,5 +13,5 @@ test_cases:
     VOLKSWAGEN_SMOKE: 151.8
   response: 7E80562130105EE
 - expected_values:
-    VOLKSWAGEN_SMOKE: 241.8
-  response: '7E8056213010972'
+    VOLKSWAGEN_SMOKE: 303.2
+  response: 7E8056213010BD8

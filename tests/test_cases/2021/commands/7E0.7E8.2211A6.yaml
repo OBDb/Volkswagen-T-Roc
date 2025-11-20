@@ -7,5 +7,5 @@ test_cases:
     VOLKSWAGEN_ACCEL_PDL: 75.8
   response: 7E8056211A602F6
 - expected_values:
-    VOLKSWAGEN_ACCEL_PDL: 253.5
-  response: 7E8056211A609E7
+    VOLKSWAGEN_ACCEL_PDL: 258.7
+  response: 7E8056211A60A1B

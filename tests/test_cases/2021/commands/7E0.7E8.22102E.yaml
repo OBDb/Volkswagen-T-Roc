@@ -10,5 +10,5 @@ test_cases:
     VOLKSWAGEN_SNS_2: 713.4
   response: 7E80562102E0DEF
 - expected_values:
-    VOLKSWAGEN_SNS_2: 1153.4
-  response: 7E80562102E1687
+    VOLKSWAGEN_SNS_2: 1353.6
+  response: 7E80562102E1A70

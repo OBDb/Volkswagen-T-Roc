@@ -7,5 +7,5 @@ test_cases:
     VOLKSWAGEN_DIFF_P: 6
   response: 7E8056214F50006
 - expected_values:
-    VOLKSWAGEN_DIFF_P: 28
-  response: 7E8056214F5001C
+    VOLKSWAGEN_DIFF_P: 41
+  response: 7E8056214F50029
