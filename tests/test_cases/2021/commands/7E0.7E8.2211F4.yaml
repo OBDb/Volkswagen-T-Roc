@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2211F4
+test_cases:
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: 0
+  response: 7E8056211F40000
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -11.28
+  response: 7E8056211F4FDCC
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -10.16
+  response: 7E8056211F4FE04
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -10.04
+  response: 7E8056211F4FE0A
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -9.1
+  response: 7E8056211F4FE39
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -8.88
+  response: 7E8056211F4FE44
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -8.46
+  response: 7E8056211F4FE59
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -8.14
+  response: 7E8056211F4FE69
+- expected_values:
+    VOLKSWAGEN_POSTINJ_1_START: -7.66
+  response: 7E8056211F4FE81

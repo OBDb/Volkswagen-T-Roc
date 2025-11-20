@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210DF
+test_cases:
+- expected_values:
+    VOLKSWAGEN_INJ_8_RAIL_P_CAL_3: 5.2
+  response: 7E8056210DF0068

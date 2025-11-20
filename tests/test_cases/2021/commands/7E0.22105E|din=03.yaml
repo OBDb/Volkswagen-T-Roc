@@ -1,0 +1,11 @@
+command_id: 7E0.22105E|din=03
+test_cases:
+- expected_values:
+    VOLKSWAGEN_BAT_V_105E: 13.26
+  response: 7E80562105E0297
+- expected_values:
+    VOLKSWAGEN_BAT_V_105E: 13.34
+  response: 7E80562105E029B
+- expected_values:
+    VOLKSWAGEN_BAT_V_105E: 14.84
+  response: 7E80562105E02E6

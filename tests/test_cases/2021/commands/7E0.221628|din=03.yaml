@@ -1,0 +1,11 @@
+command_id: 7E0.221628|din=03
+test_cases:
+- expected_values:
+    VOLKSWAGEN_INTERCOOLER_AIR_OUTPUT_T: 43.8
+  response: 7E8056216280C61
+- expected_values:
+    VOLKSWAGEN_INTERCOOLER_AIR_OUTPUT_T: 47.4
+  response: 7E8056216280C85
+- expected_values:
+    VOLKSWAGEN_INTERCOOLER_AIR_OUTPUT_T: 60.9
+  response: 7E8056216280D0C

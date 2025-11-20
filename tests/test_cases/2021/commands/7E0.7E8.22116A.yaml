@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22116A
+test_cases:
+- expected_values:
+    VOLKSWAGEN_FUEL_HIGH_P_SPEC: 301500
+  response: 7E80562116A0BC7
+- expected_values:
+    VOLKSWAGEN_FUEL_HIGH_P_SPEC: 305600
+  response: 7E80562116A0BF0
+- expected_values:
+    VOLKSWAGEN_FUEL_HIGH_P_SPEC: 314700
+  response: 7E80562116A0C4B
+- expected_values:
+    VOLKSWAGEN_FUEL_HIGH_P_SPEC: 334300
+  response: 7E80562116A0D0F
+- expected_values:
+    VOLKSWAGEN_FUEL_HIGH_P_SPEC: 1249800
+  response: 7E80562116A30D2
