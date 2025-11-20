@@ -2,10 +2,13 @@ command_id: 7E0.7E8.221152
 test_cases:
 - expected_values:
     VOLKSWAGEN_EM_RPM_2: 1738.5
+    VOLKSWAGEN_MISFIRE_6: 3477
   response: 7E8056211520D95
 - expected_values:
     VOLKSWAGEN_EM_RPM_2: 1779.5
+    VOLKSWAGEN_MISFIRE_6: 3559
   response: 7E8056211520DE7
 - expected_values:
     VOLKSWAGEN_EM_RPM_2: 1805.5
+    VOLKSWAGEN_MISFIRE_6: 3611
   response: 7E8056211520E1B
