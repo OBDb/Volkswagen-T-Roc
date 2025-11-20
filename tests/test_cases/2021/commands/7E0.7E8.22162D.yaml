@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22162D
+test_cases:
+- expected_values:
+    VOLKSWAGEN_FUEL_T_162D: 19.9
+  response: 7E80562162D0B72
+- expected_values:
+    VOLKSWAGEN_FUEL_T_162D: 21
+  response: 7E80562162D0B7D
+- expected_values:
+    VOLKSWAGEN_FUEL_T_162D: 28.9
+  response: 7E80562162D0BCC

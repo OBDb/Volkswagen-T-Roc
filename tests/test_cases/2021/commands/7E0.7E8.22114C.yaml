@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22114C
+test_cases:
+- expected_values:
+    VOLKSWAGEN_MISFIRE_PER_1K_REV_4: 0
+  response: 7E80562114C0000

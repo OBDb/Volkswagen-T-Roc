@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221148
+test_cases:
+- expected_values:
+    VOLKSWAGEN_FUEL_METERING_VALVE: 29.93
+  response: 7E8056211480BB1
+- expected_values:
+    VOLKSWAGEN_FUEL_METERING_VALVE: 30.61
+  response: 7E8056211480BF5
+- expected_values:
+    VOLKSWAGEN_FUEL_METERING_VALVE: 31.32
+  response: 7E8056211480C3C
+- expected_values:
+    VOLKSWAGEN_FUEL_METERING_VALVE: 38.4
+  response: 7E8056211480F00
+- expected_values:
+    VOLKSWAGEN_FUEL_METERING_VALVE: 43.88
+  response: '7E8056211481124'

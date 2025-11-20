@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210D0
+test_cases:
+- expected_values:
+    VOLKSWAGEN_INJ_1_RAIL_P_CAL_PT_1_BIX: 46.8
+  response: 7E8056210D003A8

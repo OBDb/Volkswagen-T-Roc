@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22104C
+test_cases:
+- expected_values:
+    VOLKSWAGEN_AIR_MASS_SPEC: 250
+  response: 7E80562104C09C4

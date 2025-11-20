@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2214C8
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PREINJ_2_START: 7.68
+  response: 7E8056214C80180
+- expected_values:
+    VOLKSWAGEN_PREINJ_2_START: 15.26
+  response: 7E8056214C802FB
+- expected_values:
+    VOLKSWAGEN_PREINJ_2_START: 15.9
+  response: 7E8056214C8031B
+- expected_values:
+    VOLKSWAGEN_PREINJ_2_START: 16.06
+  response: 7E8056214C80323

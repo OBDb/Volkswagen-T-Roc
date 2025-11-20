@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221149
+test_cases:
+- expected_values:
+    VOLKSWAGEN_CHG_AIR_P_SPEC: 0
+  response: '7E8056211490000'
+- expected_values:
+    VOLKSWAGEN_CHG_AIR_P_SPEC: 862
+  response: 7E805621149035E
+- expected_values:
+    VOLKSWAGEN_CHG_AIR_P_SPEC: 1270
+  response: 7E80562114904F6
+- expected_values:
+    VOLKSWAGEN_CHG_AIR_P_SPEC: 1323
+  response: 7E805621149052B

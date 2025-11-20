@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221301
+test_cases:
+- expected_values:
+    VOLKSWAGEN_SMOKE: 63.1
+  response: '7E8056213010277'
+- expected_values:
+    VOLKSWAGEN_SMOKE: 83.4
+  response: '7E8056213010342'
+- expected_values:
+    VOLKSWAGEN_SMOKE: 129.3
+  response: 7E805621301050D
+- expected_values:
+    VOLKSWAGEN_SMOKE: 151.8
+  response: 7E80562130105EE
+- expected_values:
+    VOLKSWAGEN_SMOKE: 241.8
+  response: '7E8056213010972'

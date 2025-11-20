@@ -1,0 +1,8 @@
+command_id: 7E0.2216A9|din=03
+test_cases:
+- expected_values:
+    VOLKSWAGEN_MILEAGE_: 79830
+  response: 7E8076216A9000137D6
+- expected_values:
+    VOLKSWAGEN_MILEAGE_: 79842
+  response: 7E8076216A9000137E2

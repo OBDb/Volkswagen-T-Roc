@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221057
+test_cases:
+- expected_values:
+    VOLKSWAGEN_CHG_P: 4.058
+  response: 7E8056210570FDA
+- expected_values:
+    VOLKSWAGEN_CHG_P: 5.117
+  response: 7E80562105713FD
+- expected_values:
+    VOLKSWAGEN_CHG_P: 5.378
+  response: '7E8056210571502'
+- expected_values:
+    VOLKSWAGEN_CHG_P: 7.723
+  response: 7E8056210571E2B
