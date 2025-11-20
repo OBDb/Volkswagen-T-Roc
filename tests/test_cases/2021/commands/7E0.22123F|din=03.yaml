@@ -1,11 +1,11 @@
 command_id: 7E0.22123F|din=03
 test_cases:
 - expected_values:
-    VOLKSWAGEN_OIL_DYNAMIC_AVG: 10.74
-  response: 7E80562123F0A7D
-- expected_values:
     VOLKSWAGEN_OIL_DYNAMIC_AVG: 11.08
   response: 7E80562123F0AD2
 - expected_values:
     VOLKSWAGEN_OIL_DYNAMIC_AVG: 11.236
   response: 7E80562123F0AF9
+- expected_values:
+    VOLKSWAGEN_OIL_DYNAMIC_AVG: 11.476
+  response: 7E80562123F0B35

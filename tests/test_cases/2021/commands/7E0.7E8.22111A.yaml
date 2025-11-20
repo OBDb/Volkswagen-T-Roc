@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_INSTANT_FUEL_FLOW: 10.15
   response: 7E80562111A03F7
+- expected_values:
+    VOLKSWAGEN_INSTANT_FUEL_FLOW: 10.92
+  response: 7E80562111A0444

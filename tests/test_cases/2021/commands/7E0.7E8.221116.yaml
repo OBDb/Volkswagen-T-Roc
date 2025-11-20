@@ -7,6 +7,9 @@ test_cases:
     VOLKSWAGEN_COOLANT_FAN_1_DUTY: 10.54
   response: 7E805621116041E
 - expected_values:
+    VOLKSWAGEN_COOLANT_FAN_1_DUTY: 13.67
+  response: '7E8056211160557'
+- expected_values:
     VOLKSWAGEN_COOLANT_FAN_1_DUTY: 21.48
   response: '7E8056211160864'
 - expected_values:

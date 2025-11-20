@@ -7,5 +7,5 @@ test_cases:
     VOLKSWAGEN_SOOT_INDEX: 1
   response: '7E8056213540001'
 - expected_values:
-    VOLKSWAGEN_SOOT_INDEX: 52
-  response: '7E8056213540034'
+    VOLKSWAGEN_SOOT_INDEX: 53
+  response: '7E8056213540035'

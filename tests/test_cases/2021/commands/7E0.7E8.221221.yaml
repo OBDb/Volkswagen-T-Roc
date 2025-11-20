@@ -4,11 +4,11 @@ test_cases:
     VOLKSWAGEN_SNS_1: 723.2
   response: 7E8056212210E20
 - expected_values:
-    VOLKSWAGEN_SNS_1: 1793.6
-  response: '7E8056212212308'
+    VOLKSWAGEN_SNS_1: 2096.6
+  response: 7E80562122128F3
 - expected_values:
-    VOLKSWAGEN_SNS_1: 2194.4
-  response: 7E8056212212ADC
+    VOLKSWAGEN_SNS_1: 2253
+  response: 7E8056212212C01
 - expected_values:
-    VOLKSWAGEN_SNS_1: 2257.8
-  response: 7E8056212212C19
+    VOLKSWAGEN_SNS_1: 2497.4
+  response: 7E80562122130C7
