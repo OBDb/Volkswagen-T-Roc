@@ -1,8 +1,8 @@
 command_id: 7E1.223887
 test_cases:
 - expected_values:
-    VOLKSWAGEN_ODO_TCM_2_HD: 73113.6
-  response: 7E90762388700280B00
+    VOLKSWAGEN_ODO_TCM_2_HD: 78694.4
+  response: 7E90762388700020C00
 - expected_values:
     VOLKSWAGEN_ODO_TCM_2_HD: 67891.2
   response: 7E907623887005C0A00
