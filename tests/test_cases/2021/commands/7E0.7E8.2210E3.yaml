@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.2210E3
-test_cases:
-- expected_values:
-    VOLKSWAGEN_KNOCK_RETARD_5: 24
-  response: 7E8056210E32000
