@@ -1,6 +1,9 @@
 command_id: 7E0.2211C5
 test_cases:
 - expected_values:
+    VOLKSWAGEN_OIL_MIN: 10.876
+  response: 7E8056211C50A9F
+- expected_values:
     VOLKSWAGEN_OIL_MIN: 11.204
   response: 7E8056211C50AF1
 - expected_values:
