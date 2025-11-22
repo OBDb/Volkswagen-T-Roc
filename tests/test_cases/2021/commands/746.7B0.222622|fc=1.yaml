@@ -1,8 +1,8 @@
 command_id: 746.7B0.222622|fc=1
 test_cases:
 - expected_values:
-    VOLKSWAGEN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 28
-  response: 7B006622622005538
+    VOLKSWAGEN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 21
+  response: 7B00662262200472A
 - expected_values:
     VOLKSWAGEN_CLIMATE_FR_L_T_FLP_ACT_VALUE: 100
   response: 7B00662262200EAC8
