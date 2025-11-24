@@ -4,8 +4,8 @@ test_cases:
     VOLKSWAGEN_ACCELERATION: 0
   response: '7E8056211870000'
 - expected_values:
+    VOLKSWAGEN_ACCELERATION: 2.303
+  response: 7E80562118708FF
+- expected_values:
     VOLKSWAGEN_ACCELERATION: -0.254
   response: 7E805621187FF02
-- expected_values:
-    VOLKSWAGEN_ACCELERATION: -0.001
-  response: 7E805621187FFFF
