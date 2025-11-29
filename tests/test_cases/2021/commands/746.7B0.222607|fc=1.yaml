@@ -19,6 +19,9 @@ test_cases:
     VOLKSWAGEN_CLIMATE_RAD_FAN_CMD_DUTY: 27.2
   response: 7B00462260744
 - expected_values:
+    VOLKSWAGEN_CLIMATE_RAD_FAN_CMD_DUTY: 30.4
+  response: 7B0046226074C
+- expected_values:
     VOLKSWAGEN_CLIMATE_RAD_FAN_CMD_DUTY: 33.6
   response: 7B00462260754
 - expected_values:
