@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221159
+test_cases:
+- expected_values:
+    VOLKSWAGEN_MAX_CHA_CUR_2: 318.4
+  response: 7E8056211590C70
+- expected_values:
+    VOLKSWAGEN_MAX_CHA_CUR_2: 318.7
+  response: 7E8056211590C73
+- expected_values:
+    VOLKSWAGEN_MAX_CHA_CUR_2: 319
+  response: 7E8056211590C76
