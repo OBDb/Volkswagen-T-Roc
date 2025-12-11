@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_RECIRC_FLAP_STOP_RECIRC: 36
   response: 7B0056226210024
+- expected_values:
+    VOLKSWAGEN_RECIRC_FLAP_STOP_RECIRC: 38
+  response: 7B0056226210026
