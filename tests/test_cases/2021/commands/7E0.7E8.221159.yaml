@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.221159
 test_cases:
 - expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 318.3
-  response: 7E8056211590C6F
+    VOLKSWAGEN_MAX_CHA_CUR_2: 223.6
+  response: 7E80562115908BC
 - expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 318.4
-  response: 7E8056211590C70
+    VOLKSWAGEN_MAX_CHA_CUR_2: 536.7
+  response: 7E80562115914F7
 - expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 318.7
-  response: 7E8056211590C73
-- expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 319
-  response: 7E8056211590C76
-- expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 322.5
-  response: 7E8056211590C99
-- expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 526.9
-  response: '7E8056211591495'
-- expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 533.7
-  response: 7E80562115914D9
-- expected_values:
-    VOLKSWAGEN_MAX_CHA_CUR_2: 539.6
-  response: '7E8056211591514'
+    VOLKSWAGEN_MAX_CHA_CUR_2: 538.7
+  response: 7E805621159150B
