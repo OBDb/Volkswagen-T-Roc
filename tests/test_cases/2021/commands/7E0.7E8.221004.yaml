@@ -1,29 +1,8 @@
 command_id: 7E0.7E8.221004
 test_cases:
 - expected_values:
-    VOLKSWAGEN_AAT_V3: 0.32812
-  response: 7E805621004002A
-- expected_values:
-    VOLKSWAGEN_AAT_V3: 0.33594
-  response: 7E805621004002B
-- expected_values:
-    VOLKSWAGEN_AAT_V3: 0.35938
-  response: 7E805621004002E
-- expected_values:
-    VOLKSWAGEN_AAT_V3: 0.48438
-  response: 7E805621004003E
-- expected_values:
-    VOLKSWAGEN_AAT_V3: 0.74219
-  response: 7E805621004005F
-- expected_values:
-    VOLKSWAGEN_AAT_V3: 0.8125
-  response: '7E8056210040068'
-- expected_values:
-    VOLKSWAGEN_AAT_V3: 2.53906
-  response: '7E8056210040145'
-- expected_values:
-    VOLKSWAGEN_AAT_V3: 3.28906
-  response: 7E80562100401A5
+    VOLKSWAGEN_AAT_V3: 0.05469
+  response: '7E8056210040007'
 - expected_values:
     VOLKSWAGEN_AAT_V3: -2.39062
   response: 7E805621004FECE
