@@ -4,6 +4,12 @@ test_cases:
     VOLKSWAGEN_SPEC_TORQUE_TRANSINT: 12370
   response: '7E9056221103052'
 - expected_values:
+    VOLKSWAGEN_SPEC_TORQUE_TRANSINT: 13395
+  response: '7E9056221103453'
+- expected_values:
+    VOLKSWAGEN_SPEC_TORQUE_TRANSINT: 28755
+  response: '7E9056221107053'
+- expected_values:
     VOLKSWAGEN_SPEC_TORQUE_TRANSINT: 40020
   response: 7E9056221109C54
 - expected_values:
@@ -12,6 +18,9 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_SPEC_TORQUE_TRANSINT: 53330
   response: 7E905622110D052
+- expected_values:
+    VOLKSWAGEN_SPEC_TORQUE_TRANSINT: 58450
+  response: 7E905622110E452
 - expected_values:
     VOLKSWAGEN_SPEC_TORQUE_TRANSINT: 63570
   response: 7E905622110F852
