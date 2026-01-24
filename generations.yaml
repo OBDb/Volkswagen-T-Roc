@@ -1,5 +1,12 @@
+references:
+  - "https://en.wikipedia.org/wiki/Volkswagen_T-Roc"
+
 generations:
   - name: "First Generation"
     start_year: 2017
+    end_year: 2025
+    description: "The Volkswagen T-Roc is a subcompact crossover SUV based on the Volkswagen Group MQB A1 platform, unveiled at the 2017 Frankfurt Motor Show and launched in November 2017. Positioned between the smaller T-Cross and larger Tiguan, it features a coupe-like roofline and distinctive styling. A significant facelift was introduced in November 2021, updating exterior styling and interior materials. The vehicle offers turbocharged petrol engines (1.0L to 2.0L TSI) and diesel options (1.6L and 2.0L TDI), available with front-wheel drive or 4MOTION all-wheel drive. The high-performance T-Roc R variant, launched in February 2019, features a 2.0-litre turbocharged engine producing 300 horsepower. The T-Roc Cabriolet, a convertible variant, debuted in April 2020 and was assembled in Osnabrück, Germany. Production ended in 2025 as the second generation launched."
+  - name: "Second Generation"
+    start_year: 2025
     end_year: null
-    description: "The Volkswagen T-Roc is a compact crossover SUV positioned between the smaller T-Cross and larger Tiguan. Introduced in 2017, it's built on the MQB platform and features distinctive styling with a coupe-like roofline, bold character lines, and available two-tone paint schemes with contrasting roof colors. A significant facelift in 2022 updated the exterior styling and substantially improved the interior, replacing the original hard plastics with soft-touch materials and introducing a new infotainment system. The vehicle is offered with various powertrain options including turbocharged petrol and diesel engines ranging from 115 to 190 horsepower in standard models, with front or 4MOTION all-wheel drive. The performance-oriented T-Roc R variant, introduced in 2019, features a 2.0-liter turbocharged engine producing 300 horsepower. Additionally, a convertible T-Roc Cabriolet debuted in 2020, making it one of the few convertible crossovers on the market. The T-Roc combines practical compact dimensions with a relatively spacious interior, premium technology options, and distinctive styling to appeal to style-conscious buyers in the competitive compact crossover segment."
+    description: "The second-generation T-Roc was officially presented on August 27, 2025, and entered production in November 2025. Built on the MQB Evo platform (shared with Golf Mk8.5), it features updated design and technology. The platform was updated from the first generation's MQB A1 to accommodate new powertrain options and advanced features."
