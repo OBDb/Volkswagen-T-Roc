@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221AC3
+test_cases:
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_TIME_SINCE_LAST_REGEN: 3.8789
+  response: 7E805621AC307C2
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_TIME_SINCE_LAST_REGEN: 3.89453
+  response: 7E805621AC307CA
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_TIME_SINCE_LAST_REGEN: 3.93555
+  response: 7E805621AC307DF
