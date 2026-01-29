@@ -4,5 +4,8 @@ test_cases:
     VOLKSWAGEN_PQ35_DIFF_P: 0
   response: 7E8056214F50000
 - expected_values:
+    VOLKSWAGEN_PQ35_DIFF_P: -4
+  response: 7E8056214F5FFFC
+- expected_values:
     VOLKSWAGEN_PQ35_DIFF_P: -2
   response: 7E8056214F5FFFE

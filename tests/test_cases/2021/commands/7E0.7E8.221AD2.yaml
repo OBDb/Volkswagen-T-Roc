@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221AD2
+test_cases:
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_REGEN_RELEASE_REQUIREMENT: 4
+  response: 7E804621AD204

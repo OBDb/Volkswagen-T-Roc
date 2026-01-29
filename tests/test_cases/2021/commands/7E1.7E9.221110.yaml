@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221110
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_WORKING_HOURS: 1762.42391
+  response: 7E90762111050A4E812
+- expected_values:
+    VOLKSWAGEN_PQ35_WORKING_HOURS: 1762.38051
+  response: 7E907621110CC85E812
