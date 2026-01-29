@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22103C
+test_cases:
+- expected_values:
+    VOLKSWAGEN_MQB_INT_MAN_P: 1037
+  response: 7E80562103C040D
+- expected_values:
+    VOLKSWAGEN_MQB_INT_MAN_P: 1339
+  response: 7E80562103C053B
