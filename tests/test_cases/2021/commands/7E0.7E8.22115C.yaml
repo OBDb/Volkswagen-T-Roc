@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22115C
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_SRV_REGEN_STAT: 0
+  response: 7E80462115C00
+- expected_values:
+    VOLKSWAGEN_PQ35_SRV_REGEN_STAT: 2
+  response: 7E80462115C02
+- expected_values:
+    VOLKSWAGEN_PQ35_SRV_REGEN_STAT: 64
+  response: 7E80462115C40
+- expected_values:
+    VOLKSWAGEN_PQ35_SRV_REGEN_STAT: 82
+  response: 7E80462115C52
