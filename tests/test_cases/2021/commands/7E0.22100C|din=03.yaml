@@ -1,0 +1,11 @@
+command_id: 7E0.22100C|din=03
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_FUEL_LVL_2: 19
+  response: 7E80562100C076C
+- expected_values:
+    VOLKSWAGEN_PQ35_FUEL_LVL_2: 23
+  response: 7E80562100C08FC
+- expected_values:
+    VOLKSWAGEN_PQ35_FUEL_LVL_2: 26
+  response: 7E80562100C0A28

@@ -1,0 +1,11 @@
+command_id: 7E0.22167D|din=03
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_POST_INJ_3_QTY_SPEC: 0
+  response: 7E80562167D0000
+- expected_values:
+    VOLKSWAGEN_PQ35_POST_INJ_3_QTY_SPEC: 2.54
+  response: 7E80562167D00FE
+- expected_values:
+    VOLKSWAGEN_PQ35_POST_INJ_3_QTY_SPEC: 3.12
+  response: 7E80562167D0138

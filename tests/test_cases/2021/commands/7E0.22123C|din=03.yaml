@@ -1,0 +1,8 @@
+command_id: 7E0.22123C|din=03
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_OIL_DYN_LAST: 11.204
+  response: 7E80562123C0AF1
+- expected_values:
+    VOLKSWAGEN_PQ35_OIL_DYN_LAST: 11.32
+  response: 7E80562123C0B0E

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221169
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_FUEL_P_HIGH: 12500
+  response: 7E805621169007D
+- expected_values:
+    VOLKSWAGEN_PQ35_FUEL_P_HIGH: 332400
+  response: 7E8056211690CFC
+- expected_values:
+    VOLKSWAGEN_PQ35_FUEL_P_HIGH: 1254400
+  response: '7E8056211693100'
+- expected_values:
+    VOLKSWAGEN_PQ35_FUEL_P_HIGH: 1663000
+  response: 7E80562116940F6

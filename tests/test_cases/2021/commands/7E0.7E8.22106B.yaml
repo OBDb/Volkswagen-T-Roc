@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22106B
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_LIM_TRQ: 63.1
+  response: 7E80562106B0277
+- expected_values:
+    VOLKSWAGEN_PQ35_LIM_TRQ: 127.8
+  response: 7E80562106B04FE
+- expected_values:
+    VOLKSWAGEN_PQ35_LIM_TRQ: 128.4
+  response: 7E80562106B0504
+- expected_values:
+    VOLKSWAGEN_PQ35_LIM_TRQ: 365.3
+  response: 7E80562106B0E45
