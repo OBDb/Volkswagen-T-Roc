@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_SERVICE_REGEN_I_DURATION: 0
   response: 7E805621AC40000
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_SERVICE_REGEN_I_DURATION: 49.28
+  response: 7E805621AC4004D

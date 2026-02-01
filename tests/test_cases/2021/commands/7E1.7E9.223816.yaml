@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_TCM_I_GEAR_DQ200: 3
   response: '7E90462381605'
+- expected_values:
+    VOLKSWAGEN_MQB_TCM_I_GEAR_DQ200: 4
+  response: '7E90462381606'
