@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.221ABA
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_DPF_DISTANCE_SINCE_LAST_REGEN: 1.8
+  response: 7E805621ABA0012
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_DISTANCE_SINCE_LAST_REGEN: 3
+  response: 7E805621ABA001E
+- expected_values:
     VOLKSWAGEN_MQB_DPF_DISTANCE_SINCE_LAST_REGEN: 166.4
   response: 7E805621ABA0680
 - expected_values:
