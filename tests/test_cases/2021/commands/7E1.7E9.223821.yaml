@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223821
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 3.79
+  response: 7E9056238217B01
+- expected_values:
     VOLKSWAGEN_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 7
   response: 7E905623821BC02
 - expected_values:

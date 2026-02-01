@@ -7,5 +7,8 @@ test_cases:
     VOLKSWAGEN_MQB_NOX_CONC_BEHIND_TURBO: 54
   response: '7E8056215260036'
 - expected_values:
+    VOLKSWAGEN_MQB_NOX_CONC_BEHIND_TURBO: 68
+  response: '7E8056215260044'
+- expected_values:
     VOLKSWAGEN_MQB_NOX_CONC_BEHIND_TURBO: 290
   response: '7E8056215260122'

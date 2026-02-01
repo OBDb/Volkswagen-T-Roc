@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_PQ35_ENG_START_QTY: 16.01
   response: '7E8056210690641'
+- expected_values:
+    VOLKSWAGEN_PQ35_ENG_START_QTY: 21.65
+  response: '7E8056210690875'
