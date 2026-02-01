@@ -1,6 +1,12 @@
 command_id: 7E0.22269A|din=03
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_DPF_DIFF_P_RAW_VALUE_1: 0
+  response: 7E80562269A0000
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_DIFF_P_RAW_VALUE_1: 1
+  response: 7E80562269A0001
+- expected_values:
     VOLKSWAGEN_MQB_DPF_DIFF_P_RAW_VALUE_1: 7
   response: 7E80562269A0007
 - expected_values:

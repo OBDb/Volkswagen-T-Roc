@@ -4,6 +4,12 @@ test_cases:
     VOLKSWAGEN_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 0
   response: '7E8056218140000'
 - expected_values:
+    VOLKSWAGEN_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 7.2
+  response: '7E8056218140048'
+- expected_values:
+    VOLKSWAGEN_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 7.9
+  response: 7E805621814004F
+- expected_values:
     VOLKSWAGEN_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 11.4
   response: '7E8056218140072'
 - expected_values:
