@@ -1,11 +1,17 @@
 command_id: 7E1.7E9.22381D
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_TCM_EOP_ACTUAL: 8.97
+  response: 7E90562381D8103
+- expected_values:
     VOLKSWAGEN_MQB_TCM_EOP_ACTUAL: 3.98
   response: 7E90562381D8E01
 - expected_values:
     VOLKSWAGEN_MQB_TCM_EOP_ACTUAL: 4.07
   response: 7E90562381D9701
+- expected_values:
+    VOLKSWAGEN_MQB_TCM_EOP_ACTUAL: 17
+  response: 7E90562381DA406
 - expected_values:
     VOLKSWAGEN_MQB_TCM_EOP_ACTUAL: 4.21
   response: 7E90562381DA501
