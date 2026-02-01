@@ -1,8 +1,14 @@
 command_id: 7E1.7E9.22100C
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_TCM_ENGINE_TORQUE: 142
+  response: 7E90562100C180B
+- expected_values:
     VOLKSWAGEN_MQB_TCM_ENGINE_TORQUE: 40
   response: 7E90562100C2003
+- expected_values:
+    VOLKSWAGEN_MQB_TCM_ENGINE_TORQUE: 149
+  response: 7E90562100CA40B
 - expected_values:
     VOLKSWAGEN_MQB_TCM_ENGINE_TORQUE: 115
   response: 7E90562100CFC08
