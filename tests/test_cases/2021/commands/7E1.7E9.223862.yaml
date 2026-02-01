@@ -4,6 +4,9 @@ test_cases:
     VOLKSWAGEN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
   response: '7E9056238620000'
 - expected_values:
+    VOLKSWAGEN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 10.41
+  response: '7E9056238621104'
+- expected_values:
     VOLKSWAGEN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 10.49
   response: '7E9056238621904'
 - expected_values:
@@ -15,3 +18,9 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
   response: 7E905623862F8FF
+- expected_values:
+    VOLKSWAGEN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
+  response: 7E905623862FBFF
+- expected_values:
+    VOLKSWAGEN_MQB_DQ250_ACUTAL_POS_GEAR_POSER_C: 0
+  response: 7E905623862FDFF
