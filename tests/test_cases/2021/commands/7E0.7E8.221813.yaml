@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.221813
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 0
+  response: '7E8056218130000'
+- expected_values:
     VOLKSWAGEN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 18.5
   response: 7E80562181300B9
+- expected_values:
+    VOLKSWAGEN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 21.3
+  response: 7E80562181300D5
 - expected_values:
     VOLKSWAGEN_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 22.8
   response: 7E80562181300E4

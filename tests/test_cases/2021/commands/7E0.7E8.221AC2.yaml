@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_FIELD_REGEN_REQUEST: 0
   response: 7E804621AC200
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_FIELD_REGEN_REQUEST: 7
+  response: 7E804621AC207

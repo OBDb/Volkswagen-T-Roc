@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_REGEN_STATUS: 0
   response: 7E805621AD40000
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_REGEN_STATUS: 647
+  response: 7E805621AD40287

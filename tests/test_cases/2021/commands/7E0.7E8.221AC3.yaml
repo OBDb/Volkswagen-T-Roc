@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_TIME_SINCE_LAST_REGEN: 4.05664
   response: 7E805621AC3081D
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_TIME_SINCE_LAST_REGEN: 4.44336
+  response: 7E805621AC308E3
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_TIME_SINCE_LAST_REGEN: 4.49219
+  response: 7E805621AC308FC
