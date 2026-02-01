@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_SOOT_MASS_MEASURED: -2.83
   response: 7E805621ABEFEE5
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_SOOT_MASS_MEASURED: -2.69
+  response: 7E805621ABEFEF3
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_SOOT_MASS_MEASURED: -2.63
+  response: 7E805621ABEFEF9
