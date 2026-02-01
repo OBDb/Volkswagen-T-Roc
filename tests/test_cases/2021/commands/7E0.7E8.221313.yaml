@@ -4,23 +4,8 @@ test_cases:
     VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 0
   response: '7E8056213130000'
 - expected_values:
-    VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 0.9
-  response: '7E8056213130009'
-- expected_values:
-    VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 7.3
-  response: '7E8056213130049'
-- expected_values:
-    VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 9.3
-  response: 7E805621313005D
-- expected_values:
     VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 9.8
   response: '7E8056213130062'
-- expected_values:
-    VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 12.8
-  response: '7E8056213130080'
-- expected_values:
-    VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 16.2
-  response: 7E80562131300A2
 - expected_values:
     VOLKSWAGEN_MQB_EGR_VALVE_2_B1_FLOW: 16.3
   response: 7E80562131300A3

@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223839
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 143.2
+  response: 7E905623839300B
+- expected_values:
     VOLKSWAGEN_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -100
   response: 7E90562383930F8
 - expected_values:

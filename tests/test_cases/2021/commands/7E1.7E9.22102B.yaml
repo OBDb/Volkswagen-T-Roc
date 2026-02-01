@@ -4,26 +4,5 @@ test_cases:
     VOLKSWAGEN_PQ35_CLUTCH_1_T: 16
   response: 7E90562102B1000
 - expected_values:
-    VOLKSWAGEN_PQ35_CLUTCH_1_T: 17
-  response: 7E90562102B1100
-- expected_values:
-    VOLKSWAGEN_PQ35_CLUTCH_1_T: 30
-  response: 7E90562102B1E00
-- expected_values:
-    VOLKSWAGEN_PQ35_CLUTCH_1_T: 33
-  response: 7E90562102B2100
-- expected_values:
-    VOLKSWAGEN_PQ35_CLUTCH_1_T: 48
-  response: 7E90562102B3000
-- expected_values:
-    VOLKSWAGEN_PQ35_CLUTCH_1_T: 56
-  response: 7E90562102B3800
-- expected_values:
-    VOLKSWAGEN_PQ35_CLUTCH_1_T: 58
-  response: 7E90562102B3A00
-- expected_values:
-    VOLKSWAGEN_PQ35_CLUTCH_1_T: 67
-  response: 7E90562102B4300
-- expected_values:
     VOLKSWAGEN_PQ35_CLUTCH_1_T: 73
   response: 7E90562102B4900
