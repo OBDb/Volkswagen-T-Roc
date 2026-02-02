@@ -1,6 +1,9 @@
 command_id: 714.77E.222211|fc=1
 test_cases:
 - expected_values:
+    VOLKSWAGEN_PQ35_CHG_AIR_P: 18.43137
+  response: 77E046222112F
+- expected_values:
     VOLKSWAGEN_PQ35_CHG_AIR_P: 18.82353
   response: '77E0462221130'
 - expected_values:
@@ -18,3 +21,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_PQ35_CHG_AIR_P: 26.27451
   response: '77E0462221143'
+- expected_values:
+    VOLKSWAGEN_PQ35_CHG_AIR_P: 27.05882
+  response: '77E0462221145'

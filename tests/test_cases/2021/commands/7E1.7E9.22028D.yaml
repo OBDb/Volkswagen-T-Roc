@@ -4,5 +4,5 @@ test_cases:
     VOLKSWAGEN_MQB_TCM_ECU_T: 9
   response: 7E90562028D0900
 - expected_values:
-    VOLKSWAGEN_MQB_TCM_ECU_T: 73
-  response: 7E90562028D4900
+    VOLKSWAGEN_MQB_TCM_ECU_T: 84
+  response: 7E90562028D5400
