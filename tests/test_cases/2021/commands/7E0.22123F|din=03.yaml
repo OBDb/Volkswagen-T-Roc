@@ -7,11 +7,11 @@ test_cases:
     VOLKSWAGEN_PQ35_OIL_DYN_AVG: 9.328
   response: 7E80562123F091C
 - expected_values:
+    VOLKSWAGEN_PQ35_OIL_DYN_AVG: 10.24
+  response: 7E80562123F0A00
+- expected_values:
     VOLKSWAGEN_PQ35_OIL_DYN_AVG: 11.26
   response: 7E80562123F0AFF
-- expected_values:
-    VOLKSWAGEN_PQ35_OIL_DYN_AVG: 13.312
-  response: 7E80562123F0D00
 - expected_values:
     VOLKSWAGEN_PQ35_OIL_DYN_AVG: 13.556
   response: 7E80562123F0D3D
