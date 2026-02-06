@@ -7,8 +7,8 @@ test_cases:
     VOLKSWAGEN_PQ35_EXH_GAS_T_1: 166.3
   response: 7E8056210FB112A
 - expected_values:
-    VOLKSWAGEN_PQ35_EXH_GAS_T_1: 188.4
-  response: 7E8056210FB1207
+    VOLKSWAGEN_PQ35_EXH_GAS_T_1: 316.3
+  response: 7E8056210FB1706
 - expected_values:
     VOLKSWAGEN_PQ35_EXH_GAS_T_1: 391.1
   response: 7E8056210FB19F2
