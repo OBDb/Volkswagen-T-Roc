@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: -4
   response: 7E8056215B8FFFC
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: -3
+  response: 7E8056215B8FFFD
