@@ -10,5 +10,5 @@ test_cases:
     VOLKSWAGEN_PQ35_FUEL_T: 8.5
   response: 7E80562162D0B00
 - expected_values:
-    VOLKSWAGEN_PQ35_FUEL_T: 34.8
-  response: 7E80562162D0C07
+    VOLKSWAGEN_PQ35_FUEL_T: 34.6
+  response: 7E80562162D0C05
