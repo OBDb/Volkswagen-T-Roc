@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_REGEN_TIME_COUNTER: 467.2
   response: 7E805621AC002DA
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_REGEN_TIME_COUNTER: 698.24
+  response: 7E805621AC00443
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_REGEN_TIME_COUNTER: 860.8
+  response: 7E805621AC00541
