@@ -1,0 +1,11 @@
+command_id: 70F.779.222BF3|fc=1
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_HAL_DUTY: 0
+  response: 77904622BF300
+- expected_values:
+    VOLKSWAGEN_PQ35_HAL_DUTY: 5.51161
+  response: 77904622BF30E
+- expected_values:
+    VOLKSWAGEN_PQ35_HAL_DUTY: 5.90529
+  response: 77904622BF30F
