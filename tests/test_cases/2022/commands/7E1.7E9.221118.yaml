@@ -1,0 +1,6 @@
+command_id: 7E1.7E9.221118
+test_cases:
+- expected_values:
+    VOLKSWAGEN_PQ35_CLUTCH_1_MAXIMUM_T: 313
+    VOLKSWAGEN_PQ35_CLUTCH_2_MAXIMUM_T: 207
+  response: 7E9076211183901CF00
