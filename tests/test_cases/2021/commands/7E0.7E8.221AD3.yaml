@@ -4,6 +4,9 @@ test_cases:
     VOLKSWAGEN_MQB_DPF_REGEN_LEVEL_I: 0
   response: 7E804621AD300
 - expected_values:
+    VOLKSWAGEN_MQB_DPF_REGEN_LEVEL_I: 3
+  response: 7E804621AD303
+- expected_values:
     VOLKSWAGEN_MQB_DPF_REGEN_LEVEL_I: 7
   response: 7E804621AD307
 - expected_values:
