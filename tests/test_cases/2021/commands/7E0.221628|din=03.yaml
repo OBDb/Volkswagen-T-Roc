@@ -7,6 +7,9 @@ test_cases:
     VOLKSWAGEN_PQ35_INTERCOOLER_AIR_OUTPUT_T: 10.4
   response: 7E8056216280B13
 - expected_values:
+    VOLKSWAGEN_PQ35_INTERCOOLER_AIR_OUTPUT_T: 33.8
+  response: 7E8056216280BFD
+- expected_values:
     VOLKSWAGEN_PQ35_INTERCOOLER_AIR_OUTPUT_T: 34.4
   response: 7E8056216280C03
 - expected_values:
