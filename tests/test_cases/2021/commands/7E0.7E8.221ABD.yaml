@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_OIL_ASH_MASS: 23.63295
   response: 7E807621ABD0BD1000C
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_OIL_ASH_MASS: 23.65019
+  response: 7E807621ABD0BD334F5
