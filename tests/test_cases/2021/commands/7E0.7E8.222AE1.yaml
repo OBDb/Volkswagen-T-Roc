@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.222AE1
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_EXHAUST_GAS_RECIRCULATION_2_FILTER_P_LOSS_MODELED: -17.3
+  response: 7E805622AE112DB
+- expected_values:
     VOLKSWAGEN_MQB_EXHAUST_GAS_RECIRCULATION_2_FILTER_P_LOSS_MODELED: -11.4
   response: 7E805622AE11316
 - expected_values:
