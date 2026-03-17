@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_DIFF_P_RAW_VALUE_1: -3
   response: 7E80562269AFFFD
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_DIFF_P_RAW_VALUE_1: -1
+  response: 7E80562269AFFFF
