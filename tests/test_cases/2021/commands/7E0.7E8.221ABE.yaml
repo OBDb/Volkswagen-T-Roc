@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221ABE
 test_cases:
 - expected_values:
-    VOLKSWAGEN_MQB_DPF_SOOT_MASS_MEASURED: -8.6
-  response: 7E805621ABEFCA4
+    VOLKSWAGEN_MQB_DPF_SOOT_MASS_MEASURED: 0.07
+  response: 7E805621ABE0007
 - expected_values:
     VOLKSWAGEN_MQB_DPF_SOOT_MASS_MEASURED: -7.7
   response: 7E805621ABEFCFE
