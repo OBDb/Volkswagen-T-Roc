@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22388B
 test_cases:
 - expected_values:
+    VOLKSWAGEN_MQB_TCM_DRIVE_CYCLES_COUNTER: 2048
+  response: 7E90562388B0008
+- expected_values:
     VOLKSWAGEN_MQB_TCM_DRIVE_CYCLES_COUNTER: 1972
   response: 7E90562388BB407
 - expected_values:
