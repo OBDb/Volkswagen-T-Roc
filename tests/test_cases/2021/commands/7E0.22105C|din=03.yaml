@@ -4,8 +4,8 @@ test_cases:
     VOLKSWAGEN_PQ35_GEN_LOAD: 0.02
   response: 7E80562105C0002
 - expected_values:
-    VOLKSWAGEN_PQ35_GEN_LOAD: 48.34
-  response: 7E80562105C12E2
+    VOLKSWAGEN_PQ35_GEN_LOAD: 61.23
+  response: 7E80562105C17EB
 - expected_values:
     VOLKSWAGEN_PQ35_GEN_LOAD: 70.9
   response: 7E80562105C1BB2
