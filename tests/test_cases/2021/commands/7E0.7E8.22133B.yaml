@@ -4,8 +4,8 @@ test_cases:
     VOLKSWAGEN_PQ35_CAMS_SPD: 0
   response: 7E80562133B0000
 - expected_values:
-    VOLKSWAGEN_PQ35_CAMS_SPD: 767.7
-  response: 7E80562133B09FF
+    VOLKSWAGEN_PQ35_CAMS_SPD: 614.1
+  response: 7E80562133B07FF
 - expected_values:
     VOLKSWAGEN_PQ35_CAMS_SPD: 1974.6
   response: 7E80562133B19B6
