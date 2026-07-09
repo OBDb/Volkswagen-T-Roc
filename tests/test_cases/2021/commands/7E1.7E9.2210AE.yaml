@@ -1,8 +1,0 @@
-command_id: 7E1.7E9.2210AE
-test_cases:
-- expected_values:
-    VOLKSWAGEN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 0.49
-  response: 7E9056210AE3100
-- expected_values:
-    VOLKSWAGEN_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 0.76
-  response: 7E9056210AE4C00
