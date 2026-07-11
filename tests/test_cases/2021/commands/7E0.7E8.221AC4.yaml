@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221AC4
+test_cases:
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_SERVICE_REGEN_I_DURATION: 0
+  response: 7E805621AC40000
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_SERVICE_REGEN_I_DURATION: 163.2
+  response: 7E805621AC400FF
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_SERVICE_REGEN_I_DURATION: 1649.92
+  response: 7E805621AC40A12
