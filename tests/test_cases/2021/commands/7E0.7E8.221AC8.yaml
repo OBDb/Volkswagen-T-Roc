@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     VOLKSWAGEN_MQB_DPF_STATISTICS_REGEN_BLOCKED_STATUS: 1
   response: 7E804621AC801
+- expected_values:
+    VOLKSWAGEN_MQB_DPF_STATISTICS_REGEN_BLOCKED_STATUS: 5
+  response: 7E804621AC805
