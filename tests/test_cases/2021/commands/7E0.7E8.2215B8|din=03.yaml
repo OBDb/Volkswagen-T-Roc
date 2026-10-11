@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215B8|din=03
+test_cases:
+- expected_values:
+    TROC_OIL_LEVEL_LAST: 0
+  response: 7E8056215B80000
+- expected_values:
+    TROC_OIL_LEVEL_LAST: 262
+  response: 7E8056215B8FFFB
+- expected_values:
+    TROC_OIL_LEVEL_LAST: 262
+  response: 7E8056215B8FFFF

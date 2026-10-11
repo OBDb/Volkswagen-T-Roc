@@ -1,8 +1,8 @@
 command_id: 746.7B0.222621|fc=1
 test_cases:
 - expected_values:
-    VOLKSWAGEN_RECIRC_FLAP_STOP_RECIRC: 36
+    TROC_MQB_RECIRC_FLAP_THR: 36
   response: 7B0056226210024
 - expected_values:
-    VOLKSWAGEN_RECIRC_FLAP_STOP_RECIRC: 38
+    TROC_MQB_RECIRC_FLAP_THR: 38
   response: 7B0056226210026
