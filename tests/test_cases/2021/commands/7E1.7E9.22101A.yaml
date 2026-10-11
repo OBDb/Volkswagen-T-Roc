@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22101A
+test_cases:
+- expected_values:
+    TROC_PQ35_ODO_3: 69632
+  response: 7E90762101A00100100
+- expected_values:
+    TROC_PQ35_ODO_3: 67378
+  response: 7E90762101A32070100
+- expected_values:
+    TROC_PQ35_ODO_3: 93756
+  response: 7E90762101A3C6E0100
+- expected_values:
+    TROC_PQ35_ODO_3: 69631
+  response: 7E90762101AFF0F0100

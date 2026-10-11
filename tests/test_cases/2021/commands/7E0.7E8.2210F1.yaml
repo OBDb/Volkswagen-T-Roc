@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2210F1
 test_cases:
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_DIFF_P_OFFSET: -5
+    TROC_PQ35_DPF_DIFF_P_OFFSET: -5
   response: 7E8056210F1FFFB
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_DIFF_P_OFFSET: -4
+    TROC_PQ35_DPF_DIFF_P_OFFSET: -4
   response: 7E8056210F1FFFC
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_DIFF_P_OFFSET: -3
+    TROC_PQ35_DPF_DIFF_P_OFFSET: -3
   response: 7E8056210F1FFFD
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_DIFF_P_OFFSET: -2
+    TROC_PQ35_DPF_DIFF_P_OFFSET: -2
   response: 7E8056210F1FFFE

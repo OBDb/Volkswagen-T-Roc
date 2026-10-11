@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221515
+test_cases:
+- expected_values:
+    TROC_CAT_T_CALC: 440
+  response: '7E80462151562'
+- expected_values:
+    TROC_CAT_T_CALC: 445
+  response: '7E80462151563'

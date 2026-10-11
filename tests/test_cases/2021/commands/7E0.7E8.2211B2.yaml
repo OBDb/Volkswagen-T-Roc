@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.2211B2
 test_cases:
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_IN_T: 50.6
+    TROC_EXH_GAS_T_SENS_3_7E0: 50.6
   response: 7E8056211B20CA5
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_IN_T: 78.5
+    TROC_EXH_GAS_T_SENS_3_7E0: 78.5
   response: 7E8056211B20DBC
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_IN_T: 110.8
+    TROC_EXH_GAS_T_SENS_3_7E0: 110.8
   response: 7E8056211B20EFF
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_IN_T: 162.1
+    TROC_EXH_GAS_T_SENS_3_7E0: 162.1
   response: 7E8056211B21100
 - expected_values:
-    VOLKSWAGEN_PQ35_DPF_IN_T: 624.5
+    TROC_EXH_GAS_T_SENS_3_7E0: 624.5
   response: 7E8056211B22310

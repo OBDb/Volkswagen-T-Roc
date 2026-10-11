@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210E6
+test_cases:
+- expected_values:
+    TROC_KNOCK_RETARD_2: 2.25
+  response: 7E8056210E603E7
+- expected_values:
+    TROC_KNOCK_RETARD_2: 9
+  response: 7E8056210E60C00
+- expected_values:
+    TROC_KNOCK_RETARD_2: 9.75
+  response: 7E8056210E60DFF
+- expected_values:
+    TROC_KNOCK_RETARD_2: 11.25
+  response: 7E8056210E60F0C

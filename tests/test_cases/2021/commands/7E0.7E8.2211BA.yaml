@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211BA
+test_cases:
+- expected_values:
+    TROC_OIL_LEVEL: 4.136
+  response: 7E8056211BA2864
+- expected_values:
+    TROC_OIL_LEVEL: 4.608
+  response: 7E8056211BA2D00
+- expected_values:
+    TROC_OIL_LEVEL: 5.11
+  response: 7E8056211BA31E7
+- expected_values:
+    TROC_OIL_LEVEL: 5.68
+  response: 7E8056211BA3778

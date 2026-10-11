@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221151
+test_cases:
+- expected_values:
+    TROC_MISFIRES__CYL__4: 1838
+  response: 7E805621151072E
+- expected_values:
+    TROC_MISFIRES__CYL__4: 2008
+  response: 7E80562115107D8
+- expected_values:
+    TROC_MISFIRES__CYL__4: 2129
+  response: '7E8056211510851'
