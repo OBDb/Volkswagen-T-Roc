@@ -1,32 +1,14 @@
 command_id: 7E0.7E8.2216EC
 test_cases:
 - expected_values:
-    TROC_CHG_P_REGULATOR_LO: 11.6
-  response: 7E8056216EC003A
-- expected_values:
-    TROC_CHG_P_REGULATOR_LO: 17.6
-  response: 7E8056216EC0058
-- expected_values:
-    TROC_CHG_P_REGULATOR_LO: 31.6
-  response: 7E8056216EC009E
-- expected_values:
     TROC_CHG_P_REGULATOR_LO: 39.4
   response: 7E8056216EC00C5
 - expected_values:
-    TROC_CHG_P_REGULATOR_LO: 47.4
-  response: 7E8056216EC00ED
+    TROC_CHG_P_REGULATOR_LO: 47.8
+  response: 7E8056216EC00EF
 - expected_values:
-    TROC_CHG_P_REGULATOR_LO: 53.6
-  response: 7E8056216EC010C
-- expected_values:
-    TROC_CHG_P_REGULATOR_LO: 79.6
-  response: 7E8056216EC018E
+    TROC_CHG_P_REGULATOR_LO: 51.8
+  response: 7E8056216EC0103
 - expected_values:
     TROC_CHG_P_REGULATOR_LO: 115.4
   response: 7E8056216EC0241
-- expected_values:
-    TROC_CHG_P_REGULATOR_LO: 117.4
-  response: 7E8056216EC024B
-- expected_values:
-    TROC_CHG_P_REGULATOR_LO: 147.4
-  response: 7E8056216EC02E1

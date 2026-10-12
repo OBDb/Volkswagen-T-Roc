@@ -4,6 +4,12 @@ test_cases:
     TROC_HIGH_P_TURBOCHARGER: 64.02
   response: '7E8056211811902'
 - expected_values:
+    TROC_HIGH_P_TURBOCHARGER: 68.31
+  response: 7E8056211811AAF
+- expected_values:
+    TROC_HIGH_P_TURBOCHARGER: 69.86
+  response: 7E8056211811B4A
+- expected_values:
     TROC_HIGH_P_TURBOCHARGER: 70
   response: 7E8056211811B58
 - expected_values:

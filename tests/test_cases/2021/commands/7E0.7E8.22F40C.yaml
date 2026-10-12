@@ -4,8 +4,8 @@ test_cases:
     TROC_RPM: 1021.5
   response: 7E80562F40C0FF6
 - expected_values:
-    TROC_RPM: 1346
-  response: 7E80562F40C1508
+    TROC_RPM: 1088.5
+  response: 7E80562F40C1102
 - expected_values:
     TROC_RPM: 2076
   response: 7E80562F40C2070

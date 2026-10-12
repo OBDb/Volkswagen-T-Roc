@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221231
 test_cases:
 - expected_values:
+    TROC_MIN_OIL_LEVEL: 262.06
+  response: 7E805621231FFEB
+- expected_values:
     TROC_MIN_OIL_LEVEL: 262.108
   response: 7E805621231FFF7
 - expected_values:

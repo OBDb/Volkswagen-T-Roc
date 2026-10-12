@@ -4,8 +4,14 @@ test_cases:
     TROC_HIGH_P_EGR_ACTUATOR_ACT_V: 1061.2
   response: 7E8056211A914BA
 - expected_values:
+    TROC_HIGH_P_EGR_ACTUATOR_ACT_V: 1290.2
+  response: 7E8056211A91933
+- expected_values:
     TROC_HIGH_P_EGR_ACTUATOR_ACT_V: 1343.8
   response: 7E8056211A91A3F
+- expected_values:
+    TROC_HIGH_P_EGR_ACTUATOR_ACT_V: 1538.4
+  response: 7E8056211A91E0C
 - expected_values:
     TROC_HIGH_P_EGR_ACTUATOR_ACT_V: 1690.8
   response: 7E8056211A92106

@@ -4,8 +4,14 @@ test_cases:
     TROC_ENERGY_BALANCE_LAST: 11.99
   response: 77A05622A1504AF
 - expected_values:
+    TROC_ENERGY_BALANCE_LAST: 12
+  response: 77A05622A1504B0
+- expected_values:
     TROC_ENERGY_BALANCE_LAST: 12.01
   response: 77A05622A1504B1
 - expected_values:
     TROC_ENERGY_BALANCE_LAST: 12.02
   response: 77A05622A1504B2
+- expected_values:
+    TROC_ENERGY_BALANCE_LAST: 12.05
+  response: 77A05622A1504B5

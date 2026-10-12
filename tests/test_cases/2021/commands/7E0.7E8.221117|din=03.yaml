@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_CLT_FAN_1_ACTIVATION_1117: 10.15
   response: 7E80562111703F7
+- expected_values:
+    TROC_CLT_FAN_1_ACTIVATION_1117: 35.54
+  response: 7E8056211170DE2

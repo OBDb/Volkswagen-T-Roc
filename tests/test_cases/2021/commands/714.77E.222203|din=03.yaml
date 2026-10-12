@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     TROC_ODO_DASH: 100391
   response: '77E06622203018827'
+- expected_values:
+    TROC_ODO_DASH: 100402
+  response: '77E06622203018832'
+- expected_values:
+    TROC_ODO_DASH: 100404
+  response: '77E06622203018834'

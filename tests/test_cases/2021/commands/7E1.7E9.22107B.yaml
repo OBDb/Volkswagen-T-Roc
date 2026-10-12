@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TROC_ANALYSIS_CLU_2_T_1: 882.38
   response: 7E90762107B57ACCA04
+- expected_values:
+    TROC_ANALYSIS_CLU_2_T_1: 165.74
+  response: 7E90762107B5F20CB04

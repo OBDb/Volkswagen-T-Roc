@@ -7,6 +7,12 @@ test_cases:
     TROC_EOT: 55
   response: 77E0462202F71
 - expected_values:
+    TROC_EOT: 69
+  response: 77E0462202F7F
+- expected_values:
+    TROC_EOT: 81
+  response: 77E0462202F8B
+- expected_values:
     TROC_EOT: 89
   response: 77E0462202F93
 - expected_values:

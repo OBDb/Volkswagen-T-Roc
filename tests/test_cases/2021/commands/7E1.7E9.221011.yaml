@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TROC_ADAPTIVE_MODE: 216
   response: 7E905621011D803
+- expected_values:
+    TROC_ADAPTIVE_MODE: 225
+  response: 7E905621011E103

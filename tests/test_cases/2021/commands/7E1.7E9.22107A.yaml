@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.22107A
 test_cases:
 - expected_values:
+    TROC_ANALYSIS_CLU_2_T_0: 452.72
+  response: 7E90762107A6C589E11
+- expected_values:
     TROC_ANALYSIS_CLU_2_T_0: 1078.16
   response: 7E90762107A94D29D11
 - expected_values:
