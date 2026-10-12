@@ -7,8 +7,14 @@ test_cases:
     TROC_LOW_P_EGR_CLOSING: 79.80957
   response: 7E8056217F40676
 - expected_values:
+    TROC_LOW_P_EGR_CLOSING: 73.62061
+  response: 7E8056217F40871
+- expected_values:
     TROC_LOW_P_EGR_CLOSING: 69.83643
   response: 7E8056217F409A7
 - expected_values:
     TROC_LOW_P_EGR_CLOSING: 64.66064
   response: 7E8056217F40B4F
+- expected_values:
+    TROC_LOW_P_EGR_CLOSING: 48.82812
+  response: 7E8056217F41060

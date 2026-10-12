@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TROC_CLU_1_T_TIME_RANGE_0: 219.06
   response: 7E907621065C92A6E0F
+- expected_values:
+    TROC_CLU_1_T_TIME_RANGE_0: 234.64
+  response: 7E907621065D42D6F0F

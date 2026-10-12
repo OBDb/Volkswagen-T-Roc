@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TROC_BARO: 99
   response: 7E80462F43363
+- expected_values:
+    TROC_BARO: 100
+  response: 7E80462F43364

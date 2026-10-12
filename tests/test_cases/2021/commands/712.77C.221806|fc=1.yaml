@@ -10,5 +10,11 @@ test_cases:
     TROC_STEER_WHL_TQ_SENS_2: 1.79163
   response: 77C06621806018A00
 - expected_values:
+    TROC_STEER_WHL_TQ_SENS_2: 2.04214
+  response: 77C0662180601C300
+- expected_values:
     TROC_STEER_WHL_TQ_SENS_2: -8.51025
   response: 77C06621806F86200
+- expected_values:
+    TROC_STEER_WHL_TQ_SENS_2: -0.50696
+  response: 77C06621806FF7F00

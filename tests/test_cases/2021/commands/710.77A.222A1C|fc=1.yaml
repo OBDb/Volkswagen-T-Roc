@@ -10,8 +10,14 @@ test_cases:
     TROC_GEN_CURRENT: 33.7
   response: 77A05622A1C00F7
 - expected_values:
+    TROC_GEN_CURRENT: 34.3
+  response: 77A05622A1C00FD
+- expected_values:
     TROC_GEN_CURRENT: 46.7
   response: 77A05622A1C0179
 - expected_values:
     TROC_GEN_CURRENT: 51.7
   response: 77A05622A1C01AB
+- expected_values:
+    TROC_GEN_CURRENT: 54
+  response: 77A05622A1C01C2

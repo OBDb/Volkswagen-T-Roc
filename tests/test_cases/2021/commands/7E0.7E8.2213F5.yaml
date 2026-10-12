@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TROC_IGA_CYL_KNK_3: -48
   response: 7E8076213F500001A91
+- expected_values:
+    TROC_IGA_CYL_KNK_3: -48
+  response: 7E8076213F500001A92

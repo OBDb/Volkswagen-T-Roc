@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     TROC_AC_COMP_TQ_REQ: 0
   response: '7E8056210230000'
+- expected_values:
+    TROC_AC_COMP_TQ_REQ: 5
+  response: '7E8056210230032'
+- expected_values:
+    TROC_AC_COMP_TQ_REQ: 5.2
+  response: '7E8056210230034'
+- expected_values:
+    TROC_AC_COMP_TQ_REQ: 6
+  response: 7E805621023003C
+- expected_values:
+    TROC_AC_COMP_TQ_REQ: 7.5
+  response: 7E805621023004B
+- expected_values:
+    TROC_AC_COMP_TQ_REQ: 7.8
+  response: 7E805621023004E

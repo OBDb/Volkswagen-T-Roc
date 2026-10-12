@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TROC_A_C_COMPRESSOR_TORQUE: -2.8
   response: 7E80562101AFFE4
+- expected_values:
+    TROC_A_C_COMPRESSOR_TORQUE: -2.7
+  response: 7E80562101AFFE5

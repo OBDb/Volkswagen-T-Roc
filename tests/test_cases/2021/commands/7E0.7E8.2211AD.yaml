@@ -7,8 +7,8 @@ test_cases:
     TROC_MAF_CMD: 639.7
   response: 7E8056211AD18FD
 - expected_values:
-    TROC_MAF_CMD: 690
-  response: 7E8056211AD1AF4
+    TROC_MAF_CMD: 657.3
+  response: 7E8056211AD19AD
 - expected_values:
     TROC_MAF_CMD: 718.4
   response: 7E8056211AD1C10

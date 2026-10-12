@@ -7,23 +7,8 @@ test_cases:
     TROC_TCO_1_SYS: -13
   response: 7E8056211CD1BF6
 - expected_values:
-    TROC_TCO_1_SYS: -12
-  response: 7E8056211CD1C22
-- expected_values:
-    TROC_TCO_1_SYS: -11
-  response: 7E8056211CD1DDE
-- expected_values:
-    TROC_TCO_1_SYS: -10
-  response: 7E8056211CD1E51
-- expected_values:
-    TROC_TCO_1_SYS: -10
-  response: 7E8056211CD1ED3
-- expected_values:
     TROC_TCO_1_SYS: -9
   response: 7E8056211CD1F09
 - expected_values:
-    TROC_TCO_1_SYS: -9
-  response: 7E8056211CD1F34
-- expected_values:
-    TROC_TCO_1_SYS: -9
-  response: 7E8056211CD1FA6
+    TROC_TCO_1_SYS: 14
+  response: 7E8056211CD3666
