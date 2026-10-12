@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221334|din=03
+test_cases:
+- expected_values:
+    TROC_HIGH_P_EGR_ACTUATOR: -25.7
+  response: 7E805621334F5F6
+- expected_values:
+    TROC_HIGH_P_EGR_ACTUATOR: -23.48
+  response: 7E805621334F6D4
+- expected_values:
+    TROC_HIGH_P_EGR_ACTUATOR: -20.48
+  response: 7E805621334F800
+- expected_values:
+    TROC_HIGH_P_EGR_ACTUATOR: -13.56
+  response: 7E805621334FAB4

@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22F40D
+test_cases:
+- expected_values:
+    TROC_VSS_7E1: 4
+  response: 7E90562F40D0415
+- expected_values:
+    TROC_VSS_7E1: 110
+  response: 7E90562F40D6E0F
+- expected_values:
+    TROC_VSS_7E1: 192
+  response: 7E90562F40DC017

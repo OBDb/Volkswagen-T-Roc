@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22102A
+test_cases:
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 0
+  response: 7E80562102A0000
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 117.4
+  response: 7E80562102A024B
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 135.2
+  response: 7E80562102A02A4
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 165.8
+  response: 7E80562102A033D
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 346
+  response: 7E80562102A06C2
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 538.6
+  response: 7E80562102A0A85
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 539.2
+  response: 7E80562102A0A88
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_1_V: 732.8
+  response: 7E80562102A0E50

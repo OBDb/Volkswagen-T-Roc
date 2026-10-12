@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221064|din=03
+test_cases:
+- expected_values:
+    TROC_ECT_ENG_OUTLET_CALC: 66.4
+  response: 7E8056210640D43
+- expected_values:
+    TROC_ECT_ENG_OUTLET_CALC: 68.9
+  response: 7E8056210640D5C
+- expected_values:
+    TROC_ECT_ENG_OUTLET_CALC: 88.7
+  response: 7E8056210640E22
+- expected_values:
+    TROC_ECT_ENG_OUTLET_CALC: 88.8
+  response: 7E8056210640E23

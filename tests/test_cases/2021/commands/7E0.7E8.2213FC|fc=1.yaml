@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213FC|fc=1
+test_cases:
+- expected_values:
+    TROC_KNOCK_SENS_V_CYL_2: 0
+  response: 7E8076213FC00002CD6
+- expected_values:
+    TROC_KNOCK_SENS_V_CYL_2: 0
+  response: 7E8076213FC00002CD7

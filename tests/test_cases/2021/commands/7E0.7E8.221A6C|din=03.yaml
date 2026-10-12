@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221A6C|din=03
+test_cases:
+- expected_values:
+    TROC_REDUCING_AGENT_TANK_ACT: 8.042
+  response: 7E805621A6C0FB5
+- expected_values:
+    TROC_REDUCING_AGENT_TANK_ACT: 8.18
+  response: 7E805621A6C0FFA
+- expected_values:
+    TROC_REDUCING_AGENT_TANK_ACT: 8.45
+  response: 7E805621A6C1081
+- expected_values:
+    TROC_REDUCING_AGENT_TANK_ACT: 8.5
+  response: 7E805621A6C109A

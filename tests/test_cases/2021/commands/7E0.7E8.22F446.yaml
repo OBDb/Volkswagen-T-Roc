@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F446
+test_cases:
+- expected_values:
+    TROC_AAT_7E0_7E0: 22
+  response: 7E80462F4463E
+- expected_values:
+    TROC_AAT_7E0_7E0: 23
+  response: 7E80462F4463F

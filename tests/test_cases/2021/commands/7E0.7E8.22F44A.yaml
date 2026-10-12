@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F44A
+test_cases:
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 14.5098
+  response: 7E80462F44A25
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 16.47059
+  response: 7E80462F44A2A
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 25.4902
+  response: 7E80462F44A41
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 29.01961
+  response: 7E80462F44A4A
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 29.41176
+  response: 7E80462F44A4B
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 35.29412
+  response: 7E80462F44A5A
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 36.47059
+  response: 7E80462F44A5D
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 41.96078
+  response: 7E80462F44A6B
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 44.70588
+  response: 7E80462F44A72

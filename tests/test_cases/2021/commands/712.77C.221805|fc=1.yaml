@@ -1,0 +1,14 @@
+command_id: 712.77C.221805|fc=1
+test_cases:
+- expected_values:
+    TROC_STEER_WHL_TQ_SENS_1: 0.27096
+  response: 77C06621805003000
+- expected_values:
+    TROC_STEER_WHL_TQ_SENS_1: 2.64426
+  response: 77C06621805024C00
+- expected_values:
+    TROC_STEER_WHL_TQ_SENS_1: -7.76749
+  response: 77C06621805F90B00
+- expected_values:
+    TROC_STEER_WHL_TQ_SENS_1: -0.19052
+  response: 77C06621805FFC700

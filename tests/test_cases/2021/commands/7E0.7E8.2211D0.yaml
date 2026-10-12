@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211D0
+test_cases:
+- expected_values:
+    TROC_TCO_1_ST: -25
+  response: 7E8056211D00F11
+- expected_values:
+    TROC_TCO_1_ST: -17
+  response: 7E8056211D017EC
+- expected_values:
+    TROC_TCO_1_ST: -14
+  response: 7E8056211D01A39

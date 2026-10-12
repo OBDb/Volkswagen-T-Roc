@@ -4,5 +4,8 @@ test_cases:
     TROC_OUTSIDE_T_SYSTEM: null
   response: 7B00462260A00
 - expected_values:
-    TROC_OUTSIDE_T_SYSTEM: null
-  response: 7B00462260AFF
+    TROC_OUTSIDE_T_SYSTEM: -49.5
+  response: 7B00462260A01
+- expected_values:
+    TROC_OUTSIDE_T_SYSTEM: 76.5
+  response: 7B00462260AFD

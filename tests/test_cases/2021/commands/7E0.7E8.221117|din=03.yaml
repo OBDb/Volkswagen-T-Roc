@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221117|din=03
+test_cases:
+- expected_values:
+    TROC_CLT_FAN_1_ACTIVATION_1117: 10.15
+  response: 7E80562111703F7

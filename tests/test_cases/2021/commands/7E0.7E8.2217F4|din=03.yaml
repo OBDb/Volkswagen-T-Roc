@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2217F4|din=03
+test_cases:
+- expected_values:
+    TROC_LOW_P_EGR_CLOSING: 99.85352
+  response: 7E8056217F4000C
+- expected_values:
+    TROC_LOW_P_EGR_CLOSING: 79.80957
+  response: 7E8056217F40676
+- expected_values:
+    TROC_LOW_P_EGR_CLOSING: 69.83643
+  response: 7E8056217F409A7
+- expected_values:
+    TROC_LOW_P_EGR_CLOSING: 64.66064
+  response: 7E8056217F40B4F
