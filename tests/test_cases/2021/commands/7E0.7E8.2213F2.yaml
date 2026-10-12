@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2213F2
+test_cases:
+- expected_values:
+    TROC_IGA_CYL_KNK_0: -48
+  response: 7E8076213F200014326
+- expected_values:
+    TROC_IGA_CYL_KNK_0: -48
+  response: 7E8076213F200014339
+- expected_values:
+    TROC_IGA_CYL_KNK_0: -48
+  response: 7E8076213F20001433A
+- expected_values:
+    TROC_IGA_CYL_KNK_0: -48
+  response: 7E8076213F20001433C
+- expected_values:
+    TROC_IGA_CYL_KNK_0: -48
+  response: 7E8076213F20001433D
+- expected_values:
+    TROC_IGA_CYL_KNK_0: -48
+  response: 7E8076213F20001433E
+- expected_values:
+    TROC_IGA_CYL_KNK_0: -48
+  response: 7E8076213F200014341

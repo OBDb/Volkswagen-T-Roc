@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 2, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "TROC_HEATER_FOR_NOZZLES_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Heater for nozzles active"}
@@ -69,7 +72,7 @@
   "signals": [
     {"id": "TROC_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Start/stop battery target voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A06"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A06"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_12V_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "12V battery capacity"}
   ]},
@@ -114,7 +117,7 @@
   "signals": [
     {"id": "TROC_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A15"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A15"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ENERGY_BALANCE_LAST", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "ampereHours" }, "name": "Energy balance of last driving cycle"}
   ]},
@@ -126,7 +129,7 @@
   "signals": [
     {"id": "TROC_ENTIRE_ENERGY", "path": "Tires", "fmt": { "len": 24, "max": 838860, "min": -838860, "div": 10, "sign": true, "unit": "ampereHours" }, "name": "Entire energy throughput"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A1C"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 6562.5, "div": 10, "add": 9, "unit": "amps" }, "name": "Generator current"}
   ]},
@@ -134,7 +137,7 @@
   "signals": [
     {"id": "TROC_BAT_ACID", "path": "Battery", "fmt": { "len": 8, "max": 2559, "mul": 10, "add": 9, "unit": "percent" }, "name": "Battery acid stratification"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A25"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
@@ -201,11 +204,11 @@
   "signals": [
     {"id": "TROC_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1805"}, "freq": 0.25,
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1806"}, "freq": 0.25,
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1806"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_STEER_WHL_TQ_SENS_2", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 2"}
   ]},
@@ -334,11 +337,11 @@
   "signals": [
     {"id": "TROC_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "202F"}, "freq": 1,
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "202F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_EOT", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "2203"}, "freq": 1,
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2203"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, dashboard"}
   ]},
@@ -346,7 +349,7 @@
   "signals": [
     {"id": "TROC_PQ35_FUEL_LVL", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "220C"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -374,7 +377,7 @@
   "signals": [
     {"id": "TROC_FLI_VOL", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel volume", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "22B8"}, "freq": 30,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR"}
   ]},
@@ -474,7 +477,7 @@
   "signals": [
     {"id": "TROC_HVAC_OUTSIDE_HUM", "path": "Climate", "fmt": {"bix": 56, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Outside humidity"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "27C4"}, "freq": 1,
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_WINDSHIELD_T",   "path": "Climate", "fmt": {           "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576,           "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"},
     {"id": "TROC_CABIN_HUMIDITY", "path": "Climate", "fmt": {"bix": 32, "len": 8, "max": 100,                                "div": 2,               "unit": "percent" }, "name": "Cabin humidity"}
@@ -575,7 +578,7 @@
   "signals": [
     {"id": "TROC_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1017"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1017"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_A_C_REFRIGERANT_PRES", "path": "Engine", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "unknown" }, "name": "A/C refrigerant pressure"}
   ]},
@@ -583,7 +586,7 @@
   "signals": [
     {"id": "TROC_CLT_FAN_REQ_AC", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.9989, "mul": 12207, "div": 1000000, "sign": true, "unit": "percent" }, "name": "Coolant fan, requested by A/C"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "101A"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "101A"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_A_C_COMPRESSOR_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "A/C compressor torque"}
   ]},
@@ -595,7 +598,7 @@
   "signals": [
     {"id": "TROC_GENERATOR_LOAD_SIG", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Generator load signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1023"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1023"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_AC_COMP_TQ_REQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque"}
   ]},
@@ -615,7 +618,7 @@
   "signals": [
     {"id": "TROC_APP_REDUCE_V", "path": "Control", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal release detection threshold voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "102A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102A"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ACCEL_PEDAL_SENS_1_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal, sensor 1 voltage"}
   ]},
@@ -643,7 +646,7 @@
   "signals": [
     {"id": "TROC_PQ35_ENG_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1048"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1048"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_AC_COMP_REFRIGERANT_P", "path": "Engine", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "unknown" }, "name": "Air conditioning compressor refrigerant pressure"}
   ]},
@@ -687,11 +690,11 @@
   "signals": [
     {"id": "TROC_ENG_OUTLET_ECT_CALC", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine outlet coolant temperature calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "1064"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "1064"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ECT_ENG_OUTLET_CALC", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at engine outlet, calculated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1065"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 16, "max": 11336.3, "min": -460, "mul": 9, "div": 50, "add": -460, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
   ]},
@@ -719,7 +722,7 @@
   "signals": [
     {"id": "TROC_ENG_TQ_LIM", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque limitation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1092"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1092"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CAM_SPD", "path": "Movement", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
@@ -883,7 +886,7 @@
   "signals": [
     {"id": "TROC_MAX_FILLING_CORR", "path": "Engine", "fmt": { "len": 16, "max": 1.96, "mul": 3, "div": 100000, "unit": "scalar" }, "name": "Maximum filling correction factor from knock control"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10EA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EA"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_OPEN_CAM_SHFT_ANG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Open cam shaft angle at quantity control valve"}
   ]},
@@ -891,7 +894,7 @@
   "signals": [
     {"id": "TROC_CRANK_ROT_ANG", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Crankshaft rotation angle when closing the quantity control valve"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10EC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10EC"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_VLV_TIM_DIFF_ACT_SET", "path": "Engine", "fmt": { "len": 16, "max": 511.9843, "min": -512, "div": 64, "sign": true, "unit": "degrees" }, "name": "Valve timing, the difference between the, actual and the set angle"}
   ]},
@@ -991,7 +994,7 @@
   "signals": [
     {"id": "TROC_PQ35_COOL_FAN_1_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Coolant fan 1 duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "1117"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "1117"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CLT_FAN_1_ACTIVATION_1117", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Coolant fan 1 activation, $1117"}
   ]},
@@ -1135,7 +1138,7 @@
   "signals": [
     {"id": "TROC_SEG_AD_MMV_ER_L_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1141"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1141"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_SEG_AD_MMV_ER_L_3", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_L, 3"}
   ]},
@@ -1227,7 +1230,7 @@
   "signals": [
     {"id": "TROC_ODO_HD", "path": "Trips", "fmt": { "len": 32, "max": 4294967.2949999999, "div": 1000, "unit": "kilometers" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1161"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1161"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ENGINE_RPM_AT_IDLE_REQUIRED", "path": "Movement", "fmt": { "len": 16, "max": 16383.5, "min": -16384, "div": 2, "sign": true, "unit": "rpm" }, "name": "Engine RPM at idle required"}
   ]},
@@ -1235,7 +1238,7 @@
   "signals": [
     {"id": "TROC_PQ35_SRV_REGEN_DUR", "path": "Battery", "fmt": { "len": 32, "max": 715827, "mul": 0.0001666667, "unit": "minutes" }, "name": "Service regeneration current duration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1165"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1165"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_HVBAT_T_LOAD", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "percent" }, "name": "HV battery temperature load"}
   ]},
@@ -1255,7 +1258,7 @@
   "signals": [
     {"id": "TROC_T_AC_HEAT_EXCHANGER", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Temperature at air conditioner heat exchanger output"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "117D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "117D"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_N_32", "path": "Engine", "fmt": { "len": 8, "max": 8160, "mul": 32, "unit": "rpm" }, "name": "N_32"}
   ]},
@@ -1263,11 +1266,11 @@
   "signals": [
     {"id": "TROC_PQ35_TURB_ACT_1_B1", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Turbine actuator 1 bank 1 activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "1181"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "1181"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_HIGH_P_TURBOCHARGER", "path": "Battery", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Charge adjuster output stage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1184"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1184"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_PSN_EDGE_REL_AD_CAM_1", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "degrees" }, "name": "PSN_EDGE_REL_AD_CAM_SAVE_EX_1"}
   ]},
@@ -1331,7 +1334,7 @@
   "signals": [
     {"id": "TROC_PQ35_LIM_ACCEL_PED", "path": "Movement", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Accelerator pedal limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "11A9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "11A9"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_HIGH_P_EGR_ACTUATOR_ACT_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "min": -6553, "div": 5, "sign": true, "unit": "millivolts" }, "name": "High pressure exhaust gas recirculation actuator, actual unconditioned voltage"}
   ]},
@@ -1339,11 +1342,11 @@
   "signals": [
     {"id": "TROC_INT_MODEL_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Intake model air mass flow filtered value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11AC"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AC"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_MAF_THROUGH_THROTTLE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow through throttle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11AD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11AD"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_MAF_CMD", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Mass air flow, commanded"}
   ]},
@@ -1359,7 +1362,7 @@
   "signals": [
     {"id": "TROC_AIR_LEAKAGE", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "unknown" }, "name": "Air leakage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11B9"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_OIL_P_VLV_SWITCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure valve switch, control"}
   ]},
@@ -1399,7 +1402,7 @@
   "signals": [
     {"id": "TROC_LOW_FUEL_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilopascal" }, "name": "Low fuel pressure, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11C9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11C9"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_FUEL_PMP_ADPT", "path": "Fuel", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Fuel pump adaptation"}
   ]},
@@ -1407,7 +1410,7 @@
   "signals": [
     {"id": "TROC_BOOST_REGULATOR_FEEDBACK", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Boost regulator feedback"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11CD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11CD"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_TCO_1_SYS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_SYS"}
   ]},
@@ -1419,7 +1422,7 @@
   "signals": [
     {"id": "TROC_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 2559, "mul": 19531, "div": 500000, "unit": "unknown" }, "name": "Brake booster pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D0"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D0"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_TCO_1_ST", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "TCO_1_ST"}
   ]},
@@ -1439,7 +1442,7 @@
   "signals": [
     {"id": "TROC_HIGH_FUEL_P", "path": "Fuel", "fmt": { "len": 16, "max": 16.3835, "min": -16.384, "div": 2000, "sign": true, "unit": "unknown" }, "name": "High fuel pressure, regulation error"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11D7"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D7"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_HIGH_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 32.7675, "div": 2000, "unit": "unknown" }, "name": "High fuel pressure, commanded"}
   ]},
@@ -1503,7 +1506,7 @@
   "signals": [
     {"id": "TROC_EA888B_BOOST_P_CTRL_0", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1200"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1200"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_EA888B_BOOST_P_CTRL_1", "path": "Engine", "fmt": { "len": 8, "max": 356.87, "min": -359.68, "mul": 281, "div": 100, "sign": true, "unit": "unknown" }, "name": "Ea888b boost pressure control, adaptation value 1"}
   ]},
@@ -1595,7 +1598,7 @@
   "signals": [
     {"id": "TROC_MAX_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Maximum oil level for the service interval"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1231"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1231"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_MIN_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "millimeters" }, "name": "Minimum oil level for the service interval"}
   ]},
@@ -1691,7 +1694,7 @@
   "signals": [
     {"id": "TROC_PQ35_MEAN_AIR_MASS", "path": "Engine", "fmt": { "len": 16, "max": 2047.968, "div": 32, "unit": "unknown" }, "name": "Mean engine air mass"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "1334"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "1334"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_HIGH_P_EGR_ACTUATOR", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "High pressure EGR actuator, activation"}
   ]},
@@ -1839,7 +1842,7 @@
   "signals": [
     {"id": "TROC_TI_1_MPI_3", "path": "Engine", "fmt": { "len": 16, "max": 262.14, "div": 250, "unit": "milliseconds" }, "name": "TI_1_MPI, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "13B8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "13B8"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_OIL_P_SWITCH_VLV", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil pressure switch valve activation"}
   ]},
@@ -1847,11 +1850,11 @@
   "signals": [
     {"id": "TROC_MAF_RATE", "path": "Engine", "fmt": { "len": 16, "max": 2047, "div": 32, "unit": "unknown" }, "name": "Mass air flow rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13F2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F2"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_IGA_CYL_KNK_0", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 0"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13F3"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F3"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_IGA_CYL_KNK_1", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 1"}
   ]},
@@ -1859,7 +1862,7 @@
   "signals": [
     {"id": "TROC_IGA_CYL_KNK_2", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "13F5"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13F5"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_IGA_CYL_KNK_3", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "IGA_CYL_KNK, 3"}
   ]},
@@ -1887,11 +1890,11 @@
   "signals": [
     {"id": "TROC_KNOCK_SENS_V_CYL_6", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13FC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13FC"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_KNOCK_SENS_V_CYL_2", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13FD"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13FD"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_KNOCK_SENS_V_CYL_5", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 5"}
   ]},
@@ -2247,7 +2250,7 @@
   "signals": [
     {"id": "TROC_PQ35_POST_INJ_1_QTY_SPEC", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "unknown" }, "name": "Post injection 1: quantity specified value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1644"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1644"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_LATERAL_ACCEL", "path": "Movement", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Lateral acceleration"}
   ]},
@@ -2299,15 +2302,15 @@
   "signals": [
     {"id": "TROC_THROTTLE_REGULATOR", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 128, "unit": "percent" }, "name": "Throttle regulator nominal value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16EC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EC"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CHG_P_REGULATOR_LO", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure regulator, lower threshold adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16ED"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16ED"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CHG_P_REGULATOR_HI", "path": "Battery", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Charge pressure regulator, upper threshold adaptation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16EE"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16EE"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_BOOST_P_ACTUATOR_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.993, "mul": 0.0122068184, "sign": true, "unit": "percent" }, "name": "Boost pressure actuator, commanded duty"}
   ]},
@@ -2315,7 +2318,7 @@
   "signals": [
     {"id": "TROC_CRANKSHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "rpm" }, "name": "Crankshaft speed", "suggestedMetric": "engineSpeed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16F4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16F4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_PISTON_COOLING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Piston cooling nozzles, control"}
   ]},
@@ -2447,7 +2450,7 @@
   "signals": [
     {"id": "TROC_EOT_PULS", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature, pulse sensor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "17F4"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "17F4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_LOW_P_EGR_CLOSING", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -699, "mul": -25, "div": 2048, "add": 100, "unit": "percent" }, "name": "Low pressure EGR closing"}
   ]},
@@ -2483,7 +2486,7 @@
   "signals": [
     {"id": "TROC_PQ35_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "195D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "195D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_BRAKE_P_7E0", "path": "Control", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Brake pressure"}
   ]},
@@ -2491,11 +2494,11 @@
   "signals": [
     {"id": "TROC_MQB_FUEL_FILTER_WATER_LEVEL_SENSOR_1", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel filter: water level sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "1A6C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "1A6C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_REDUCING_AGENT_TANK_ACT", "path": "Engine", "fmt": { "len": 16, "max": 131, "div": 500, "unit": "liters" }, "name": "Reducing agent tank volume, act. value filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1AB8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1AB8"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_FUEL_P_LOW_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "kilopascal" }, "name": "Fuel pressure, low actual"}
   ]},
@@ -3649,7 +3652,7 @@
   "signals": [
     {"id": "TROC_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40C"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_RPM", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
@@ -3681,7 +3684,7 @@
   "signals": [
     {"id": "TROC_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F433"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_BARO", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
@@ -3693,15 +3696,15 @@
   "signals": [
     {"id": "TROC_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F446"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_AAT_7E0_7E0", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F449"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F44A"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ACCEL_PEDAL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 2"}
   ]},
@@ -3721,7 +3724,7 @@
   "signals": [
     {"id": "TROC_MQB_TCM_ECU_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0301"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CTRL_MODULE_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
@@ -3741,7 +3744,7 @@
   "signals": [
     {"id": "TROC_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time in manual mode", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "0327"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0327"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_TRANS_GEAR_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 1.27, "min": -1.28, "div": 100, "sign": true, "unit": "scalar" }, "name": "Transmission gear ratio"}
   ]},
@@ -3768,7 +3771,7 @@
   "signals": [
     {"id": "TROC_TIRE_RL_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1005"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_VSS_ESP", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed ESP"}
   ]},
@@ -3800,11 +3803,11 @@
   "signals": [
     {"id": "TROC_MQB_TCM_CONVERTER_LOSS_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Converter loss torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1011"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1011"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ADAPTIVE_MODE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Adaptive mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1012"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1012"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ID_CURRENT_DRIVING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "ID of current driving program"}
   ]},
@@ -3828,11 +3831,11 @@
   "signals": [
     {"id": "TROC_PQ35_ODO_3", "path": "Trips", "fmt": { "len": 24, "blsb": true, "max": 16777215, "unit": "kilometers" }, "name": "Odometer #3", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1021"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1021"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_TCM_DRAG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission drag torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1022"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1022"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_TCM_TQ_LOSSES", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission torque losses"}
   ]},
@@ -3856,11 +3859,11 @@
   "signals": [
     {"id": "TROC_CURRENT_N217_P_CTRL_3", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N217 pressure control valve 3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1029"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1029"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CURRENT_N371_P_CTRL_6", "path": "Transmission", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "milliamps" }, "name": "Current N371 pressure control valve 6 lock-up clutch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "102A"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "102A"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CLU_CENTER_CENTRAL_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Clutch center central plate temperature"}
   ]},
@@ -3948,23 +3951,23 @@
   "signals": [
     {"id": "TROC_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.111, "min": -32.11, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 1 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1064"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1064"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_1_MAX_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Analysis, clutch 1, maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1065"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1065"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_CLU_1_T_TIME_RANGE_0", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Clutch 1 temperature time in range 0"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1066"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1066"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_1_T_1", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1067"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1067"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_1_T_2", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1068"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1068"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_1_T_3", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 1 temperature time in range 3"}
   ]},
@@ -4024,23 +4027,23 @@
   "signals": [
     {"id": "TROC_PQ35_CLUTCH_2_CHAR_CURVE_SHIFT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32.111, "min": -32.11, "mul": 9.8, "div": 10000, "sign": true, "unit": "millimeters" }, "name": "Clutch 2 characteristic curve shift"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1079"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1079"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_2_MAX_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Analysis, clutch 2, maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107A"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107A"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_2_T_0", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 0"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107B"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107B"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_2_T_1", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107C"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107C"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_2_T_2", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "107D"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "107D"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_ANALYSIS_CLU_2_T_3", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 1310.7, "div": 50, "unit": "seconds" }, "name": "Analysis, clutch 2 temperature time in range 3"}
   ]},
@@ -4192,7 +4195,7 @@
   "signals": [
     {"id": "TROC_PQ35_WORKING_HOURS", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 23860.929, "mul": 2, "div": 360000, "unit": "unknown" }, "name": "Working hours"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1111"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1111"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_OP_TIME_T_RANGE_1", "path": "Trips", "fmt": {            "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 1"},
     {"id": "TROC_OP_TIME_T_RANGE_2", "path": "Trips", "fmt": {"bix": 32,  "len": 32, "blsb": true, "max": 23860.7, "mul": 238607, "div": 42949672950, "unit": "hours" }, "name": "Operating time, temperature range 2"},
@@ -4410,7 +4413,7 @@
   "signals": [
     {"id": "TROC_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1200"}, "freq": 3600,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1200"}, "freq": 3600, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_LAUNCH_CTRL_CNT_VAR_1", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Launch control counter, variant 1"}
   ]},
@@ -5048,7 +5051,7 @@
   "signals": [
     {"id": "TROC_INPUT_SHFT_SPD_2", "path": "Movement", "fmt": { "len": 16, "max": 7000, "min": -32769, "add": -1, "sign": true, "unit": "rpm" }, "name": "Input shaft speed 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TROC_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},

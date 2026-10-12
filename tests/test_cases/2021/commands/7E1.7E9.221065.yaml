@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221065
+test_cases:
+- expected_values:
+    TROC_CLU_1_T_TIME_RANGE_0: 1087.12
+  response: 7E90762106554D46E0F
+- expected_values:
+    TROC_CLU_1_T_TIME_RANGE_0: 392.1
+  response: 7E907621065954C6E0F
+- expected_values:
+    TROC_CLU_1_T_TIME_RANGE_0: 219.06
+  response: 7E907621065C92A6E0F

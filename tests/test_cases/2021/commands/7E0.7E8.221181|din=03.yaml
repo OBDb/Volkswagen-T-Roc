@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221181|din=03
+test_cases:
+- expected_values:
+    TROC_HIGH_P_TURBOCHARGER: 64.02
+  response: '7E8056211811902'
+- expected_values:
+    TROC_HIGH_P_TURBOCHARGER: 70
+  response: 7E8056211811B58
+- expected_values:
+    TROC_HIGH_P_TURBOCHARGER: 79.17
+  response: 7E8056211811EED
+- expected_values:
+    TROC_HIGH_P_TURBOCHARGER: 95
+  response: 7E805621181251C

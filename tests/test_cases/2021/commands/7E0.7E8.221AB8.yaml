@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221AB8
+test_cases:
+- expected_values:
+    TROC_FUEL_P_LOW_ACT: 1100
+  response: 7E805621AB82AF8

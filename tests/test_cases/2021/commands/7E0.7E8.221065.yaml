@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221065
+test_cases:
+- expected_values:
+    TROC_CYL_HEAD_T: 444.14
+  response: 7E805621065139F
+- expected_values:
+    TROC_CYL_HEAD_T: 461.78
+  response: '7E8056210651401'
+- expected_values:
+    TROC_CYL_HEAD_T: 489.32
+  response: 7E805621065149A
+- expected_values:
+    TROC_CYL_HEAD_T: 782.72
+  response: 7E8056210651AF8
+- expected_values:
+    TROC_CYL_HEAD_T: 1161.8
+  response: '7E8056210652332'

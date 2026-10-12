@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211C9
+test_cases:
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -0.9
+  response: 7E8056211C9FFF7
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -0.8
+  response: 7E8056211C9FFF8

@@ -1,0 +1,14 @@
+command_id: 714.77E.2222B8|fc=1
+test_cases:
+- expected_values:
+    TROC_ODO_MILEAGE_HR: 100369.497
+  response: 77E076222B805FB8459
+- expected_values:
+    TROC_ODO_MILEAGE_HR: 100371.84
+  response: 77E076222B805FB8D80
+- expected_values:
+    TROC_ODO_MILEAGE_HR: 100387.589
+  response: 77E076222B805FBCB05
+- expected_values:
+    TROC_ODO_MILEAGE_HR: 100391.088
+  response: 77E076222B805FBD8B0

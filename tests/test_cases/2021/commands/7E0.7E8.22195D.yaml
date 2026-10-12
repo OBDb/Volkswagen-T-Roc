@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22195D
+test_cases:
+- expected_values:
+    TROC_BRAKE_P_7E0: -0.03
+  response: 7E80562195DFFFD

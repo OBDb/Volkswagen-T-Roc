@@ -1,0 +1,14 @@
+command_id: 714.77E.22202F|din=03
+test_cases:
+- expected_values:
+    TROC_EOT: 44
+  response: 77E0462202F66
+- expected_values:
+    TROC_EOT: 55
+  response: 77E0462202F71
+- expected_values:
+    TROC_EOT: 89
+  response: 77E0462202F93
+- expected_values:
+    TROC_EOT: 93
+  response: 77E0462202F97

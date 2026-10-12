@@ -1,0 +1,14 @@
+command_id: 714.77E.222203|din=03
+test_cases:
+- expected_values:
+    TROC_ODO_DASH: 100369
+  response: '77E06622203018811'
+- expected_values:
+    TROC_ODO_DASH: 100371
+  response: '77E06622203018813'
+- expected_values:
+    TROC_ODO_DASH: 100387
+  response: '77E06622203018823'
+- expected_values:
+    TROC_ODO_DASH: 100391
+  response: '77E06622203018827'

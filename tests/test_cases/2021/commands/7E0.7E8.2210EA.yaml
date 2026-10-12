@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2210EA
+test_cases:
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -81.9
+  response: 7E8056210EAFCCD
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -71.4
+  response: 7E8056210EAFD36
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -63.4
+  response: 7E8056210EAFD86
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -60.6
+  response: 7E8056210EAFDA2
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -53.5
+  response: 7E8056210EAFDE9
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -51
+  response: 7E8056210EAFE02
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -50.6
+  response: 7E8056210EAFE06
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -50.4
+  response: 7E8056210EAFE08
+- expected_values:
+    TROC_OPEN_CAM_SHFT_ANG: -42.1
+  response: 7E8056210EAFE5B
