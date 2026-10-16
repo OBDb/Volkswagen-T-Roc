@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.2211D7
 test_cases:
 - expected_values:
+    TROC_HIGH_FUEL_P_CMD: 9.702
+  response: 7E8056211D74BCC
+- expected_values:
+    TROC_HIGH_FUEL_P_CMD: 10.898
+  response: 7E8056211D75524
+- expected_values:
     TROC_HIGH_FUEL_P_CMD: 11.198
   response: 7E8056211D7577C
 - expected_values:
+    TROC_HIGH_FUEL_P_CMD: 11.702
+  response: 7E8056211D75B6C
+- expected_values:
     TROC_HIGH_FUEL_P_CMD: 11.784
   response: 7E8056211D75C10
+- expected_values:
+    TROC_HIGH_FUEL_P_CMD: 11.882
+  response: 7E8056211D75CD4
+- expected_values:
+    TROC_HIGH_FUEL_P_CMD: 12.402
+  response: 7E8056211D760E4
+- expected_values:
+    TROC_HIGH_FUEL_P_CMD: 12.44
+  response: 7E8056211D76130
+- expected_values:
+    TROC_HIGH_FUEL_P_CMD: 14.668
+  response: 7E8056211D77298

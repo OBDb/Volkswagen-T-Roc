@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_COOLANT_T_MODELED_VALUE: 38.1
   response: 7E8056213A00C28
+- expected_values:
+    TROC_COOLANT_T_MODELED_VALUE: 39.9
+  response: 7E8056213A00C3A
+- expected_values:
+    TROC_COOLANT_T_MODELED_VALUE: 51.8
+  response: 7E8056213A00CB1

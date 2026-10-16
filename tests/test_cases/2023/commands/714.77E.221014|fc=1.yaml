@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_AAT: 21.5
   response: 77E046210148F
+- expected_values:
+    TROC_AAT: 23.5
+  response: '77E0462101493'

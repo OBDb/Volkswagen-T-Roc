@@ -4,5 +4,26 @@ test_cases:
     TROC_INT_MANIFOLD_P_CMD: 449.6875
   response: 7E8056211DD167C
 - expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 452.26562
+  response: 7E8056211DD169D
+- expected_values:
     TROC_INT_MANIFOLD_P_CMD: 461.64062
   response: 7E8056211DD1715
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 470.07812
+  response: 7E8056211DD1781
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 889.76562
+  response: 7E8056211DD2C7D
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 936.32812
+  response: 7E8056211DD2ED1
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 989.76562
+  response: 7E8056211DD317D
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 1346.40625
+  response: 7E8056211DD4352
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 1360.23438
+  response: 7E8056211DD4403

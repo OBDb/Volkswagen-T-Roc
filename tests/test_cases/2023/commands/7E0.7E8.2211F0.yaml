@@ -4,5 +4,23 @@ test_cases:
     TROC_BOOST_P_ACT: 1019.76562
   response: 7E8056211F032FD
 - expected_values:
+    TROC_BOOST_P_ACT: 1022.1875
+  response: 7E8056211F0331C
+- expected_values:
+    TROC_BOOST_P_ACT: 1022.42188
+  response: 7E8056211F0331F
+- expected_values:
+    TROC_BOOST_P_ACT: 1031.17188
+  response: 7E8056211F0338F
+- expected_values:
+    TROC_BOOST_P_ACT: 1032.26562
+  response: 7E8056211F0339D
+- expected_values:
+    TROC_BOOST_P_ACT: 1035
+  response: 7E8056211F033C0
+- expected_values:
     TROC_BOOST_P_ACT: 1059.6875
   response: 7E8056211F034FC
+- expected_values:
+    TROC_BOOST_P_ACT: 1088.67188
+  response: 7E8056211F0366F

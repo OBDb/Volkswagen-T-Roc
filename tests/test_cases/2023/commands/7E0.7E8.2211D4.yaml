@@ -4,8 +4,26 @@ test_cases:
     TROC_TURBOCHARGER_INLET_P: 278.75
   response: 7E8056211D40DF0
 - expected_values:
+    TROC_TURBOCHARGER_INLET_P: 281.64062
+  response: 7E8056211D40E15
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 310.85938
+  response: 7E8056211D40F8B
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 314.0625
+  response: 7E8056211D40FB4
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 319.92188
+  response: 7E8056211D40FFF
+- expected_values:
     TROC_TURBOCHARGER_INLET_P: 447.73438
   response: 7E8056211D41663
 - expected_values:
     TROC_TURBOCHARGER_INLET_P: 455.15625
   response: 7E8056211D416C2
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 956.79688
+  response: 7E8056211D42FD7
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 1020.78125
+  response: 7E8056211D4330A

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_ATF_T: 54
   response: '7E9056221043600'
+- expected_values:
+    TROC_ATF_T: 56
+  response: '7E9056221043800'
+- expected_values:
+    TROC_ATF_T: 65
+  response: '7E9056221044100'

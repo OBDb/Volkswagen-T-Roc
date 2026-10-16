@@ -1,5 +1,26 @@
 command_id: 7E0.7E8.221490
 test_cases:
 - expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 852.3156
+  response: 7E805621490553B
+- expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 932.2385
+  response: 7E8056214905D39
+- expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 940.63704
+  response: 7E8056214905E10
+- expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 960.05135
+  response: '7E8056214906001'
+- expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 960.09041
+  response: '7E8056214906002'
+- expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 964.30922
+  response: 7E805621490606E
+- expected_values:
     TROC_BRAKE_BOOSTER_LOW_P_ACT: 984.81729
   response: 7E805621490627B
+- expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 984.93448
+  response: 7E805621490627E

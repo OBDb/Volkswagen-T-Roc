@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_MANUAL_ENG_STARTS: 4157
   response: 7E805622998103D
+- expected_values:
+    TROC_MANUAL_ENG_STARTS: 4158
+  response: 7E805622998103E

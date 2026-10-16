@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 204.7
   response: 7E80562127212AA
+- expected_values:
+    TROC_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 425.4
+  response: 7E8056212721B49
+- expected_values:
+    TROC_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 460
+  response: 7E8056212721CA3

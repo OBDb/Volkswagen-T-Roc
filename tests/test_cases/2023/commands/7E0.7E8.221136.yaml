@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.221136
 test_cases:
 - expected_values:
+    TROC_HEIGHT_CORR: 1.0061
+  response: '7E8056211364064'
+- expected_values:
+    TROC_HEIGHT_CORR: 1.00646
+  response: 7E805621136406A
+- expected_values:
     TROC_HEIGHT_CORR: 1.00659
   response: 7E805621136406C
 - expected_values:
@@ -9,3 +15,12 @@ test_cases:
 - expected_values:
     TROC_HEIGHT_CORR: 1.00671
   response: 7E805621136406E
+- expected_values:
+    TROC_HEIGHT_CORR: 1.00701
+  response: '7E8056211364073'
+- expected_values:
+    TROC_HEIGHT_CORR: 1.00787
+  response: '7E8056211364081'
+- expected_values:
+    TROC_HEIGHT_CORR: 1.00817
+  response: '7E8056211364086'

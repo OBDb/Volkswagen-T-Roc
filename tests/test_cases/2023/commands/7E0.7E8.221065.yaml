@@ -4,5 +4,26 @@ test_cases:
     TROC_CYL_HEAD_T: 182.06
   response: 7E8056210650DEF
 - expected_values:
+    TROC_CYL_HEAD_T: 184.94
+  response: 7E8056210650DFF
+- expected_values:
+    TROC_CYL_HEAD_T: 195.38
+  response: 7E8056210650E39
+- expected_values:
     TROC_CYL_HEAD_T: 200.24
   response: 7E8056210650E54
+- expected_values:
+    TROC_CYL_HEAD_T: 200.78
+  response: 7E8056210650E57
+- expected_values:
+    TROC_CYL_HEAD_T: 206.9
+  response: 7E8056210650E79
+- expected_values:
+    TROC_CYL_HEAD_T: 211.22
+  response: 7E8056210650E91
+- expected_values:
+    TROC_CYL_HEAD_T: 213.02
+  response: 7E8056210650E9B
+- expected_values:
+    TROC_CYL_HEAD_T: 215.36
+  response: 7E8056210650EA8

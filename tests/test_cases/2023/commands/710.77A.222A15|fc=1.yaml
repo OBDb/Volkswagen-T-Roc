@@ -1,6 +1,12 @@
 command_id: 710.77A.222A15|fc=1
 test_cases:
 - expected_values:
+    TROC_ENERGY_BALANCE_LAST: 12.02
+  response: 77A05622A1504B2
+- expected_values:
+    TROC_ENERGY_BALANCE_LAST: 12.06
+  response: 77A05622A1504B6
+- expected_values:
     TROC_ENERGY_BALANCE_LAST: 12.21
   response: 77A05622A1504C5
 - expected_values:

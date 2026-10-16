@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_POST_INJ_2_7E0: 1.7068
   response: 7E80562121B10AB
+- expected_values:
+    TROC_POST_INJ_2_7E0: 2.032
+  response: 7E80562121B13D8
+- expected_values:
+    TROC_POST_INJ_2_7E0: 2.2016
+  response: 7E80562121B1580

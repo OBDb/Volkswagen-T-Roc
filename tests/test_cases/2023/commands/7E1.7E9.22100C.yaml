@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_MQB_TCM_ENGINE_TORQUE: 156
   response: 7E90562100C300C
+- expected_values:
+    TROC_MQB_TCM_ENGINE_TORQUE: 43
+  response: 7E90562100C5C03
+- expected_values:
+    TROC_MQB_TCM_ENGINE_TORQUE: 101
+  response: 7E90562100CE407

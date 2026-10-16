@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.2215E7
 test_cases:
 - expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 0
+  response: 7E8076215E700000000
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 2.431
+  response: 7E8076215E70000097F
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 3.066
+  response: 7E8076215E700000BFA
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 3.931
+  response: 7E8076215E700000F5B
+- expected_values:
     TROC_EFFECTIVE_INJ_DUR: 4.774
   response: 7E8076215E7000012A6
 - expected_values:
     TROC_EFFECTIVE_INJ_DUR: 5.068
   response: 7E8076215E7000013CC
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 5.758
+  response: 7E8076215E70000167E
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 9.566
+  response: 7E8076215E70000255E
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 18.591
+  response: 7E8076215E70000489F

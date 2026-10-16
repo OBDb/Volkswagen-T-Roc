@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TROC_AIR_POLUTION: 0.4
   response: 7B0046226ED04
+- expected_values:
+    TROC_AIR_POLUTION: 1.4
+  response: 7B0046226ED0E

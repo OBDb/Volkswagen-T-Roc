@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.22128A
 test_cases:
 - expected_values:
+    TROC_FUEL_T: 54
+  response: 7E80462128A88
+- expected_values:
+    TROC_FUEL_T: 60
+  response: 7E80462128A90
+- expected_values:
     TROC_FUEL_T: 62.25
   response: 7E80462128A93
 - expected_values:
+    TROC_FUEL_T: 63.75
+  response: 7E80462128A95
+- expected_values:
+    TROC_FUEL_T: 66
+  response: 7E80462128A98
+- expected_values:
     TROC_FUEL_T: 67.5
   response: 7E80462128A9A
+- expected_values:
+    TROC_FUEL_T: 69
+  response: 7E80462128A9C
+- expected_values:
+    TROC_FUEL_T: 69.75
+  response: 7E80462128A9D
+- expected_values:
+    TROC_FUEL_T: 71.25
+  response: 7E80462128A9F

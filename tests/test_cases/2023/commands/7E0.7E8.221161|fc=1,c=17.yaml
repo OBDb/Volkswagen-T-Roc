@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_ENGINE_RPM_AT_IDLE_REQUIRED: 800
   response: '7E8056211610640'
+- expected_values:
+    TROC_ENGINE_RPM_AT_IDLE_REQUIRED: 950
+  response: 7E805621161076C

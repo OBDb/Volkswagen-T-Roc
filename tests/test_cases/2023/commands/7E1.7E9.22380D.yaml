@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_MQB_INPUT_SHAFT_2: 535
   response: 7E90562380D1702
+- expected_values:
+    TROC_MQB_INPUT_SHAFT_2: 1144
+  response: 7E90562380D7804
+- expected_values:
+    TROC_MQB_INPUT_SHAFT_2: 1476
+  response: 7E90562380DC405

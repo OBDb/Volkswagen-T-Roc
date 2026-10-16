@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.224419
 test_cases:
 - expected_values:
+    TROC_ENG_T_MANAGEMENT: 6959
+  response: 7E8056244191B2F
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 6960
+  response: 7E8056244191B30
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 6963
+  response: 7E8056244191B33
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 7124
+  response: 7E8056244191BD4
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 9429
+  response: 7E80562441924D5
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 9543
+  response: '7E8056244192547'
+- expected_values:
     TROC_ENG_T_MANAGEMENT: 10191
   response: 7E80562441927CF
 - expected_values:
     TROC_ENG_T_MANAGEMENT: 10278
   response: '7E8056244192826'
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 10421
+  response: 7E80562441928B5

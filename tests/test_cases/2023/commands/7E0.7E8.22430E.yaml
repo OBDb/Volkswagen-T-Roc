@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.22430E
 test_cases:
 - expected_values:
+    TROC_NUM_INJECTIONS: 0
+  response: 7E80562430E0000
+- expected_values:
+    TROC_NUM_INJECTIONS: 2128
+  response: 7E80562430E0850
+- expected_values:
     TROC_NUM_INJECTIONS: 4266
   response: 7E80562430E10AA
 - expected_values:
+    TROC_NUM_INJECTIONS: 7690
+  response: 7E80562430E1E0A
+- expected_values:
     TROC_NUM_INJECTIONS: 8623
   response: 7E80562430E21AF
+- expected_values:
+    TROC_NUM_INJECTIONS: 10125
+  response: 7E80562430E278D
+- expected_values:
+    TROC_NUM_INJECTIONS: 13113
+  response: 7E80562430E3339
+- expected_values:
+    TROC_NUM_INJECTIONS: 13447
+  response: 7E80562430E3487
+- expected_values:
+    TROC_NUM_INJECTIONS: 20374
+  response: 7E80562430E4F96

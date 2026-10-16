@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.221130|fc=1,c=17
 test_cases:
 - expected_values:
+    TROC_COOLANT_FAN_1_ACTIVATION: 10.15
+  response: 7E80562113003F7
+- expected_values:
     TROC_COOLANT_FAN_1_ACTIVATION: 33.98
   response: 7E8056211300D46
+- expected_values:
+    TROC_COOLANT_FAN_1_ACTIVATION: 44.53
+  response: '7E8056211301165'

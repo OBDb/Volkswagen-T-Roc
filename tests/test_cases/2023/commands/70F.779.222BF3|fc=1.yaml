@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TROC_PQ35_HAL_DUTY: 6.69267
   response: 77904622BF311
+- expected_values:
+    TROC_PQ35_HAL_DUTY: 20.86537
+  response: 77904622BF335

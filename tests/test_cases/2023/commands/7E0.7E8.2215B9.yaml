@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.2215B9
 test_cases:
 - expected_values:
+    TROC_OIL_LEVEL_AVG: 17.736
+  response: 7E8056215B91152
+- expected_values:
+    TROC_OIL_LEVEL_AVG: 17.74
+  response: 7E8056215B91153
+- expected_values:
+    TROC_OIL_LEVEL_AVG: 17.784
+  response: 7E8056215B9115E
+- expected_values:
+    TROC_OIL_LEVEL_AVG: 17.796
+  response: 7E8056215B91161
+- expected_values:
     TROC_OIL_LEVEL_AVG: 17.888
   response: 7E8056215B91178

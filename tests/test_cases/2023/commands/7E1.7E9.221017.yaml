@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_PQ35_ROAD_RESISTANCE: 0.77
   response: '7E90462101782'
+- expected_values:
+    TROC_PQ35_ROAD_RESISTANCE: 1.019
+  response: '7E90462101783'
+- expected_values:
+    TROC_PQ35_ROAD_RESISTANCE: 2.513
+  response: '7E90462101789'

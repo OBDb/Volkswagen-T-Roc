@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     TROC_ECT_RADIATOR_OUTLET_V_1: 31.1
   response: 7E8056215CD0BE2
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 33.5
+  response: 7E8056215CD0BFA
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 34.4
+  response: 7E8056215CD0C03
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 34.8
+  response: 7E8056215CD0C07
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 35
+  response: 7E8056215CD0C09
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 35.3
+  response: 7E8056215CD0C0C
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 36.4
+  response: 7E8056215CD0C17
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 37.7
+  response: 7E8056215CD0C24

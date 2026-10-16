@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     TROC_FRONT_RIGHT_DEFLECTOR_T: 35.33333
   response: 7B00462260D6A
+- expected_values:
+    TROC_FRONT_RIGHT_DEFLECTOR_T: 39.33333
+  response: 7B00462260D76
+- expected_values:
+    TROC_FRONT_RIGHT_DEFLECTOR_T: 46
+  response: 7B00462260D8A

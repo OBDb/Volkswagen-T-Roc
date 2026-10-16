@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.221222
 test_cases:
 - expected_values:
+    TROC_TQ_LOSS_ADPT_AC_COMP: -17.7
+  response: 7E805621222FF4F
+- expected_values:
+    TROC_TQ_LOSS_ADPT_AC_COMP: -16.3
+  response: 7E805621222FF5D
+- expected_values:
+    TROC_TQ_LOSS_ADPT_AC_COMP: -15.5
+  response: 7E805621222FF65
+- expected_values:
     TROC_TQ_LOSS_ADPT_AC_COMP: -15.2
   response: 7E805621222FF68

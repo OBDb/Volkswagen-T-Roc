@@ -1,11 +1,29 @@
 command_id: 7E0.7E8.221633
 test_cases:
 - expected_values:
+    TROC_LONGITUDINAL_ACCEL: 0.066
+  response: '7E8056216330042'
+- expected_values:
     TROC_LONGITUDINAL_ACCEL: 0.165
   response: 7E80562163300A5
 - expected_values:
     TROC_LONGITUDINAL_ACCEL: 0.181
   response: 7E80562163300B5
 - expected_values:
+    TROC_LONGITUDINAL_ACCEL: 0.206
+  response: 7E80562163300CE
+- expected_values:
     TROC_LONGITUDINAL_ACCEL: 0.592
   response: '7E8056216330250'
+- expected_values:
+    TROC_LONGITUDINAL_ACCEL: 1.108
+  response: '7E8056216330454'
+- expected_values:
+    TROC_LONGITUDINAL_ACCEL: -0.564
+  response: 7E805621633FDCC
+- expected_values:
+    TROC_LONGITUDINAL_ACCEL: -0.403
+  response: 7E805621633FE6D
+- expected_values:
+    TROC_LONGITUDINAL_ACCEL: -0.12
+  response: 7E805621633FF88

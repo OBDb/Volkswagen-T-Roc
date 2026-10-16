@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     TROC_ACCEL_PEDAL_TQ_LIM: 0
   response: '7E8056210590000'
+- expected_values:
+    TROC_ACCEL_PEDAL_TQ_LIM: 13.6
+  response: '7E8056210590088'
+- expected_values:
+    TROC_ACCEL_PEDAL_TQ_LIM: 25.9
+  response: '7E8056210590103'
+- expected_values:
+    TROC_ACCEL_PEDAL_TQ_LIM: 36.8
+  response: '7E8056210590170'
+- expected_values:
+    TROC_ACCEL_PEDAL_TQ_LIM: 65.6
+  response: '7E8056210590290'
+- expected_values:
+    TROC_ACCEL_PEDAL_TQ_LIM: 90.4
+  response: '7E8056210590388'

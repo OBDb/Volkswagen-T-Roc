@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_COOLANT_T_AT_ENGINE_START: 53.6
   response: 7E8056212910CC3
+- expected_values:
+    TROC_COOLANT_T_AT_ENGINE_START: 55
+  response: 7E8056212910CD1

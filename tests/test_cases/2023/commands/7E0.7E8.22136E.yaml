@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     TROC_CAM_ADJ_INT_BANK_1_ACT: 1.192
   response: 7E80562136E0095
+- expected_values:
+    TROC_CAM_ADJ_INT_BANK_1_ACT: 1.2
+  response: 7E80562136E0096
+- expected_values:
+    TROC_CAM_ADJ_INT_BANK_1_ACT: 14.336
+  response: 7E80562136E0700
+- expected_values:
+    TROC_CAM_ADJ_INT_BANK_1_ACT: -15.592
+  response: 7E80562136EF863
+- expected_values:
+    TROC_CAM_ADJ_INT_BANK_1_ACT: -14.872
+  response: 7E80562136EF8BD
+- expected_values:
+    TROC_CAM_ADJ_INT_BANK_1_ACT: -13.32
+  response: 7E80562136EF97F
+- expected_values:
+    TROC_CAM_ADJ_INT_BANK_1_ACT: -13.24
+  response: 7E80562136EF989

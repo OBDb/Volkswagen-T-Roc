@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.221371
 test_cases:
 - expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_SPEC: -13.552
+  response: 7E805621371F962
+- expected_values:
     TROC_CAM_ADJ_EXH_BANK_1_SPEC: -12.456
   response: 7E805621371F9EB
 - expected_values:
     TROC_CAM_ADJ_EXH_BANK_1_SPEC: -12.248
   response: 7E805621371FA05
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_SPEC: -12.072
+  response: 7E805621371FA1B
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_SPEC: -11.696
+  response: 7E805621371FA4A
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_SPEC: -11.544
+  response: 7E805621371FA5D
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_SPEC: -8.912
+  response: 7E805621371FBA6
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_SPEC: -7.952
+  response: 7E805621371FC1E
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_SPEC: -7.936
+  response: 7E805621371FC20

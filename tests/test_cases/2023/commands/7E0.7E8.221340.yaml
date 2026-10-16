@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.221340
 test_cases:
 - expected_values:
+    TROC_TQ_INCREASE_REQ_ESP: -49807.3
+  response: 7E807621340FFF86667
+- expected_values:
+    TROC_TQ_INCREASE_REQ_ESP: -29818.8
+  response: 7E807621340FFFB7334
+- expected_values:
+    TROC_TQ_INCREASE_REQ_ESP: -19005.4
+  response: 7E807621340FFFD199A
+- expected_values:
+    TROC_TQ_INCREASE_REQ_ESP: -10485.7
+  response: 7E807621340FFFE6667
+- expected_values:
     TROC_TQ_INCREASE_REQ_ESP: -3276.8
   response: 7E807621340FFFF8000

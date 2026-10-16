@@ -4,8 +4,14 @@ test_cases:
     TROC_RADIATOR_FAN_COMMANDED_DUTY: 0
   response: 7B00462260700
 - expected_values:
+    TROC_RADIATOR_FAN_COMMANDED_DUTY: 26
+  response: 7B00462260741
+- expected_values:
     TROC_RADIATOR_FAN_COMMANDED_DUTY: 31.6
   response: 7B0046226074F
 - expected_values:
     TROC_RADIATOR_FAN_COMMANDED_DUTY: 34.4
   response: 7B00462260756
+- expected_values:
+    TROC_RADIATOR_FAN_COMMANDED_DUTY: 42.8
+  response: 7B0046226076B

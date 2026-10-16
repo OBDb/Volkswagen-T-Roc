@@ -1,5 +1,11 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
+    TROC_AAT_FROMCABIN: -58
+  response: 7B0046226098C
+- expected_values:
     TROC_AAT_FROMCABIN: -55
   response: 7B00462260992
+- expected_values:
+    TROC_AAT_FROMCABIN: -53
+  response: 7B00462260996

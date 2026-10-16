@@ -1,5 +1,26 @@
 command_id: 7E0.7E8.2211DC
 test_cases:
 - expected_values:
+    TROC_MAP_RAW: 263.04688
+  response: 7E8056211DC0D27
+- expected_values:
     TROC_MAP_RAW: 453.35938
   response: 7E8056211DC16AB
+- expected_values:
+    TROC_MAP_RAW: 881.48438
+  response: 7E8056211DC2C13
+- expected_values:
+    TROC_MAP_RAW: 888.59375
+  response: 7E8056211DC2C6E
+- expected_values:
+    TROC_MAP_RAW: 921.32812
+  response: 7E8056211DC2E11
+- expected_values:
+    TROC_MAP_RAW: 1019.6875
+  response: 7E8056211DC32FC
+- expected_values:
+    TROC_MAP_RAW: 1021.25
+  response: 7E8056211DC3310
+- expected_values:
+    TROC_MAP_RAW: 1088.51562
+  response: 7E8056211DC366D

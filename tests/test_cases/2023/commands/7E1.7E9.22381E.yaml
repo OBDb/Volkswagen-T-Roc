@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.22381E
 test_cases:
 - expected_values:
+    TROC_MQB_TCM_EOP_ACTUAL_I: 922
+  response: 7E90562381E0424
+- expected_values:
     TROC_MQB_TCM_EOP_ACTUAL_I: 900
   response: 7E90562381E2823
+- expected_values:
+    TROC_MQB_TCM_EOP_ACTUAL_I: 937
+  response: 7E90562381E9A24

@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.22380C
 test_cases:
 - expected_values:
+    TROC_MQB_INPUT_SHAFT_1: 1346
+  response: 7E90562380C4205
+- expected_values:
+    TROC_MQB_INPUT_SHAFT_1: 1628
+  response: 7E90562380C5C06
+- expected_values:
     TROC_MQB_INPUT_SHAFT_1: 1192
   response: 7E90562380CA804

@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.2210AE
 test_cases:
 - expected_values:
+    TROC_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 0.11
+  response: 7E9056210AE0B00
+- expected_values:
+    TROC_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 0.13
+  response: 7E9056210AE0D00
+- expected_values:
     TROC_PQ35_GANGSTELLER_D_ADAPT_NEUTRALPOS: 0.17
   response: 7E9056210AE1100

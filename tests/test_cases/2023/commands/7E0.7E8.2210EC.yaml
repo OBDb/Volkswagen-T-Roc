@@ -1,11 +1,32 @@
 command_id: 7E0.7E8.2210EC
 test_cases:
 - expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: 0.07812
+  response: 7E8056210EC0005
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: 0.09375
+  response: 7E8056210EC0006
+- expected_values:
     TROC_VLV_TIM_DIFF_ACT_SET: 0.14062
   response: 7E8056210EC0009
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: 0.15625
+  response: 7E8056210EC000A
 - expected_values:
     TROC_VLV_TIM_DIFF_ACT_SET: 0.1875
   response: 7E8056210EC000C
 - expected_values:
     TROC_VLV_TIM_DIFF_ACT_SET: 0.25
   response: 7E8056210EC0010
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: 0.46875
+  response: 7E8056210EC001E
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: -2.17188
+  response: 7E8056210ECFF75
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: -0.42188
+  response: 7E8056210ECFFE5
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: -0.3125
+  response: 7E8056210ECFFEC

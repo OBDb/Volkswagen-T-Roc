@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_LOW_FUEL_P_CMD: 500
   response: 7E8056211CE1388
+- expected_values:
+    TROC_LOW_FUEL_P_CMD: 507.1
+  response: 7E8056211CE13CF

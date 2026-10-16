@@ -4,8 +4,29 @@ test_cases:
     TROC_FUEL_CONS: 1.12
   response: 7E80562113F0070
 - expected_values:
+    TROC_FUEL_CONS: 1.3
+  response: 7E80562113F0082
+- expected_values:
+    TROC_FUEL_CONS: 1.39
+  response: 7E80562113F008B
+- expected_values:
     TROC_FUEL_CONS: 1.41
   response: 7E80562113F008D
 - expected_values:
     TROC_FUEL_CONS: 1.46
   response: 7E80562113F0092
+- expected_values:
+    TROC_FUEL_CONS: 1.69
+  response: 7E80562113F00A9
+- expected_values:
+    TROC_FUEL_CONS: 2.93
+  response: 7E80562113F0125
+- expected_values:
+    TROC_FUEL_CONS: 6.89
+  response: 7E80562113F02B1
+- expected_values:
+    TROC_FUEL_CONS: 7.36
+  response: 7E80562113F02E0
+- expected_values:
+    TROC_FUEL_CONS: 8.66
+  response: 7E80562113F0362

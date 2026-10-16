@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_MISFIRES_1000REV_C3: 0
   response: '7E8056211480000'
+- expected_values:
+    TROC_MISFIRES_1000REV_C3: 1
+  response: '7E8056211480001'

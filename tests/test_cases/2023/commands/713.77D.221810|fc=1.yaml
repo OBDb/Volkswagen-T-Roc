@@ -4,7 +4,17 @@ test_cases:
     TROC_HYDR_BRAKEBOOST: 0
   response: |-
     77D100C621810010014
+    77D21FC2D0000020AAA
+- expected_values:
+    TROC_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810010014
     77D21FC2E00000036AA
+- expected_values:
+    TROC_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810010014
+    77D21FC36000002BEAA
 - expected_values:
     TROC_HYDR_BRAKEBOOST: 0
   response: |-

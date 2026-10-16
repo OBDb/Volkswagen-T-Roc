@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     TROC_COOLANT_T: 99
   response: 7E8056211350E89
+- expected_values:
+    TROC_COOLANT_T: 100.7
+  response: 7E8056211350E9A
+- expected_values:
+    TROC_COOLANT_T: 100.8
+  response: 7E8056211350E9B
+- expected_values:
+    TROC_COOLANT_T: 101.2
+  response: 7E8056211350E9F
+- expected_values:
+    TROC_COOLANT_T: 102.5
+  response: 7E8056211350EAC
+- expected_values:
+    TROC_COOLANT_T: 103
+  response: 7E8056211350EB1
+- expected_values:
+    TROC_COOLANT_T: 103.8
+  response: 7E8056211350EB9

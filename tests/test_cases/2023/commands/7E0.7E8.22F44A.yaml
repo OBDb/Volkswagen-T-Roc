@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TROC_ACCEL_PEDAL_POS_2: 26.27451
   response: 7E80462F44A43
+- expected_values:
+    TROC_ACCEL_PEDAL_POS_2: 30.58824
+  response: 7E80462F44A4E

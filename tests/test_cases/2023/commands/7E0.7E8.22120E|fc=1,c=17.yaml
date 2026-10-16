@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_KNOCK_SNS_C1_V_MS: 0.00449
   response: 7E80762120E000016FF
+- expected_values:
+    TROC_KNOCK_SNS_C1_V_MS: 0.0054
+  response: 7E80762120E00001BA7
+- expected_values:
+    TROC_KNOCK_SNS_C1_V_MS: 0.00714
+  response: 7E80762120E00002495

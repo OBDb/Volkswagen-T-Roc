@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TROC_RADIATOR_FAN_ACTUAL_DUTY: 36
   response: 7B0046226065A
+- expected_values:
+    TROC_RADIATOR_FAN_ACTUAL_DUTY: 44.8
+  response: 7B00462260670

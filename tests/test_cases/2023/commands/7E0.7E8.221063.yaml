@@ -1,5 +1,26 @@
 command_id: 7E0.7E8.221063
 test_cases:
 - expected_values:
+    TROC_ENG_OUTLET_ECT_CALC: 74.8
+  response: 7E8056210630D97
+- expected_values:
+    TROC_ENG_OUTLET_ECT_CALC: 91.3
+  response: 7E8056210630E3C
+- expected_values:
     TROC_ENG_OUTLET_ECT_CALC: 92.9
   response: 7E8056210630E4C
+- expected_values:
+    TROC_ENG_OUTLET_ECT_CALC: 94.1
+  response: 7E8056210630E58
+- expected_values:
+    TROC_ENG_OUTLET_ECT_CALC: 98
+  response: 7E8056210630E7F
+- expected_values:
+    TROC_ENG_OUTLET_ECT_CALC: 100.3
+  response: 7E8056210630E96
+- expected_values:
+    TROC_ENG_OUTLET_ECT_CALC: 100.4
+  response: 7E8056210630E97
+- expected_values:
+    TROC_ENG_OUTLET_ECT_CALC: 101.7
+  response: 7E8056210630EA4

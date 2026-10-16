@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_ADPT_THROTTLE_VLV: 0
   response: 7E80462292B00
+- expected_values:
+    TROC_ADPT_THROTTLE_VLV: 4
+  response: 7E80462292B04

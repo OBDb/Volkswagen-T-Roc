@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     TROC_BYPASS_VLV_HIGH_P_TURBINE: 2.38037
   response: 7E8056239FE00C3
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE: 2.53906
+  response: 7E8056239FE00D0
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE: 2.95409
+  response: 7E8056239FE00F2
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE: 3.14941
+  response: 7E8056239FE0102
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE: 3.3203
+  response: 7E8056239FE0110
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE: 3.33251
+  response: 7E8056239FE0111
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE: 3.6621
+  response: 7E8056239FE012C

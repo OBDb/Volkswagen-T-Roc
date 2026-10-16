@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_PRE_INJ_3_ACTIVATION: 0.4172
   response: 7E80562121A0413
+- expected_values:
+    TROC_PRE_INJ_3_ACTIVATION: 0.5048
+  response: 7E80562121A04EE
+- expected_values:
+    TROC_PRE_INJ_3_ACTIVATION: 1.5336
+  response: 7E80562121A0EFA

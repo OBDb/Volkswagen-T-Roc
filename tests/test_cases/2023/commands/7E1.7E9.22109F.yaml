@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.22109F
 test_cases:
 - expected_values:
+    TROC_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: 1.33
+  response: 7E90562109F8500
+- expected_values:
+    TROC_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: 1.38
+  response: 7E90562109F8A00
+- expected_values:
     TROC_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: 1.41
   response: 7E90562109F8D00
