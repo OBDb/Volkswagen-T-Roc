@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2238EA
+test_cases:
+- expected_values:
+    TROC_PQ35_CLUTCH_2_ACTUAL_P: 3.57
+  response: 7E9056238EA6501

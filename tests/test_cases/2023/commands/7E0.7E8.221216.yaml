@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221216
+test_cases:
+- expected_values:
+    TROC_REL_LOAD: 24.58888
+  response: '7E8056212160419'
+- expected_values:
+    TROC_REL_LOAD: 26.08906
+  response: '7E8056212160459'

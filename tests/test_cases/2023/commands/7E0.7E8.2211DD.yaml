@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211DD
+test_cases:
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 449.6875
+  response: 7E8056211DD167C
+- expected_values:
+    TROC_INT_MANIFOLD_P_CMD: 461.64062
+  response: 7E8056211DD1715

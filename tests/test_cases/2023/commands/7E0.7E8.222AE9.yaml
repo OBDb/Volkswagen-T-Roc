@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222AE9
+test_cases:
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 161.99016
+  response: 7E805622AE94884
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 199.18944
+  response: 7E805622AE94EB7

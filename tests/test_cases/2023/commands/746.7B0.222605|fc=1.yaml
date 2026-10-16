@@ -1,0 +1,11 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    TROC_REFRIGERANT_PRESSURE: 9
+  response: 7B0046226052D
+- expected_values:
+    TROC_REFRIGERANT_PRESSURE: 10.8
+  response: 7B00462260536
+- expected_values:
+    TROC_REFRIGERANT_PRESSURE: 11
+  response: 7B00462260537

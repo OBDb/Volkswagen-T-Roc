@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211D4
+test_cases:
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 278.75
+  response: 7E8056211D40DF0
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 447.73438
+  response: 7E8056211D41663
+- expected_values:
+    TROC_TURBOCHARGER_INLET_P: 455.15625
+  response: 7E8056211D416C2

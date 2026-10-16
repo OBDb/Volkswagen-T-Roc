@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211DC
+test_cases:
+- expected_values:
+    TROC_MAP_RAW: 453.35938
+  response: 7E8056211DC16AB

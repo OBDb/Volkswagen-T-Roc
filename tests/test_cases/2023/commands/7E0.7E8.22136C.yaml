@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22136C
+test_cases:
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_ACT: -13.328
+  response: 7E80562136CF97E
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_ACT: -12.424
+  response: 7E80562136CF9EF
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_ACT: -12.232
+  response: 7E80562136CFA07
+- expected_values:
+    TROC_CAM_ADJ_EXH_BANK_1_ACT: -8.464
+  response: 7E80562136CFBDE

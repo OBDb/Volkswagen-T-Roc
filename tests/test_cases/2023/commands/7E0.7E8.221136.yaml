@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221136
+test_cases:
+- expected_values:
+    TROC_HEIGHT_CORR: 1.00659
+  response: 7E805621136406C
+- expected_values:
+    TROC_HEIGHT_CORR: 1.00665
+  response: 7E805621136406D
+- expected_values:
+    TROC_HEIGHT_CORR: 1.00671
+  response: 7E805621136406E

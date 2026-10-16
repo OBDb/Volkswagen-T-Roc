@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.222104
+test_cases:
+- expected_values:
+    TROC_ATF_T: 54
+  response: '7E9056221043600'

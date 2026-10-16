@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211CF
+test_cases:
+- expected_values:
+    TROC_BRAKE_BOOSTER_P: 34.99955
+  response: 7E8056211CF0380

@@ -1,0 +1,17 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    TROC_IAT_CABIN: 31.7
+  response: 7B005622613013D
+- expected_values:
+    TROC_IAT_CABIN: 32.4
+  response: 7B0056226130144
+- expected_values:
+    TROC_IAT_CABIN: 32.7
+  response: 7B0056226130147
+- expected_values:
+    TROC_IAT_CABIN: 32.9
+  response: 7B0056226130149
+- expected_values:
+    TROC_IAT_CABIN: 33.6
+  response: 7B0056226130150

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221097|fc=1,c=17
+test_cases:
+- expected_values:
+    TROC_GENERATOR_PERFORMANCE: 2497.572
+  response: '7E8056210970109'

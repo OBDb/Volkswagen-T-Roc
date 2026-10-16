@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221137
+test_cases:
+- expected_values:
+    TROC_FUEL_PART_EVAP: 0.00781
+  response: '7E80462113701'

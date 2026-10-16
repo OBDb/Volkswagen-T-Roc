@@ -1,0 +1,11 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    TROC_RADIATOR_FAN_COMMANDED_DUTY: 0
+  response: 7B00462260700
+- expected_values:
+    TROC_RADIATOR_FAN_COMMANDED_DUTY: 31.6
+  response: 7B0046226074F
+- expected_values:
+    TROC_RADIATOR_FAN_COMMANDED_DUTY: 34.4
+  response: 7B00462260756

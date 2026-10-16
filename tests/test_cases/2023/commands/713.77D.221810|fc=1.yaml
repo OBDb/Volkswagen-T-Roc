@@ -1,0 +1,27 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    TROC_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810010014
+    77D21FC2E00000036AA
+- expected_values:
+    TROC_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C621810011072
+    77D21FC3700000240AA
+- expected_values:
+    TROC_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C6218100110B8
+    77D21FC2500000240AA
+- expected_values:
+    TROC_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C6218100110C2
+    77D21FC2500000240AA
+- expected_values:
+    TROC_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C6218100110E0
+    77D21FC2600000240AA

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22121C
+test_cases:
+- expected_values:
+    TROC_AIR_FILLING: 24.58646
+  response: 7E80562121C0419
+- expected_values:
+    TROC_AIR_FILLING: 26.64901
+  response: 7E80562121C0471

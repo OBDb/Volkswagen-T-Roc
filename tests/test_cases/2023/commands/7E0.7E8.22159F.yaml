@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22159F
+test_cases:
+- expected_values:
+    TROC_HIGH_FUEL_P_ACT: 7.928
+  response: 7E80562159F3DF0
+- expected_values:
+    TROC_HIGH_FUEL_P_ACT: 11.444
+  response: 7E80562159F5968
+- expected_values:
+    TROC_HIGH_FUEL_P_ACT: 11.634
+  response: 7E80562159F5AE4
+- expected_values:
+    TROC_HIGH_FUEL_P_ACT: 21.652
+  response: 7E80562159FA928

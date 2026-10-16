@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221224
+test_cases:
+- expected_values:
+    TROC_TQ_LOSS_ADPT_GEAR: -14.3
+  response: 7E805621224FF71

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.225149
+test_cases:
+- expected_values:
+    TROC_CHAIN_ELONGATION: 78
+  response: 7E80762514900004EBA

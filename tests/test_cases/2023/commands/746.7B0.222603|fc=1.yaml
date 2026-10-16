@@ -1,0 +1,11 @@
+command_id: 746.7B0.222603|fc=1
+test_cases:
+- expected_values:
+    TROC_AC_COMPRESSOR_SPEED: 1600
+  response: 7B00462260310
+- expected_values:
+    TROC_AC_COMPRESSOR_SPEED: 1800
+  response: 7B00462260312
+- expected_values:
+    TROC_AC_COMPRESSOR_SPEED: 2800
+  response: 7B0046226031C

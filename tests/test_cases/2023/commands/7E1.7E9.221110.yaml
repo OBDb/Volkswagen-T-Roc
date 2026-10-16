@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221110
+test_cases:
+- expected_values:
+    TROC_PQ35_WORKING_HOURS: 761.56159
+  response: 7E907621110FFB02B08

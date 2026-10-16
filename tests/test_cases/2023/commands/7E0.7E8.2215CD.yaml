@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2215CD
+test_cases:
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 28.6
+  response: 7E8056215CD0BC9
+- expected_values:
+    TROC_ECT_RADIATOR_OUTLET_V_1: 31.1
+  response: 7E8056215CD0BE2

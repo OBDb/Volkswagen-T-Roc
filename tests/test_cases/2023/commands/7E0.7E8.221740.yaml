@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221740
+test_cases:
+- expected_values:
+    TROC_INT_CAM_ADPT_SENS: 0.70314
+  response: '7E8056217400020'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221272|fc=1,c=17
+test_cases:
+- expected_values:
+    TROC_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 204.7
+  response: 7E80562127212AA

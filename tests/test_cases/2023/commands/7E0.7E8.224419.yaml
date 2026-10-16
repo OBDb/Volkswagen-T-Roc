@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.224419
+test_cases:
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 10191
+  response: 7E80562441927CF
+- expected_values:
+    TROC_ENG_T_MANAGEMENT: 10278
+  response: '7E8056244192826'

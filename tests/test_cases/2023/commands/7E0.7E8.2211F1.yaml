@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211F1
+test_cases:
+- expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 3131.5
+  response: 7E8056211F11877
+- expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 3188.5
+  response: 7E8056211F118E9

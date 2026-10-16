@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221779
+test_cases:
+- expected_values:
+    TROC_LONG_TERM_FUEL_TRIM: 0.97974
+  response: 7E8056217797D68

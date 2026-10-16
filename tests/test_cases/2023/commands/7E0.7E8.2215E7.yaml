@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2215E7
+test_cases:
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 4.774
+  response: 7E8076215E7000012A6
+- expected_values:
+    TROC_EFFECTIVE_INJ_DUR: 5.068
+  response: 7E8076215E7000013CC
