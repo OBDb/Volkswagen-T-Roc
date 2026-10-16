@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TROC_T_AFTER_EVAPORATOR: 0.33333
   response: 7B00562261201AE
+- expected_values:
+    TROC_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B00562261201CC

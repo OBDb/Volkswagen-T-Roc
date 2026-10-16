@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_ACCELERATION_29BIT: 0
   response: 7E8056212B00000
+- expected_values:
+    TROC_ACCELERATION_29BIT: 0.541
+  response: 7E8056212B0021D
+- expected_values:
+    TROC_ACCELERATION_29BIT: -1.837
+  response: 7E8056212B0F8D3

@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.221137
 test_cases:
 - expected_values:
+    TROC_FUEL_PART_EVAP: 0
+  response: '7E80462113700'
+- expected_values:
     TROC_FUEL_PART_EVAP: 0.00781
   response: '7E80462113701'
+- expected_values:
+    TROC_FUEL_PART_EVAP: 0.03124
+  response: '7E80462113704'
+- expected_values:
+    TROC_FUEL_PART_EVAP: 0.04686
+  response: '7E80462113706'

@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     TROC_BRAKE_BOOSTER_RAW_P: 35
   response: 7E8056211D10023
+- expected_values:
+    TROC_BRAKE_BOOSTER_RAW_P: 39
+  response: 7E8056211D10027
+- expected_values:
+    TROC_BRAKE_BOOSTER_RAW_P: 47
+  response: 7E8056211D1002F
+- expected_values:
+    TROC_BRAKE_BOOSTER_RAW_P: 55
+  response: 7E8056211D10037
+- expected_values:
+    TROC_BRAKE_BOOSTER_RAW_P: 64
+  response: 7E8056211D10040
+- expected_values:
+    TROC_BRAKE_BOOSTER_RAW_P: 68
+  response: 7E8056211D10044
+- expected_values:
+    TROC_BRAKE_BOOSTER_RAW_P: 481
+  response: 7E8056211D101E1

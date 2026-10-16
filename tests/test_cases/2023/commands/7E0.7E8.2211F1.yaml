@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.2211F1
 test_cases:
 - expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 1742.5
+  response: 7E8056211F10D9D
+- expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 2940
+  response: 7E8056211F116F8
+- expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 3046.5
+  response: 7E8056211F117CD
+- expected_values:
     TROC_PQ35_TRANS_IN_SPD: 3131.5
   response: 7E8056211F11877
 - expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 3166.5
+  response: 7E8056211F118BD
+- expected_values:
     TROC_PQ35_TRANS_IN_SPD: 3188.5
   response: 7E8056211F118E9
+- expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 6658
+  response: 7E8056211F13404
+- expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 6758
+  response: 7E8056211F134CC
+- expected_values:
+    TROC_PQ35_TRANS_IN_SPD: 8759.5
+  response: 7E8056211F1446F

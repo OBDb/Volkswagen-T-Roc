@@ -1,8 +1,23 @@
 command_id: 7E0.7E8.221018
 test_cases:
 - expected_values:
+    TROC_CLT_FAN_REQ_AC: 0
+  response: '7E8056210180000'
+- expected_values:
     TROC_CLT_FAN_REQ_AC: 31.60392
   response: 7E8056210180A1D
 - expected_values:
     TROC_CLT_FAN_REQ_AC: 32.39738
   response: 7E8056210180A5E
+- expected_values:
+    TROC_CLT_FAN_REQ_AC: 37.59756
+  response: 7E8056210180C08
+- expected_values:
+    TROC_CLT_FAN_REQ_AC: 38.79385
+  response: 7E8056210180C6A
+- expected_values:
+    TROC_CLT_FAN_REQ_AC: 43.99403
+  response: 7E8056210180E14
+- expected_values:
+    TROC_CLT_FAN_REQ_AC: 48.80359
+  response: 7E8056210180F9E

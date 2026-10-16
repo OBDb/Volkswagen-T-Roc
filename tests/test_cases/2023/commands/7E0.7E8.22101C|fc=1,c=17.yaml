@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.22101C|fc=1,c=17
 test_cases:
 - expected_values:
+    TROC_GENERATOR_LOAD_SIG: 61.21
+  response: 7E80562101C17E9
+- expected_values:
+    TROC_GENERATOR_LOAD_SIG: 70.87
+  response: 7E80562101C1BAF
+- expected_values:
     TROC_GENERATOR_LOAD_SIG: 99.87
   response: 7E80562101C2703

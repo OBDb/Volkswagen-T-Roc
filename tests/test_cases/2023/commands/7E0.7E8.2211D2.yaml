@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     TROC_HIGH_P_CTRL_ADPT: -0.0365
   response: 7E8056211D2FFB7
+- expected_values:
+    TROC_HIGH_P_CTRL_ADPT: -0.0335
+  response: 7E8056211D2FFBD
+- expected_values:
+    TROC_HIGH_P_CTRL_ADPT: -0.032
+  response: 7E8056211D2FFC0
+- expected_values:
+    TROC_HIGH_P_CTRL_ADPT: -0.0315
+  response: 7E8056211D2FFC1
+- expected_values:
+    TROC_HIGH_P_CTRL_ADPT: -0.029
+  response: 7E8056211D2FFC6
+- expected_values:
+    TROC_HIGH_P_CTRL_ADPT: -0.027
+  response: 7E8056211D2FFCA
+- expected_values:
+    TROC_HIGH_P_CTRL_ADPT: -0.0255
+  response: 7E8056211D2FFCD
+- expected_values:
+    TROC_HIGH_P_CTRL_ADPT: -0.025
+  response: 7E8056211D2FFCE

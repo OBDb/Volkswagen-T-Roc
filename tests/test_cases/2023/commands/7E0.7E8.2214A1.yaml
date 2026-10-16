@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     TROC_RATED_DRIVE_TQ: 1
   response: 7E8076214A10000000A
+- expected_values:
+    TROC_RATED_DRIVE_TQ: 2
+  response: 7E8076214A100000014
+- expected_values:
+    TROC_RATED_DRIVE_TQ: 161
+  response: 7E8076214A10000064A
+- expected_values:
+    TROC_RATED_DRIVE_TQ: 223
+  response: 7E8076214A1000008B6
+- expected_values:
+    TROC_RATED_DRIVE_TQ: 416
+  response: 7E8076214A100001040
+- expected_values:
+    TROC_RATED_DRIVE_TQ: 448
+  response: 7E8076214A100001180
+- expected_values:
+    TROC_RATED_DRIVE_TQ: -151
+  response: 7E8076214A1FFFFFA1A

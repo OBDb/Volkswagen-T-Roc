@@ -4,5 +4,26 @@ test_cases:
     TROC_MAF_CMD: 11.1
   response: 7E8056211AD006F
 - expected_values:
+    TROC_MAF_CMD: 11.8
+  response: 7E8056211AD0076
+- expected_values:
+    TROC_MAF_CMD: 12.6
+  response: 7E8056211AD007E
+- expected_values:
+    TROC_MAF_CMD: 12.7
+  response: 7E8056211AD007F
+- expected_values:
+    TROC_MAF_CMD: 13.9
+  response: 7E8056211AD008B
+- expected_values:
     TROC_MAF_CMD: 14.2
   response: 7E8056211AD008E
+- expected_values:
+    TROC_MAF_CMD: 17
+  response: 7E8056211AD00AA
+- expected_values:
+    TROC_MAF_CMD: 18
+  response: 7E8056211AD00B4
+- expected_values:
+    TROC_MAF_CMD: 52.6
+  response: 7E8056211AD020E

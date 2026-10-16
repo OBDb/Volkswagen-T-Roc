@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_VSS_7E1: 16
   response: 7E90562F40D1004
+- expected_values:
+    TROC_VSS_7E1: 106
+  response: 7E90562F40D6A0E
+- expected_values:
+    TROC_VSS_7E1: 186
+  response: 7E90562F40DBA13

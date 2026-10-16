@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 0
   response: 7E90562385202FC
+- expected_values:
+    TROC_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 8.29
+  response: 7E9056238523D03
+- expected_values:
+    TROC_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 0
+  response: 7E905623852F7FF

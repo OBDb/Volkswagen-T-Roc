@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.221139
 test_cases:
 - expected_values:
+    TROC_MEAN_INJ_QUANTITY: 156.51
+  response: 7E8056211393D23
+- expected_values:
+    TROC_MEAN_INJ_QUANTITY: 161.75
+  response: 7E8056211393F2F
+- expected_values:
+    TROC_MEAN_INJ_QUANTITY: 162.75
+  response: 7E8056211393F93
+- expected_values:
+    TROC_MEAN_INJ_QUANTITY: 163.02
+  response: 7E8056211393FAE
+- expected_values:
     TROC_MEAN_INJ_QUANTITY: 163.17
   response: 7E8056211393FBD
 - expected_values:
+    TROC_MEAN_INJ_QUANTITY: 163.22
+  response: 7E8056211393FC2
+- expected_values:
     TROC_MEAN_INJ_QUANTITY: 163.33
   response: 7E8056211393FCD
+- expected_values:
+    TROC_MEAN_INJ_QUANTITY: 163.99
+  response: 7E805621139400F
+- expected_values:
+    TROC_MEAN_INJ_QUANTITY: 170.15
+  response: '7E8056211394277'

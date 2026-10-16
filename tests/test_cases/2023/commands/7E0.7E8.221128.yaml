@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TROC_CAM_ADPT_EXH_BANK_1: 0
   response: '7E8056211280000'
+- expected_values:
+    TROC_CAM_ADPT_EXH_BANK_1: -0.58
+  response: 7E805621128FFE3
+- expected_values:
+    TROC_CAM_ADPT_EXH_BANK_1: -0.56
+  response: 7E805621128FFE4
+- expected_values:
+    TROC_CAM_ADPT_EXH_BANK_1: -0.38
+  response: 7E805621128FFED

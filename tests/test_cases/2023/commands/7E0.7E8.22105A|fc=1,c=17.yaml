@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_BATTERY_V: 13620
   response: 7E80562105A02A9
+- expected_values:
+    TROC_BATTERY_V: 13880
+  response: 7E80562105A02B6
+- expected_values:
+    TROC_BATTERY_V: 13960
+  response: 7E80562105A02BA

@@ -4,5 +4,11 @@ test_cases:
     TROC_ACCEL_PEDAL_SENS_2_V: 363.6
   response: 7E80562102B071A
 - expected_values:
+    TROC_ACCEL_PEDAL_SENS_2_V: 650.6
+  response: 7E80562102B0CB5
+- expected_values:
     TROC_ACCEL_PEDAL_SENS_2_V: 899.8
   response: 7E80562102B1193
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_2_V: 912
+  response: 7E80562102B11D0

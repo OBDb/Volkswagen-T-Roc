@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.2216C5
 test_cases:
 - expected_values:
+    TROC_THROTTLE_REGULATOR: 0
+  response: 7E8056216C50000
+- expected_values:
     TROC_THROTTLE_REGULATOR: 3.03125
   response: 7E8056216C50184
 - expected_values:
     TROC_THROTTLE_REGULATOR: 3.32812
   response: 7E8056216C501AA
+- expected_values:
+    TROC_THROTTLE_REGULATOR: 6.88281
+  response: 7E8056216C50371
+- expected_values:
+    TROC_THROTTLE_REGULATOR: 7.29688
+  response: 7E8056216C503A6
+- expected_values:
+    TROC_THROTTLE_REGULATOR: 8.65625
+  response: 7E8056216C50454
+- expected_values:
+    TROC_THROTTLE_REGULATOR: 14.41406
+  response: 7E8056216C50735
+- expected_values:
+    TROC_THROTTLE_REGULATOR: 19.57031
+  response: 7E8056216C509C9
+- expected_values:
+    TROC_THROTTLE_REGULATOR: 20.28125
+  response: 7E8056216C50A24

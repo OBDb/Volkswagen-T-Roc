@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.221175
 test_cases:
 - expected_values:
+    TROC_INTEGRATED_MASS_AIR: 0
+  response: '7E8056211750000'
+- expected_values:
+    TROC_INTEGRATED_MASS_AIR: 710.76444
+  response: 7E80562117507CF
+- expected_values:
     TROC_INTEGRATED_MASS_AIR: 717.52008
   response: 7E80562117507E2
 - expected_values:
     TROC_INTEGRATED_MASS_AIR: 1228.4598
   response: 7E8056211750D7F
+- expected_values:
+    TROC_INTEGRATED_MASS_AIR: 1728.73272
+  response: 7E80562117512FE
+- expected_values:
+    TROC_INTEGRATED_MASS_AIR: 2246.78364
+  response: 7E80562117518AF
+- expected_values:
+    TROC_INTEGRATED_MASS_AIR: 3059.5938
+  response: 7E805621175219D
+- expected_values:
+    TROC_INTEGRATED_MASS_AIR: 3353.64192
+  response: 7E80562117524D8
+- expected_values:
+    TROC_INTEGRATED_MASS_AIR: 4319.34288
+  response: 7E8056211752F74

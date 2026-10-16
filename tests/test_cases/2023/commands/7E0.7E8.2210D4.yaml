@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TROC_INJ_2_RAIL_P_1: 0
   response: 7E8056210D40000
+- expected_values:
+    TROC_INJ_2_RAIL_P_1: -0.0324
+  response: 7E8056210D4FD78
+- expected_values:
+    TROC_INJ_2_RAIL_P_1: -0.0159
+  response: 7E8056210D4FEC2
+- expected_values:
+    TROC_INJ_2_RAIL_P_1: -0.0049
+  response: 7E8056210D4FF9E

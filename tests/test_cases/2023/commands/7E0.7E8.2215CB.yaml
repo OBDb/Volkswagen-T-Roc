@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.2215CB
 test_cases:
 - expected_values:
+    TROC_RESULT_CRANKCASE: 1
+  response: 7E8056215CB0001
+- expected_values:
     TROC_RESULT_CRANKCASE: 2
   response: 7E8056215CB0002

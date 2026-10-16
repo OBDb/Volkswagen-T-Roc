@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.2211C9
 test_cases:
 - expected_values:
+    TROC_FUEL_PMP_ADPT: -73.5
+  response: 7E8056211C9FD21
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -72.7
+  response: 7E8056211C9FD29
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -72.4
+  response: 7E8056211C9FD2C
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -72.2
+  response: 7E8056211C9FD2E
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -72
+  response: 7E8056211C9FD30
+- expected_values:
     TROC_FUEL_PMP_ADPT: -71.6
   response: 7E8056211C9FD34
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -71.4
+  response: 7E8056211C9FD36
+- expected_values:
+    TROC_FUEL_PMP_ADPT: -71.2
+  response: 7E8056211C9FD38
 - expected_values:
     TROC_FUEL_PMP_ADPT: -69.4
   response: 7E8056211C9FD4A

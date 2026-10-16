@@ -4,5 +4,17 @@ test_cases:
     TROC_PQ35_CAMS_END: 0
   response: '7E8056213410000'
 - expected_values:
+    TROC_PQ35_CAMS_END: -800.8
+  response: 7E805621341F05C
+- expected_values:
+    TROC_PQ35_CAMS_END: -514.4
+  response: 7E805621341F5F4
+- expected_values:
+    TROC_PQ35_CAMS_END: -399.6
+  response: 7E805621341F832
+- expected_values:
+    TROC_PQ35_CAMS_END: -390.8
+  response: 7E805621341F85E
+- expected_values:
     TROC_PQ35_CAMS_END: -80.4
   response: 7E805621341FE6E

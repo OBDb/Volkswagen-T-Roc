@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TROC_PQ35_HAL_V: 2.1
   response: 77904622BE915
+- expected_values:
+    TROC_PQ35_HAL_V: 3.5
+  response: 77904622BE923

@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.22174B
 test_cases:
 - expected_values:
+    TROC_INT_CAM_ADPT_BIAS: -0.70314
+  response: 7E80562174BFFE0
+- expected_values:
     TROC_INT_CAM_ADPT_BIAS: -0.65919
   response: 7E80562174BFFE2
+- expected_values:
+    TROC_INT_CAM_ADPT_BIAS: -0.61524
+  response: 7E80562174BFFE4
+- expected_values:
+    TROC_INT_CAM_ADPT_BIAS: -0.59327
+  response: 7E80562174BFFE5

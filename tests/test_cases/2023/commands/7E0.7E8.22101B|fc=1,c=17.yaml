@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.22101B|fc=1,c=17
 test_cases:
 - expected_values:
+    TROC_GENERATOR_TORQUE_REQUEST: 19.9
+  response: 7E80562101B00C7
+- expected_values:
     TROC_GENERATOR_TORQUE_REQUEST: 30
   response: 7E80562101B012C
+- expected_values:
+    TROC_GENERATOR_TORQUE_REQUEST: 30.2
+  response: 7E80562101B012E

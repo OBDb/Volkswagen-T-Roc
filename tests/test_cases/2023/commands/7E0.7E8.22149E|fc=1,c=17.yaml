@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.22149E|fc=1,c=17
 test_cases:
 - expected_values:
+    TROC_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 31.5
+  response: 7E80462149E6A
+- expected_values:
     TROC_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 39.75
   response: 7E80462149E75
+- expected_values:
+    TROC_INTAKE_AIR_T_IN_INTAKE_MANIFOLD: 43.5
+  response: 7E80462149E7A

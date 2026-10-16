@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     TROC_MQB_DPF_EXH_VOL: 50.6
   response: 7E8056211E601FA
+- expected_values:
+    TROC_MQB_DPF_EXH_VOL: 52.6
+  response: 7E8056211E6020E
+- expected_values:
+    TROC_MQB_DPF_EXH_VOL: 61.7
+  response: 7E8056211E60269
+- expected_values:
+    TROC_MQB_DPF_EXH_VOL: 61.9
+  response: 7E8056211E6026B
+- expected_values:
+    TROC_MQB_DPF_EXH_VOL: 62
+  response: 7E8056211E6026C
+- expected_values:
+    TROC_MQB_DPF_EXH_VOL: 148.1
+  response: 7E8056211E605C9

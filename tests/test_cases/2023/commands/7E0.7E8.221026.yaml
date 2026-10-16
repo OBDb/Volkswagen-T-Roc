@@ -4,5 +4,14 @@ test_cases:
     TROC_MQB_MAF_1_B1_RAW: 0
   response: '7E8056210260000'
 - expected_values:
+    TROC_MQB_MAF_1_B1_RAW: 20.8
+  response: 7E80562102600D0
+- expected_values:
+    TROC_MQB_MAF_1_B1_RAW: 145.7
+  response: 7E80562102605B1
+- expected_values:
+    TROC_MQB_MAF_1_B1_RAW: 177.5
+  response: 7E80562102606EF
+- expected_values:
     TROC_MQB_MAF_1_B1_RAW: 344.8
   response: 7E8056210260D78

@@ -1,11 +1,26 @@
 command_id: 7E0.7E8.22F40C
 test_cases:
 - expected_values:
+    TROC_RPM: 0
+  response: 7E80562F40C0000
+- expected_values:
     TROC_RPM: 790.5
   response: 7E80562F40C0C5A
 - expected_values:
     TROC_RPM: 797
   response: 7E80562F40C0C74
 - expected_values:
+    TROC_RPM: 810
+  response: 7E80562F40C0CA8
+- expected_values:
+    TROC_RPM: 1391.5
+  response: 7E80562F40C15BE
+- expected_values:
+    TROC_RPM: 1435
+  response: 7E80562F40C166C
+- expected_values:
     TROC_RPM: 1602
   response: 7E80562F40C1908
+- expected_values:
+    TROC_RPM: 1622
+  response: 7E80562F40C1958

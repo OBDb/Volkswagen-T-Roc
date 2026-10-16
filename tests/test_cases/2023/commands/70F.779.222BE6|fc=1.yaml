@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TROC_PQ35_HAL_I: 2.539
   response: 77905622BE609EB
+- expected_values:
+    TROC_PQ35_HAL_I: 3.466
+  response: 77905622BE60D8A

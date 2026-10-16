@@ -1,5 +1,26 @@
 command_id: 7E0.7E8.22128C
 test_cases:
 - expected_values:
+    TROC_AVG_INJ_TIME: 0.5612
+  response: 7E80762128C0000057B
+- expected_values:
+    TROC_AVG_INJ_TIME: 0.6048
+  response: 7E80762128C000005E8
+- expected_values:
+    TROC_AVG_INJ_TIME: 0.6164
+  response: 7E80762128C00000605
+- expected_values:
     TROC_AVG_INJ_TIME: 1.1448
   response: 7E80762128C00000B2E
+- expected_values:
+    TROC_AVG_INJ_TIME: 1.3176
+  response: 7E80762128C00000CDE
+- expected_values:
+    TROC_AVG_INJ_TIME: 1.3276
+  response: 7E80762128C00000CF7
+- expected_values:
+    TROC_AVG_INJ_TIME: 1.332
+  response: 7E80762128C00000D02
+- expected_values:
+    TROC_AVG_INJ_TIME: 1.9904
+  response: 7E80762128C00001370

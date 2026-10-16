@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.2238EC
 test_cases:
 - expected_values:
+    TROC_PQ35_CLUTCH_1_CMD_P: 0
+  response: 7E9056238EC0000
+- expected_values:
+    TROC_PQ35_CLUTCH_1_CMD_P: 2.61
+  response: 7E9056238EC0501
+- expected_values:
     TROC_PQ35_CLUTCH_1_CMD_P: 2.92
   response: 7E9056238EC2401

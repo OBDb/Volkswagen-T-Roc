@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     TROC_FUEL_RATE_DIFF_INJ: 0
   response: 7E80562180A0000
+- expected_values:
+    TROC_FUEL_RATE_DIFF_INJ: 0.9453
+  response: 7E80562180A00F2
+- expected_values:
+    TROC_FUEL_RATE_DIFF_INJ: 1.10545
+  response: 7E80562180A011B
+- expected_values:
+    TROC_FUEL_RATE_DIFF_INJ: 1.11717
+  response: 7E80562180A011E
+- expected_values:
+    TROC_FUEL_RATE_DIFF_INJ: 1.20702
+  response: 7E80562180A0135
+- expected_values:
+    TROC_FUEL_RATE_DIFF_INJ: 1.28514
+  response: 7E80562180A0149
+- expected_values:
+    TROC_FUEL_RATE_DIFF_INJ: 1.36717
+  response: 7E80562180A015E
+- expected_values:
+    TROC_FUEL_RATE_DIFF_INJ: 1.41404
+  response: 7E80562180A016A

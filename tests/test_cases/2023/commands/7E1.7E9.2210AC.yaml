@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6: 9.55
   response: 7E9056210ACBB03
+- expected_values:
+    TROC_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6: 9.56
+  response: 7E9056210ACBC03
+- expected_values:
+    TROC_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G6: 9.59
+  response: 7E9056210ACBF03

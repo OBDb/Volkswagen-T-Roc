@@ -1,6 +1,21 @@
 command_id: 7E0.7E8.22127D
 test_cases:
 - expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 0
+  response: 7E80562127D0000
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 33.53573
+  response: 7E80562127D2AED
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 37.28329
+  response: 7E80562127D2FB9
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 37.384
+  response: 7E80562127D2FDA
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 38.2507
+  response: 7E80562127D30F6
+- expected_values:
     TROC_VARIABLE_VLV_TIM_INT_1_ON: 38.62301
   response: 7E80562127D3170
 - expected_values:
@@ -9,3 +24,9 @@ test_cases:
 - expected_values:
     TROC_VARIABLE_VLV_TIM_INT_1_ON: 39.15096
   response: 7E80562127D321D
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 40.09701
+  response: 7E80562127D3353
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 44.50679
+  response: 7E80562127D38F8

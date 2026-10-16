@@ -1,5 +1,23 @@
 command_id: 7E0.7E8.22113A
 test_cases:
 - expected_values:
+    TROC_SEG_AD_MMV_ER_H_2: 3.96897
+  response: 7E80562113A4107
+- expected_values:
     TROC_SEG_AD_MMV_ER_H_2: 3.96969
   response: 7E80562113A410A
+- expected_values:
+    TROC_SEG_AD_MMV_ER_H_2: 3.97684
+  response: 7E80562113A4128
+- expected_values:
+    TROC_SEG_AD_MMV_ER_H_2: 3.97756
+  response: 7E80562113A412B
+- expected_values:
+    TROC_SEG_AD_MMV_ER_H_2: 3.97827
+  response: 7E80562113A412E
+- expected_values:
+    TROC_SEG_AD_MMV_ER_H_2: 3.97851
+  response: 7E80562113A412F
+- expected_values:
+    TROC_SEG_AD_MMV_ER_H_2: 3.97923
+  response: 7E80562113A4132

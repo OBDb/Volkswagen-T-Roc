@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.22100E
 test_cases:
 - expected_values:
+    TROC_MQB_TCM_ENGINE_TORQUE_LIMITATION: 258
+  response: 7E90562100E2814
+- expected_values:
     TROC_MQB_TCM_ENGINE_TORQUE_LIMITATION: 288
   response: 7E90562100E8016
+- expected_values:
+    TROC_MQB_TCM_ENGINE_TORQUE_LIMITATION: 278
+  response: 7E90562100EB815

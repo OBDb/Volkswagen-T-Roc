@@ -1,8 +1,14 @@
 command_id: 712.77C.221812|fc=1
 test_cases:
 - expected_values:
+    TROC_STEER_WHEEL_ANGLE: 747.375
+  response: 77C05621812175B
+- expected_values:
     TROC_STEER_WHEEL_ANGLE: 747.5
   response: 77C05621812175C
+- expected_values:
+    TROC_STEER_WHEEL_ANGLE: 747.75
+  response: 77C05621812175E
 - expected_values:
     TROC_STEER_WHEEL_ANGLE: 750.625
   response: 77C056218121775

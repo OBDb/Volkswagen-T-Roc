@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 323.3
   response: 7E905623834A10C
+- expected_values:
+    TROC_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 381.1
+  response: 7E905623834E30E
+- expected_values:
+    TROC_MQB_DQ250_CLUTCH_1_VALVE_I_SPECIFIED: 407.3
+  response: 7E905623834E90F

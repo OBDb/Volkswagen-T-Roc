@@ -1,5 +1,26 @@
 command_id: 7E0.7E8.2211EF
 test_cases:
 - expected_values:
+    TROC_P_BEFORE_THROTTLE: 1019.2965
+  response: 7E8056211EF65EE
+- expected_values:
     TROC_P_BEFORE_THROTTLE: 1019.609
   response: 7E8056211EF65F6
+- expected_values:
+    TROC_P_BEFORE_THROTTLE: 1019.76525
+  response: 7E8056211EF65FA
+- expected_values:
+    TROC_P_BEFORE_THROTTLE: 1020.859
+  response: 7E8056211EF6616
+- expected_values:
+    TROC_P_BEFORE_THROTTLE: 1022.96838
+  response: 7E8056211EF664C
+- expected_values:
+    TROC_P_BEFORE_THROTTLE: 1032.81212
+  response: 7E8056211EF6748
+- expected_values:
+    TROC_P_BEFORE_THROTTLE: 1037.65587
+  response: 7E8056211EF67C4
+- expected_values:
+    TROC_P_BEFORE_THROTTLE: 1122.26521
+  response: 7E8056211EF703A

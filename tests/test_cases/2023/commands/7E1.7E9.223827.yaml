@@ -1,5 +1,11 @@
 command_id: 7E1.7E9.223827
 test_cases:
 - expected_values:
+    TROC_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_ACTUAL: 547
+  response: 7E9056238275E15
+- expected_values:
     TROC_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_ACTUAL: 1199
   response: 7E905623827D62E
+- expected_values:
+    TROC_MQB_TCM_TRANSMISSION_PART_1_VALVE_I_ACTUAL: 1200
+  response: 7E905623827E02E

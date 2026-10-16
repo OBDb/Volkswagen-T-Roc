@@ -24,3 +24,9 @@ test_cases:
   response: |-
     7B010086227C4772A92
     7B0212037AAAAAAAAAA
+- expected_values:
+    TROC_CABIN_HUMIDITY: 31.5
+    TROC_WINDSHIELD_T: 43.568
+  response: |-
+    7B010086227C48F7022
+    7B021683FAAAAAAAAAA

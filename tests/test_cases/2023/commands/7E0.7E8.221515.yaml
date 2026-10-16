@@ -7,5 +7,23 @@ test_cases:
     TROC_CAT_T_CALC: 195
   response: '7E80462151531'
 - expected_values:
+    TROC_CAT_T_CALC: 300
+  response: '7E80462151546'
+- expected_values:
+    TROC_CAT_T_CALC: 445
+  response: '7E80462151563'
+- expected_values:
+    TROC_CAT_T_CALC: 465
+  response: '7E80462151567'
+- expected_values:
+    TROC_CAT_T_CALC: 470
+  response: '7E80462151568'
+- expected_values:
+    TROC_CAT_T_CALC: 475
+  response: '7E80462151569'
+- expected_values:
     TROC_CAT_T_CALC: 485
   response: 7E8046215156B
+- expected_values:
+    TROC_CAT_T_CALC: 505
+  response: 7E8046215156F

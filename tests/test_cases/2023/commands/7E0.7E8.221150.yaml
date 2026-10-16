@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_MISFIRES_C3: 3378
   response: 7E8056211500D32
+- expected_values:
+    TROC_MISFIRES_C3: 3380
+  response: 7E8056211500D34

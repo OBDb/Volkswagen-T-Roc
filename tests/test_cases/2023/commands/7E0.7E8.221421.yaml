@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     TROC_EXH_T_BEFORE_CAT: 221.3
   response: '7E8056214211350'
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 485.1
+  response: 7E8056214211D9E
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 495.5
+  response: 7E8056214211E06
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 514.6
+  response: 7E8056214211EC5
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 534.3
+  response: 7E8056214211F8A
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 546
+  response: 7E8056214211FFF
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 550.9
+  response: '7E8056214212030'
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 553.4
+  response: '7E8056214212049'

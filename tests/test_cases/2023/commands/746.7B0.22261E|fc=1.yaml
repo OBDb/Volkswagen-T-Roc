@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_MQB_RECIRC_FLAP_ACT: 0
   response: 7B00662261E002200
+- expected_values:
+    TROC_MQB_RECIRC_FLAP_ACT: 31
+  response: 7B00662261E005C3E

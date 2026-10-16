@@ -3,3 +3,21 @@ test_cases:
 - expected_values:
     TROC_POWERTRAIN_OVERALL: 1
   response: 7E8056211DF0064
+- expected_values:
+    TROC_POWERTRAIN_OVERALL: 3.2
+  response: 7E8056211DF0140
+- expected_values:
+    TROC_POWERTRAIN_OVERALL: 4.1
+  response: 7E8056211DF019A
+- expected_values:
+    TROC_POWERTRAIN_OVERALL: 5.8
+  response: 7E8056211DF0244
+- expected_values:
+    TROC_POWERTRAIN_OVERALL: 9.1
+  response: 7E8056211DF038E
+- expected_values:
+    TROC_POWERTRAIN_OVERALL: 13
+  response: 7E8056211DF0514
+- expected_values:
+    TROC_POWERTRAIN_OVERALL: 15.2
+  response: 7E8056211DF05F0

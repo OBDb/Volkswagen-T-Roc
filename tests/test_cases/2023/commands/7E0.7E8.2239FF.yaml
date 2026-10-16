@@ -1,11 +1,29 @@
 command_id: 7E0.7E8.2239FF
 test_cases:
 - expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: 0
+  response: 7E8056239FF0000
+- expected_values:
     TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -15.53
   response: 7E8056239FFF9EF
 - expected_values:
     TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -15.47
   response: 7E8056239FFF9F5
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -15.12
+  response: 7E8056239FFFA18
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -15.05
+  response: 7E8056239FFFA1F
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -14.96
+  response: 7E8056239FFFA28
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -14.95
+  response: 7E8056239FFFA29
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -14.85
+  response: 7E8056239FFFA33
 - expected_values:
     TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -2.07
   response: 7E8056239FFFF31

@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     TROC_CRANK_ROT_ANG: 9.1
   response: 7E8056210EB005B
+- expected_values:
+    TROC_CRANK_ROT_ANG: 12.8
+  response: 7E8056210EB0080
+- expected_values:
+    TROC_CRANK_ROT_ANG: 14.2
+  response: 7E8056210EB008E
+- expected_values:
+    TROC_CRANK_ROT_ANG: 16.2
+  response: 7E8056210EB00A2
+- expected_values:
+    TROC_CRANK_ROT_ANG: 16.3
+  response: 7E8056210EB00A3
+- expected_values:
+    TROC_CRANK_ROT_ANG: 38
+  response: 7E8056210EB017C
+- expected_values:
+    TROC_CRANK_ROT_ANG: 38.4
+  response: 7E8056210EB0180
+- expected_values:
+    TROC_CRANK_ROT_ANG: 47.3
+  response: 7E8056210EB01D9

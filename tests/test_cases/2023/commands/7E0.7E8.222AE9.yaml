@@ -6,3 +6,21 @@ test_cases:
 - expected_values:
     TROC_EXH_GAS_T_CALC_AFTER: 199.18944
   response: 7E805622AE94EB7
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 226.40328
+  response: 7E805622AE95340
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 458.92808
+  response: 7E805622AE97A00
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 473.92968
+  response: 7E805622AE97C80
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 499.12768
+  response: 7E805622AE980B3
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 502.22176
+  response: 7E805622AE98137
+- expected_values:
+    TROC_EXH_GAS_T_CALC_AFTER: 510.332
+  response: 7E805622AE98291

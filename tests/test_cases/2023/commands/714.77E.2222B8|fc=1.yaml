@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     TROC_ODO_MILEAGE_HR: 21024.149
   response: 77E076222B80140CD95
+- expected_values:
+    TROC_ODO_MILEAGE_HR: 21026.851
+  response: 77E076222B80140D823
+- expected_values:
+    TROC_ODO_MILEAGE_HR: 21028.489
+  response: 77E076222B80140DE89

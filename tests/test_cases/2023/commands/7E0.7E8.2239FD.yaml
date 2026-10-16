@@ -1,8 +1,29 @@
 command_id: 7E0.7E8.2239FD
 test_cases:
 - expected_values:
+    TROC_BYPASS_VLV_HIGH_P: -3.74755
+  response: 7E8056239FDFECD
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P: -3.60106
+  response: 7E8056239FDFED9
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P: -3.35693
+  response: 7E8056239FDFEED
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P: -3.33251
+  response: 7E8056239FDFEEF
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P: -3.14941
+  response: 7E8056239FDFEFE
+- expected_values:
     TROC_BYPASS_VLV_HIGH_P: -2.66113
   response: 7E8056239FDFF26
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P: -2.53906
+  response: 7E8056239FDFF30
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P: -2.46581
+  response: 7E8056239FDFF36
 - expected_values:
     TROC_BYPASS_VLV_HIGH_P: -2.38037
   response: 7E8056239FDFF3D

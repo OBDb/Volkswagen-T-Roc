@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     TROC_AAT_V1: 73.88
   response: 7E8056214F80B96
+- expected_values:
+    TROC_AAT_V1: 75.68
+  response: 7E8056214F80BA0
+- expected_values:
+    TROC_AAT_V1: 76.58
+  response: 7E8056214F80BA5
+- expected_values:
+    TROC_AAT_V1: 77.48
+  response: 7E8056214F80BAA

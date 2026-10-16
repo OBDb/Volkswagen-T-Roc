@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     TROC_CMD_CRANK_TQ: 43.5
   response: 7E8056211E001B3
+- expected_values:
+    TROC_CMD_CRANK_TQ: 61.1
+  response: 7E8056211E00263
+- expected_values:
+    TROC_CMD_CRANK_TQ: 86.6
+  response: 7E8056211E00362
+- expected_values:
+    TROC_CMD_CRANK_TQ: 92.6
+  response: 7E8056211E0039E
+- expected_values:
+    TROC_CMD_CRANK_TQ: 109.6
+  response: 7E8056211E00448
+- expected_values:
+    TROC_CMD_CRANK_TQ: 113.7
+  response: 7E8056211E00471
+- expected_values:
+    TROC_CMD_CRANK_TQ: -2.6
+  response: 7E8056211E0FFE6
+- expected_values:
+    TROC_CMD_CRANK_TQ: -1.2
+  response: 7E8056211E0FFF4

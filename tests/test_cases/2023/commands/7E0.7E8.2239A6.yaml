@@ -1,5 +1,23 @@
 command_id: 7E0.7E8.2239A6
 test_cases:
 - expected_values:
+    TROC_CHG_P_ACTUATOR_ADPT_HI: 614.4
+  response: 7E8056239A60C00
+- expected_values:
+    TROC_CHG_P_ACTUATOR_ADPT_HI: 626.2
+  response: 7E8056239A60C3B
+- expected_values:
+    TROC_CHG_P_ACTUATOR_ADPT_HI: 628.4
+  response: 7E8056239A60C46
+- expected_values:
+    TROC_CHG_P_ACTUATOR_ADPT_HI: 636.8
+  response: 7E8056239A60C70
+- expected_values:
+    TROC_CHG_P_ACTUATOR_ADPT_HI: 641.8
+  response: 7E8056239A60C89
+- expected_values:
+    TROC_CHG_P_ACTUATOR_ADPT_HI: 648.4
+  response: 7E8056239A60CAA
+- expected_values:
     TROC_CHG_P_ACTUATOR_ADPT_HI: 652.8
   response: 7E8056239A60CC0

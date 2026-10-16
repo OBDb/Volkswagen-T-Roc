@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TROC_HIGH_FUEL_P: 0
   response: 7E8056211D50000
+- expected_values:
+    TROC_HIGH_FUEL_P: -1.6
+  response: 7E8056211D5F380
+- expected_values:
+    TROC_HIGH_FUEL_P: -0.972
+  response: 7E8056211D5F868

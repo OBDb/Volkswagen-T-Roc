@@ -4,5 +4,26 @@ test_cases:
     TROC_VARIABLE_VLV_TIM_INT_1: 35.72995
   response: 7E80562127B2DBC
 - expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1: 36.53561
+  response: 7E80562127B2EC4
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1: 37.68307
+  response: 7E80562127B303C
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1: 37.71664
+  response: 7E80562127B3047
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1: 38.3392
+  response: 7E80562127B3113
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1: 38.48263
+  response: 7E80562127B3142
+- expected_values:
     TROC_VARIABLE_VLV_TIM_INT_1: 39.83761
   response: 7E80562127B32FE
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1: 40.50899
+  response: 7E80562127B33DA
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1: 43.3044
+  response: 7E80562127B376E

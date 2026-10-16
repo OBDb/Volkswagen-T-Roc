@@ -1,6 +1,21 @@
 command_id: 7E0.7E8.221221
 test_cases:
 - expected_values:
+    TROC_PQ35_ACCEL_PED_1: -35.4
+  response: 7E805621221FF4F
+- expected_values:
+    TROC_PQ35_ACCEL_PED_1: -32.8
+  response: 7E805621221FF5C
+- expected_values:
+    TROC_PQ35_ACCEL_PED_1: -31
+  response: 7E805621221FF65
+- expected_values:
+    TROC_PQ35_ACCEL_PED_1: -30.8
+  response: 7E805621221FF66
+- expected_values:
+    TROC_PQ35_ACCEL_PED_1: -25
+  response: 7E805621221FF83
+- expected_values:
     TROC_PQ35_ACCEL_PED_1: -23.6
   response: 7E805621221FF8A
 - expected_values:

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_MQB_TCM_IGNITION_CYCLES: 1831
   response: 7E90562388C2707
+- expected_values:
+    TROC_MQB_TCM_IGNITION_CYCLES: 1832
+  response: 7E90562388C2807

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TROC_PQ35_POST_INJ_2_START: 0
   response: 7E8056211F30000
+- expected_values:
+    TROC_PQ35_POST_INJ_2_START: 3.78
+  response: 7E8056211F300BD

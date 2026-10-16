@@ -1,6 +1,12 @@
 command_id: 710.77A.222A1C|fc=1
 test_cases:
 - expected_values:
+    TROC_GEN_CURRENT: 51.6
+  response: 77A05622A1C01AA
+- expected_values:
+    TROC_GEN_CURRENT: 122.6
+  response: 77A05622A1C0470
+- expected_values:
     TROC_GEN_CURRENT: 126.1
   response: 77A05622A1C0493
 - expected_values:

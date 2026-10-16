@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22177B
 test_cases:
 - expected_values:
+    TROC_LONG_TERM_FUEL_TRIM_PORT: 1.02713
+  response: 7E80562177B8379
+- expected_values:
     TROC_LONG_TERM_FUEL_TRIM_PORT: 1.02982
   response: 7E80562177B83D1
