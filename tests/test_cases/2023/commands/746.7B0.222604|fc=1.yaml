@@ -1,0 +1,11 @@
+command_id: 746.7B0.222604|fc=1
+test_cases:
+- expected_values:
+    TROC_AC_COMPRESSOR_LOAD: 6.2
+  response: 7B0046226043E
+- expected_values:
+    TROC_AC_COMPRESSOR_LOAD: 9.4
+  response: 7B0046226045E
+- expected_values:
+    TROC_AC_COMPRESSOR_LOAD: 9.6
+  response: 7B00462260460

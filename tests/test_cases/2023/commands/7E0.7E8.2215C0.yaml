@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2215C0
+test_cases:
+- expected_values:
+    TROC_IAT_RAW: 39.7
+  response: 7E8056215C00C38
+- expected_values:
+    TROC_IAT_RAW: 40
+  response: 7E8056215C00C3B

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221713
+test_cases:
+- expected_values:
+    TROC_TOT_MASS_GASOLINE: 0.95999
+  response: 7E805621713002D
+- expected_values:
+    TROC_TOT_MASS_GASOLINE: 1.02398
+  response: '7E8056217130030'
+- expected_values:
+    TROC_TOT_MASS_GASOLINE: 1.04532
+  response: '7E8056217130031'

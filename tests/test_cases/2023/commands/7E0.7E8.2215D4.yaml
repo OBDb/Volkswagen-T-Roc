@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2215D4
+test_cases:
+- expected_values:
+    TROC_LAMBDA_OUTPUT: 0.98795
+  response: 7E8056215D47E75
+- expected_values:
+    TROC_LAMBDA_OUTPUT: 0.9996
+  response: 7E8056215D47FF3

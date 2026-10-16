@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22430E
+test_cases:
+- expected_values:
+    TROC_NUM_INJECTIONS: 4266
+  response: 7E80562430E10AA
+- expected_values:
+    TROC_NUM_INJECTIONS: 8623
+  response: 7E80562430E21AF

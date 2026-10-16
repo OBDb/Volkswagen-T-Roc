@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215B7
+test_cases:
+- expected_values:
+    TROC_ENG_OIL_SUMP_T: 116.9
+  response: 7E8056215B70C85
+- expected_values:
+    TROC_ENG_OIL_SUMP_T: 119.96
+  response: 7E8056215B70C96
+- expected_values:
+    TROC_ENG_OIL_SUMP_T: 123.02
+  response: 7E8056215B70CA7

@@ -1,0 +1,11 @@
+command_id: 746.7B0.2226ED|fc=1
+test_cases:
+- expected_values:
+    TROC_AIR_POLUTION: 0
+  response: 7B0046226ED00
+- expected_values:
+    TROC_AIR_POLUTION: 0.3
+  response: 7B0046226ED03
+- expected_values:
+    TROC_AIR_POLUTION: 0.4
+  response: 7B0046226ED04

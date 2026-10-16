@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22127D
+test_cases:
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 38.62301
+  response: 7E80562127D3170
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 38.83663
+  response: 7E80562127D31B6
+- expected_values:
+    TROC_VARIABLE_VLV_TIM_INT_1_ON: 39.15096
+  response: 7E80562127D321D

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.223D01
+test_cases:
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_V: 3443
+  response: 7E805623D01433F
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_V: 3452.8
+  response: 7E805623D014370

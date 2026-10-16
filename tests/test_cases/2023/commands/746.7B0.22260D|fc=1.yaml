@@ -1,0 +1,11 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    TROC_FRONT_RIGHT_DEFLECTOR_T: 32
+  response: 7B00462260D60
+- expected_values:
+    TROC_FRONT_RIGHT_DEFLECTOR_T: 32.66667
+  response: 7B00462260D62
+- expected_values:
+    TROC_FRONT_RIGHT_DEFLECTOR_T: 35.33333
+  response: 7B00462260D6A

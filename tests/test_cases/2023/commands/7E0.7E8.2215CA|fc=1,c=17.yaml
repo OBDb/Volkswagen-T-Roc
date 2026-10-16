@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2215CA|fc=1,c=17
+test_cases:
+- expected_values:
+    TROC_GENERATOR_LOAD_NORMALIZED_VALUE: 99.87
+  response: 7E8056215CA2703

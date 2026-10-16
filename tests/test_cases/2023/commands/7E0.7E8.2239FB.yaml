@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2239FB
+test_cases:
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TGT: 100
+  response: 7E8056239FB2000

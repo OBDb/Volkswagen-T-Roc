@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2239FF
+test_cases:
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -15.53
+  response: 7E8056239FFF9EF
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -15.47
+  response: 7E8056239FFF9F5
+- expected_values:
+    TROC_BYPASS_VLV_HIGH_P_TURBINE_INLET: -2.07
+  response: 7E8056239FFFF31

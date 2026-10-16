@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221291|fc=1,c=17
+test_cases:
+- expected_values:
+    TROC_COOLANT_T_AT_ENGINE_START: 53.6
+  response: 7E8056212910CC3

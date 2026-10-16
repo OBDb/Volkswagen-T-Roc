@@ -1,0 +1,14 @@
+command_id: 710.77A.222A0A
+test_cases:
+- expected_values:
+    TROC_BAT_T: 35
+  response: 77A04622A0A4B
+- expected_values:
+    TROC_BAT_T: 36
+  response: 77A04622A0A4C
+- expected_values:
+    TROC_BAT_T: 37
+  response: 77A04622A0A4D
+- expected_values:
+    TROC_BAT_T: 39
+  response: 77A04622A0A4F

@@ -1,0 +1,14 @@
+command_id: 746.7B0.22482B|fc=1
+test_cases:
+- expected_values:
+    TROC_AC_CLUTCH: 18
+  response: 7B00462482B12
+- expected_values:
+    TROC_AC_CLUTCH: 36
+  response: 7B00462482B24
+- expected_values:
+    TROC_AC_CLUTCH: 96
+  response: 7B00462482B60
+- expected_values:
+    TROC_AC_CLUTCH: 106
+  response: 7B00462482B6A

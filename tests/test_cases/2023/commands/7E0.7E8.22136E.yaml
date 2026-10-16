@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22136E
+test_cases:
+- expected_values:
+    TROC_CAM_ADJ_INT_BANK_1_ACT: 1.192
+  response: 7E80562136E0095

@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.22F442
 test_cases:
 - expected_values:
+    TROC_VPWR: 13.52
+  response: 7E80562F44234D0
+- expected_values:
+    TROC_VPWR: 13.62
+  response: 7E80562F4423534
+- expected_values:
     TROC_VPWR: 14
   response: 7E80562F44236B0
 - expected_values:

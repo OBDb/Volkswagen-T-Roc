@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221509
+test_cases:
+- expected_values:
+    TROC_AMBIENT_AIR_P: 1017.978
+  response: 7E80562150965F6
+- expected_values:
+    TROC_AMBIENT_AIR_P: 1018.173
+  response: 7E80562150965FB

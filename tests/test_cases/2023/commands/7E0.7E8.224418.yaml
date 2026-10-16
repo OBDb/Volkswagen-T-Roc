@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.224418
+test_cases:
+- expected_values:
+    TROC_THERMOSTAT_ACT: 32.72697
+  response: 7E8056244180A79
+- expected_values:
+    TROC_THERMOSTAT_ACT: 49.65808
+  response: 7E8056244180FE4
+- expected_values:
+    TROC_THERMOSTAT_ACT: 50.13415
+  response: 7E805624418100B

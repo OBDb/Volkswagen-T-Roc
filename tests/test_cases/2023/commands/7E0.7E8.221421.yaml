@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221421
+test_cases:
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 217.8
+  response: 7E805621421132D
+- expected_values:
+    TROC_EXH_T_BEFORE_CAT: 221.3
+  response: '7E8056214211350'

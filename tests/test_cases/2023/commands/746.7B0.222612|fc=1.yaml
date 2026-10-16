@@ -1,0 +1,8 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    TROC_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B00562261201A4
+- expected_values:
+    TROC_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B00562261201AE

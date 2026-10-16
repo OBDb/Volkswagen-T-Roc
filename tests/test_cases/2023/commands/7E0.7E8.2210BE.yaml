@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210BE
+test_cases:
+- expected_values:
+    TROC_REQ_TQ_AMOUNT: 39.9
+  response: 7E8056210BE018F

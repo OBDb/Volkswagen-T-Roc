@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221780
+test_cases:
+- expected_values:
+    TROC_LONG_TERM_FUEL_TRIM_IDLE_PORT_INJ: -0.79688
+  response: 7E805621780FFEF

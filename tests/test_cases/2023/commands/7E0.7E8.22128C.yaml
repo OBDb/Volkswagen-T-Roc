@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22128C
+test_cases:
+- expected_values:
+    TROC_AVG_INJ_TIME: 1.1448
+  response: 7E80762128C00000B2E

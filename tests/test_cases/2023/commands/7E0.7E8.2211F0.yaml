@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211F0
+test_cases:
+- expected_values:
+    TROC_BOOST_P_ACT: 1019.76562
+  response: 7E8056211F032FD
+- expected_values:
+    TROC_BOOST_P_ACT: 1059.6875
+  response: 7E8056211F034FC

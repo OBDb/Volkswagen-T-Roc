@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211AD
+test_cases:
+- expected_values:
+    TROC_MAF_CMD: 11.1
+  response: 7E8056211AD006F
+- expected_values:
+    TROC_MAF_CMD: 14.2
+  response: 7E8056211AD008E

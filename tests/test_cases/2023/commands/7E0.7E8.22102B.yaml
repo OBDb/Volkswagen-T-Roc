@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22102B
+test_cases:
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_2_V: 363.6
+  response: 7E80562102B071A
+- expected_values:
+    TROC_ACCEL_PEDAL_SENS_2_V: 899.8
+  response: 7E80562102B1193

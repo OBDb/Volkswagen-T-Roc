@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211D1
+test_cases:
+- expected_values:
+    TROC_BRAKE_BOOSTER_RAW_P: 35
+  response: 7E8056211D10023

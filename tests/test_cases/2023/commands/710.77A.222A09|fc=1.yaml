@@ -1,0 +1,17 @@
+command_id: 710.77A.222A09|fc=1
+test_cases:
+- expected_values:
+    TROC_SSB_C: 76.1
+  response: 77A07622A0900012944
+- expected_values:
+    TROC_SSB_C: 76.9
+  response: 77A07622A0900012C64
+- expected_values:
+    TROC_SSB_C: 77.47
+  response: 77A07622A0900012E9E
+- expected_values:
+    TROC_SSB_C: 81.06
+  response: 77A07622A0900013CA4
+- expected_values:
+    TROC_SSB_C: 95.71
+  response: 77A07622A09000175DE

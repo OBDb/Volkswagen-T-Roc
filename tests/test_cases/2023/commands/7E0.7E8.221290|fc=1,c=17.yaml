@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221290|fc=1,c=17
+test_cases:
+- expected_values:
+    TROC_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 785.10086
+  response: 7E805621290B061

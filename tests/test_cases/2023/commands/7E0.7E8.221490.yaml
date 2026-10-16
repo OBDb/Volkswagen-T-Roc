@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221490
+test_cases:
+- expected_values:
+    TROC_BRAKE_BOOSTER_LOW_P_ACT: 984.81729
+  response: 7E805621490627B

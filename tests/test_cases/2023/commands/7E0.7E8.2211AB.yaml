@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211AB
+test_cases:
+- expected_values:
+    TROC_INT_MODEL_AIR_MASS: 15.5
+  response: 7E8056211AB009B
+- expected_values:
+    TROC_INT_MODEL_AIR_MASS: 15.9
+  response: 7E8056211AB009F

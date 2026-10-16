@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22028D
+test_cases:
+- expected_values:
+    TROC_MQB_TCM_ECU_T: 56
+  response: 7E90562028D3800

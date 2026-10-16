@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211EF
+test_cases:
+- expected_values:
+    TROC_P_BEFORE_THROTTLE: 1019.609
+  response: 7E8056211EF65F6

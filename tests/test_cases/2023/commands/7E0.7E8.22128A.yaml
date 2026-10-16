@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22128A
+test_cases:
+- expected_values:
+    TROC_FUEL_T: 62.25
+  response: 7E80462128A93
+- expected_values:
+    TROC_FUEL_T: 67.5
+  response: 7E80462128A9A

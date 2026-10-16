@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210EC
+test_cases:
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: 0.14062
+  response: 7E8056210EC0009
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: 0.1875
+  response: 7E8056210EC000C
+- expected_values:
+    TROC_VLV_TIM_DIFF_ACT_SET: 0.25
+  response: 7E8056210EC0010

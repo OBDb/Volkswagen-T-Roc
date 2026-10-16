@@ -1,0 +1,14 @@
+command_id: 70F.779.222BE6|fc=1
+test_cases:
+- expected_values:
+    TROC_PQ35_HAL_I: 0.56
+  response: 77905622BE60230
+- expected_values:
+    TROC_PQ35_HAL_I: 0.585
+  response: 77905622BE60249
+- expected_values:
+    TROC_PQ35_HAL_I: 0.609
+  response: 77905622BE60261
+- expected_values:
+    TROC_PQ35_HAL_I: 2.539
+  response: 77905622BE609EB
