@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2211CD
 test_cases:
 - expected_values:
-    TROC_TCO_1_SYS: -19
+    TROC_TCO_1_SYS: 21.15234
   response: 7E8056211CD1527
 - expected_values:
-    TROC_TCO_1_SYS: -13
+    TROC_TCO_1_SYS: 27.96094
   response: 7E8056211CD1BF6
 - expected_values:
-    TROC_TCO_1_SYS: -9
+    TROC_TCO_1_SYS: 31.03516
   response: 7E8056211CD1F09
 - expected_values:
-    TROC_TCO_1_SYS: 14
+    TROC_TCO_1_SYS: 54.39844
   response: 7E8056211CD3666
