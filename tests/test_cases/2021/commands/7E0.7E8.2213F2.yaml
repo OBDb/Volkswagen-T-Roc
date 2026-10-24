@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2213F2
 test_cases:
 - expected_values:
-    TROC_IGA_CYL_KNK_0: -48
+    TROC_IGA_CYL_KNK_0: 82726
   response: 7E8076213F200014326
 - expected_values:
-    TROC_IGA_CYL_KNK_0: -48
+    TROC_IGA_CYL_KNK_0: 82756
   response: 7E8076213F200014344

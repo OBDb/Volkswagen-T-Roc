@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2211BE
+command_id: 7E0.7E8.2211BE|f=-2021
 test_cases:
 - expected_values:
     TROC_PQ35_OIL_T_2: 5
@@ -10,5 +10,8 @@ test_cases:
     TROC_PQ35_OIL_T_2: 85.3
   response: 7E8056211BE0E00
 - expected_values:
-    TROC_PQ35_OIL_T_2: 6278.7
+    TROC_PQ35_OIL_T_2: 111.5
+  response: 7E8056211BE0F06
+- expected_values:
+    TROC_PQ35_OIL_T_2: null
   response: 7E8056211BEFFEE
