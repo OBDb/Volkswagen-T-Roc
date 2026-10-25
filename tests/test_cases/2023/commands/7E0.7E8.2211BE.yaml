@@ -1,11 +1,11 @@
-command_id: 7E0.7E8.2211BE|f=2022-
+command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
-    TROC_OIL_T_2_RAW: -29
+    TROC_PQ35_OIL_T_2: null
   response: 7E8056211BEFFE3
 - expected_values:
-    TROC_OIL_T_2_RAW: -26
+    TROC_PQ35_OIL_T_2: null
   response: 7E8056211BEFFE6
 - expected_values:
-    TROC_OIL_T_2_RAW: -24
+    TROC_PQ35_OIL_T_2: null
   response: 7E8056211BEFFE8

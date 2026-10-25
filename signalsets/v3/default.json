@@ -1385,13 +1385,9 @@
   "signals": [
     {"id": "TROC_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "to": 2021 }, "dbgfilter": { "to": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
-    {"id": "TROC_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "nullmax": 6000, "unit": "celsius" }, "name": "Oil temperature variant"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 5, "filter": { "from": 2022 }, "dbgfilter": { "from": 2024 },
-  "signals": [
-    {"id": "TROC_OIL_T_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Oil temperature variant, raw"}
+    {"id": "TROC_PQ35_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Oil temperature variant"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BF"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
@@ -2229,13 +2225,9 @@
   "signals": [
     {"id": "TROC_PQ35_INTERCOOLER_AIR_OUTPUT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Intercooler air output temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "filter": { "to": 2021 }, "dbgfilter": { "to": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
-    {"id": "TROC_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Fuel temperature"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "162D"}, "freq": 5, "filter": { "from": 2022 }, "dbgfilter": { "from": 2024 },
-  "signals": [
-    {"id": "TROC_FUEL_T_RAW", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Fuel temperature read, raw"}
+    {"id": "TROC_PQ35_FUEL_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -60, "nullmax": 200, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "162F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
