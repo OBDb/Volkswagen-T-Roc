@@ -1,26 +1,26 @@
 command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
-    TROC_BOOST_P_ACT: 1019.76562
+    TROC_BOOST_P_ACT: 101.97656
   response: 7E8056211F032FD
 - expected_values:
-    TROC_BOOST_P_ACT: 1022.1875
+    TROC_BOOST_P_ACT: 102.21875
   response: 7E8056211F0331C
 - expected_values:
-    TROC_BOOST_P_ACT: 1022.42188
+    TROC_BOOST_P_ACT: 102.24219
   response: 7E8056211F0331F
 - expected_values:
-    TROC_BOOST_P_ACT: 1031.17188
+    TROC_BOOST_P_ACT: 103.11719
   response: 7E8056211F0338F
 - expected_values:
-    TROC_BOOST_P_ACT: 1032.26562
+    TROC_BOOST_P_ACT: 103.22656
   response: 7E8056211F0339D
 - expected_values:
-    TROC_BOOST_P_ACT: 1035
+    TROC_BOOST_P_ACT: 103.5
   response: 7E8056211F033C0
 - expected_values:
-    TROC_BOOST_P_ACT: 1059.6875
+    TROC_BOOST_P_ACT: 105.96875
   response: 7E8056211F034FC
 - expected_values:
-    TROC_BOOST_P_ACT: 1088.67188
+    TROC_BOOST_P_ACT: 108.86719
   response: 7E8056211F0366F
