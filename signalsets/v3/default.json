@@ -2239,7 +2239,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1632"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
-    {"id": "TROC_EOT_MEAS", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature measured value", "suggestedMetric": "engineOilTemperature"}
+    {"id": "TROC_EOT_MEAS", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "nullmin": -273, "unit": "celsius" }, "name": "Engine oil temperature measured value", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1633"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -3784,7 +3784,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100A"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
-    {"id": "TROC_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed from transmission", "suggestedMetric": "speed"}
+    {"id": "TROC_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "nullmax": 3276.7, "unit": "kilometersPerHour" }, "name": "Vehicle speed from transmission", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100B"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
@@ -4752,7 +4752,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
-    {"id": "TROC_ODO_V1", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "TROC_ODO_V1", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3852"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2024 },
   "signals": [
