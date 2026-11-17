@@ -1,20 +1,20 @@
 command_id: 7E1.7E9.223841
 test_cases:
 - expected_values:
-    TROC_ODO_V1: 19968
+    TROC_ODO_V1: 78720
   response: 7E90762384100030C00
 - expected_values:
-    TROC_ODO_V1: 124876.8
+    TROC_ODO_V1: 92236.8
   response: 7E90762384100130E00
 - expected_values:
-    TROC_ODO_V1: 976742.4
+    TROC_ODO_V1: 69350.4
   response: 7E90762384100950A00
 - expected_values:
-    TROC_ODO_V1: 1678028.8
+    TROC_ODO_V1: 78643.3
   response: 7E90762384101000C00
 - expected_values:
-    TROC_ODO_V1: 5026892.8
+    TROC_ODO_V1: 78617.8
   response: 7E90762384102FF0B00
 - expected_values:
-    TROC_ODO_V1: 427825920
+    TROC_ODO_V1: 91801.5
   response: 7E907623841FF010E00
