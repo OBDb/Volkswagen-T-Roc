@@ -4,5 +4,8 @@ test_cases:
     TROC_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    TROC_VSS: 255
+    TROC_VSS: 171
+  response: 7E80462F40DAB
+- expected_values:
+    TROC_VSS: null
   response: 7E80462F40DFF
